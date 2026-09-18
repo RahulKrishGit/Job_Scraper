@@ -1,9 +1,9 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-09-17 22:55 UTC*
+*Last updated: 2026-09-18 00:36 UTC*
 
 **1 new role(s)** since last run · 1 total in last 1h
 
-### [Senior Director, Toxicology](https://www.linkedin.com/jobs/view/4467800660/) — Lindonlight
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $190,000 - $260,000
-- 🕒 **Posted:** 2026-09-17
+### [Lead Safety & Environmental Analyst](https://www.linkedin.com/jobs/view/4422033698/) — Peraton
+- 📍 **Location:** Fort Irwin, CA
+- 💰 **Salary:** $80,000 - $128,000
+- 🕒 **Posted:** 2026-09-18
