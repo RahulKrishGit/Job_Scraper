@@ -1,6 +1,6 @@
-# 🏛 CalCareers — California State Environmental / Toxicology Roles
-*Last updated: 2026-09-21 20:24 UTC*
+# 🏛 CalCareers — California State ML / AI Engineer Roles
+*Last updated: 2026-09-21 22:34 UTC*
 
-**0 new role(s)** since last run · 15 total in current CalCareers postings
+**0 new role(s)** since last run · 5 total in current CalCareers postings
 
 No new CalCareers roles since the last run.
