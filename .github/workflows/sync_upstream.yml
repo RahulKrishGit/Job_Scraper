@@ -32,12 +32,13 @@ jobs:
 
     permissions:
       contents: write
-      # Upstream may add/change files under .github/workflows/ (e.g. new
-      # watcher workflows). Pushing those requires this extra scope — without
-      # it GitHub rejects the push with "refusing to allow a GitHub App to
-      # create or update workflow ... without `workflows` permission",
-      # even though contents:write is already granted.
-      workflows: write
+      # NOTE (fork repair 2026-09-21): upstream commit 06d6f6b6 added `workflows: write` here,
+      # but `workflows` is NOT a valid GITHUB_TOKEN permission scope. GitHub therefore
+      # rejected the entire workflow file ("This run likely failed because of a workflow file
+      # issue"), the workflow stopped parsing (it displayed as its file path) and the weekly
+      # schedule stopped firing entirely. Removed to restore the sync.
+      # To push upstream changes that touch .github/workflows/, use a PAT with the `workflow`
+      # scope instead -- that is not grantable via the permissions: block.
 
     steps:
       - name: Checkout repo
