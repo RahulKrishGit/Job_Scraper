@@ -1,0 +1,228 @@
+{
+  "_README": "ONE config file drives the whole tracker (scraper + dashboard). Edit it by hand, or generate it from your CV using docs/cv-to-config-prompt.md. After editing, commit it and re-run the workflows. All matching is case-insensitive substring on the JOB TITLE unless noted.",
+
+  "profile": {
+    "title": "ML / AI Engineer Job Tracker",
+    "subtitle": "SF Bay Area · Remote (US)",
+    "emoji": "🤖"
+  },
+
+  "keywords": {
+    "_comment": "A job TITLE is kept if it contains any of these. Use full words; multi-word phrases match as substrings.",
+    "include": [
+      "machine learning engineer", "ml engineer", "machine learning", "ml platform",
+      "machine learning platform", "ml infrastructure", "machine learning infrastructure", "mlops",
+      "applied machine learning", "applied ai", "applied ml", "ai engineer",
+      "artificial intelligence engineer", "senior ai", "generative ai", "genai", "gen ai",
+      "llm engineer", "large language model", "foundation model", "forward deployed",
+      "forward-deployed", "applied scientist", "machine learning scientist", "ml scientist",
+      "research scientist", "research engineer", "ai research", "deep learning engineer",
+      "nlp engineer", "computer vision engineer", "ai infrastructure", "ai platform engineer",
+      "ai solutions engineer", "ai product engineer", "recommendation systems engineer",
+      "ai scientist", "senior machine learning", "staff machine learning", "principal machine learning"
+    ],
+    "_exclude_comment": "Titles containing any of these are dropped (junior, off-field, and people-management roles — IC-only per user preference).",
+    "exclude": [
+      "intern", "internship", "co-op", "coop", "trainee", "apprentice", "new grad", "newgrad",
+      "graduate program", "entry level", "entry-level", "junior", "jr.", "jr ",
+      "postdoc", "postdoctoral", "phd student", "research assistant", "teaching assistant",
+      "volunteer", "unpaid",
+      "data entry", "data-entry", "data analyst", "business analyst", "bi analyst",
+      "reporting analyst", "analytics analyst",
+      "qa engineer", "qa analyst", "qa specialist", "qa lead", "qa manager",
+      "quality assurance", "sdet", "test engineer", "test automation",
+      "sales", "account executive", "business development", "pre-sales", "presales",
+      "customer success", "solutions consultant",
+      "frontend", "front-end", "front end", "ui engineer", "ui developer", "web developer",
+      "recruiter", "talent acquisition", "staffing",
+      "manager", "director", "head of", "vice president", "vp ", "vp,", "chief ", "cto"
+    ],
+    "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Catches title variants like 'Director, Engineering' when searching for 'Engineering Director'. Leave all three empty to use keyword-only matching.",
+    "fuzzy_seniority": [],
+    "fuzzy_domain": [],
+    "fuzzy_exclude": []
+  },
+
+  "search_terms": {
+    "_comment": "Queries sent to the job boards' search boxes. Broader than 'keywords' (which then filters the titles).",
+    "linkedin": [
+      "Senior Machine Learning Engineer", "Machine Learning Engineer", "ML Engineer",
+      "Forward Deployed Engineer", "Forward Deployed AI Engineer", "Applied AI Engineer",
+      "AI Engineer", "ML Platform Engineer", "Machine Learning Platform Engineer",
+      "Senior Applied Scientist", "Applied Scientist", "Generative AI Engineer", "LLM Engineer",
+      "AI Infrastructure Engineer", "Applied Machine Learning Engineer", "AI Research Engineer",
+      "MLOps Engineer", "Deep Learning Engineer", "Machine Learning Scientist",
+      "Staff Machine Learning Engineer", "Founding AI Engineer", "AI Platform Engineer"
+    ],
+    "indeed": [
+      "machine learning engineer", "ai engineer", "forward deployed engineer",
+      "applied ai engineer", "llm engineer", "generative ai engineer",
+      "ml platform engineer", "applied scientist", "mlops engineer", "deep learning engineer"
+    ],
+    "glassdoor": [
+      "machine learning engineer", "ai engineer", "applied scientist",
+      "forward deployed engineer", "llm engineer", "generative ai engineer",
+      "mlops engineer", "ml platform engineer"
+    ],
+    "ziprecruiter": [
+      "machine learning engineer", "ai engineer", "applied scientist",
+      "forward deployed engineer", "llm engineer", "generative ai engineer",
+      "mlops engineer", "ml platform engineer"
+    ],
+    "google_jobs": [
+      "machine learning engineer", "ai engineer", "applied scientist",
+      "forward deployed engineer", "llm engineer", "generative ai engineer",
+      "mlops engineer", "ml platform engineer"
+    ],
+    "hiring_cafe": [
+      "machine learning engineer", "ai engineer", "applied scientist",
+      "forward deployed engineer", "llm engineer", "generative ai engineer",
+      "mlops engineer", "ml platform engineer"
+    ],
+    "calcareers": [
+      "machine learning", "artificial intelligence", "data scientist", "research scientist"
+    ],
+    "usajobs": [
+      "machine learning engineer", "artificial intelligence", "data scientist",
+      "computer scientist", "operations research"
+    ],
+    "governmentjobs": [
+      "machine learning", "artificial intelligence", "data scientist", "information technology"
+    ],
+    "workday": [
+      "machine learning engineer", "ai engineer", "applied scientist", "ml platform"
+    ]
+  },
+
+  "locations": {
+    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are.",
+    "linkedin": [
+      { "name": "SF Bay Area",        "location": "San Francisco Bay Area", "geoId": "90000084" },
+      { "name": "Remote / US",        "location": "United States",          "geoId": "103644278" }
+    ],
+    "indeed": [
+      { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Remote",            "country": "USA" }
+    ],
+    "glassdoor": [
+      { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Remote",            "country": "USA" }
+    ],
+    "ziprecruiter": [
+      { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Remote",            "country": "USA" }
+    ],
+    "google_jobs": [
+      { "location": "San Francisco Bay Area", "country": "USA" },
+      { "location": "Remote",                 "country": "USA" }
+    ],
+    "hiring_cafe": [
+      { "location": "United States" }
+    ],
+    "_linkedin_partitions_comment": "Optional. Used by --linkedin-emit-matrix / --linkedin-backfill-partition for parallel backfill. Each state gets one matrix worker per search term. High-volume states can be day-sliced to work around LinkedIn's ~1000 result/query cap. Leave empty to use single-run backfill (--linkedin-backfill).",
+    "linkedin_partitions": {
+      "states": [],
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
+    }
+  },
+
+  "location_filter": {
+    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above. NOTE: this list is intentionally Bay-Area + remote only; add \"california\" here if you want California-wide results.",
+    "terms": [
+      "remote", "hybrid", "work from home", "telecommute", "anywhere", "distributed",
+      "san francisco", "south san francisco", "bay area", "oakland", "berkeley",
+      "emeryville", "alameda", "san leandro", "palo alto", "mountain view", "menlo park",
+      "sunnyvale", "santa clara", "san jose", "cupertino", "los altos", "los gatos",
+      "saratoga", "campbell", "milpitas", "san mateo", "foster city", "belmont, ca",
+      "san carlos", "redwood city", "burlingame", "brisbane, ca", "daly city", "pacifica",
+      "half moon bay", "san bruno", "fremont", "newark, ca", "union city", "hayward",
+      "pleasanton", "livermore", "dublin, ca", "san ramon", "walnut creek", "concord, ca",
+      "richmond, ca", "vallejo", "fairfield, ca", "san rafael", "novato", "sausalito",
+      "mill valley", "stanford"
+    ]
+  },
+
+  "google_jobs": {
+    "_comment": "Optional exact Google Jobs queries. Leave empty to auto-build queries such as '<term> jobs near <location> since yesterday' from search_terms.google_jobs and locations.google_jobs. If the free JobSpy path is blocked, set SERPAPI_API_KEY or OXYLABS_USERNAME/OXYLABS_PASSWORD as GitHub Actions secrets for an API fallback.",
+    "queries": [],
+    "serpapi_api_key": "",
+    "oxylabs_username": "",
+    "oxylabs_password": ""
+  },
+
+  "jobspy": {
+    "_comment": "Optional. Prefer JOBSPY_PROXIES as a GitHub Actions secret/env var for private proxy credentials. Use only if JobSpy-backed boards are blocked.",
+    "proxies": [],
+    "user_agent": ""
+  },
+
+  "hiring_cafe": {
+    "_comment": "Uses HiringCafe's public SSR /jobs/<query> pages. max_pages caps SEO pagination per query; the public route currently defaults to United States.",
+    "max_pages": 3
+  },
+
+  "employers": {
+    "_priority_comment": "Optional. Companies worth a daily 'priority' digest even on a quiet day (case-insensitive substring match on the company name). Leave [] to disable. Trim or extend this list freely.",
+    "priority": [
+      "OpenAI", "Anthropic", "Google DeepMind", "Google", "Meta", "NVIDIA", "Microsoft",
+      "Apple", "Amazon", "xAI", "Mistral", "Cohere", "Perplexity", "Character.AI",
+      "Inflection AI", "Adept", "Imbue", "Thinking Machines",
+      "Palantir", "Scale AI", "Anduril", "Sierra", "Decagon", "Glean", "Harvey",
+      "Hebbia", "Abridge", "OpenEvidence", "Rogo",
+      "Databricks", "Snowflake", "Hugging Face", "Weights & Biases", "LangChain",
+      "LlamaIndex", "Arize", "Galileo", "Braintrust", "Together AI", "Fireworks AI",
+      "Groq", "Cerebras", "SambaNova", "Modal", "Anyscale", "Runway", "ElevenLabs",
+      "Synthesia", "Anysphere", "Cognition", "Replit", "Vercel",
+      "Stripe", "Figma", "Notion", "Airtable", "Airbnb", "Uber", "DoorDash",
+      "Instacart", "Pinterest", "Reddit", "LinkedIn", "Salesforce", "ServiceNow",
+      "Intuit", "Roblox", "Discord", "Duolingo", "Adobe",
+      "Waymo", "Zoox", "Nuro", "Aurora", "Applied Intuition", "Tesla", "Shield AI"
+    ],
+    "_exclude_comment": "Optional. Drop roles from these companies even if the title matches (case-insensitive substring). Used here to remove staffing/recruiting agencies that repost the same ML roles.",
+    "exclude": [
+      "jobot", "cybercoders", "robert half", "teksystems", "insight global", "randstad",
+      "adecco", "kforce", "aerotek", "motion recruitment", "harnham", "dice",
+      "brooks recruiting", "actalent", "judge group", "modis", "experis", "manpowergroup",
+      "beacon hill", "addison group", "signature consultants", "talener", "hirewell"
+    ]
+  },
+
+  "priority_topics": {
+    "_comment": "Optional. Roles touching these get a gold ★ + a 'Priority topics' filter on the dashboard. [name, regex] pairs.",
+    "terms": [
+      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model"],
+      ["Forward-deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|solutions (engineer|architect)|field engineer"],
+      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|model serving|inference|feature store|training platform"],
+      ["Applied Science / Research", "applied scientist|research scientist|research engineer|machine learning scientist"],
+      ["LLM Agents / RAG", "agentic|ai agents?\\b|\\brag\\b|retrieval[\\s-]?augmented|tool use|function calling|\\bmcp\\b"],
+      ["Deep Learning / Model Training", "deep learning|neural|transformer|fine[\\s-]?tun|reinforcement learning|\\brlhf\\b|pretrain|pre-train|distributed training"]
+    ]
+  },
+
+  "role_categories": {
+    "_comment": "Dashboard 'Role' filter buckets, applied top-to-bottom to each title. [name, regex] pairs.",
+    "terms": [
+      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model"],
+      ["Forward Deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|solutions (engineer|architect)|field engineer|customer engineer"],
+      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|model serving|inference|feature store|platform engineer"],
+      ["AI / ML Engineering", "ai engineer|machine learning engineer|\\bml engineer\\b|artificial intelligence engineer|deep learning engineer|research engineer|nlp engineer|computer vision"],
+      ["Applied Science", "applied scientist|research scientist|machine learning scientist|\\bscientist\\b"],
+      ["Data / Analytics Engineering", "data engineer|analytics engineer|data scien|analytics"],
+      ["Leadership / Management", "manager|director|head of|\\blead\\b|principal|staff"],
+      ["Other Engineering", "engineer|developer|architect|programmer|technical"]
+    ]
+  },
+
+  "notify": {
+    "_comment": "Pushover phone alerts (optional; needs PUSHOVER_TOKEN/USER secrets). Notify when a new role is a priority-topic OR scores at/above min_fit.",
+    "min_fit": 75,
+    "weekly_digest": {
+      "_comment": "Optional weekly Pushover brief. Prefer enabling via the WEEKLY_DIGEST_PUSHOVER repository variable so forks stay quiet by default.",
+      "enabled": false,
+      "days": 7
+    }
+  }
+}
