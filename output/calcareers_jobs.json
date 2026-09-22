@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-22 00:50 UTC",
+  "scraped_at": "2026-09-22 19:42 UTC",
   "total": 5,
-  "new_count": 5,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Department of Health Care Services",
@@ -64,66 +64,5 @@
       "work_arrangement": "Telecommute eligible"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Department of Health Care Services",
-      "title": "Eligibility Research Scientist (Hybrid)",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531389",
-      "date_posted": "2026-09-15",
-      "salary": "$7625.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Public Health",
-      "title": "Research Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531734",
-      "date_posted": "2026-09-10",
-      "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Cannabis Control",
-      "title": "Research Scientist Staff",
-      "location": "Contra Costa County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532256",
-      "date_posted": "2026-09-16",
-      "salary": "$8327.00 - $10779.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Fish and Wildlife",
-      "title": "Research Scientist",
-      "location": "Yolo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531426",
-      "date_posted": "2026-09-09",
-      "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Food & Agriculture",
-      "title": "Research Scientist Supervisor II",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=523703",
-      "date_posted": "2026-07-06",
-      "salary": "$11316.00 - $14580.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    }
-  ]
+  "new_jobs": []
 }
