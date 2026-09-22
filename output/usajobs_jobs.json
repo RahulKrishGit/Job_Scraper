@@ -1,1 +1,297 @@
-{"scraped_at": "2026-09-22 00:43 UTC", "total": 0, "new_count": 0, "jobs": [], "new_jobs": []}
+{
+  "scraped_at": "2026-09-22 00:50 UTC",
+  "total": 16,
+  "new_count": 16,
+  "jobs": [
+    {
+      "company": "Office of the Inspector General, USPS",
+      "title": "Data Scientist - AI Engineer",
+      "location": "Bethesda, Maryland",
+      "url": "https://www.usajobs.gov/job/884227600",
+      "date_posted": "2026-09-10",
+      "salary": "Starting at $70,623 Per year (GG 00)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of the Fiscal Service",
+      "title": "Data Scientist",
+      "location": "Birmingham, Alabama",
+      "url": "https://www.usajobs.gov/job/885021600",
+      "date_posted": "2026-09-17",
+      "salary": "Starting at $125,776 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "National Security Agency/Central Security Service",
+      "title": "AI Engineer - Entry to Expert Level (Maryland)",
+      "location": "Fort Meade, Maryland",
+      "url": "https://www.usajobs.gov/job/884897900",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $87,362 Per year (GG 7-15)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of Labor Statistics",
+      "title": "Data Scientist",
+      "location": "Suitland, Maryland",
+      "url": "https://www.usajobs.gov/job/884783000",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $102,415 Per year (GS 12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Technology Transformation Service",
+      "title": "Senior AI Software Engineer",
+      "location": "San Francisco, California",
+      "url": "https://www.usajobs.gov/job/883693300",
+      "date_posted": "2026-09-04",
+      "salary": "Starting at $138,595 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Centers for Medicare & Medicaid Services",
+      "title": "Supervisory Data Scientist",
+      "location": "Woodlawn, Maryland",
+      "url": "https://www.usajobs.gov/job/885478800",
+      "date_posted": "2026-09-21",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "U.S. Mint",
+      "title": "Data Scientist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/885290700",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Geological Survey",
+      "title": "Data Scientist",
+      "location": "Lakewood, Colorado",
+      "url": "https://www.usajobs.gov/job/885233000",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $83,265 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Military Sealift Command",
+      "title": "DATA SCIENTIST",
+      "location": "Naval Base, Norfolk, Virginia",
+      "url": "https://www.usajobs.gov/job/885231900",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $62,640 Per year (GS 9-11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Agricultural Marketing Service",
+      "title": "Data Scientist",
+      "location": "Little Rock, Arkansas",
+      "url": "https://www.usajobs.gov/job/884984400",
+      "date_posted": "2026-09-17",
+      "salary": "Starting at $89,508 Per year (GS 12-13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Citizenship and Immigration Services",
+      "title": "Data Scientist",
+      "location": "Camp Springs, Maryland",
+      "url": "https://www.usajobs.gov/job/884784400",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $43,106 Per year (GS 7-9)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Department of Education Headquarters",
+      "title": "Data Scientist, GS-1560-11/12, FPL 12 (DH)",
+      "location": "San Francisco County, California",
+      "url": "https://www.usajobs.gov/job/884680700",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $74,678 Per year (GS 11-12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of the Fiscal Service",
+      "title": "Data Scientist",
+      "location": "Birmingham, Alabama",
+      "url": "https://www.usajobs.gov/job/884533800",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $106,437 Per year (GS 13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "U.S. Special Operations Command (Army)",
+      "title": "Data Scientist",
+      "location": "Fort Bragg, North Carolina",
+      "url": "https://www.usajobs.gov/job/884068500",
+      "date_posted": "2026-09-10",
+      "salary": "Starting at $131,342 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Air Force Elements, U.S. Strategic Command",
+      "title": "Software Developer/Data Scientist (Interdisciplinary) - Direct Hire Authority",
+      "location": "Dahlgren, Virginia",
+      "url": "https://www.usajobs.gov/job/870514400",
+      "date_posted": "2026-05-26",
+      "salary": "Starting at $101,103 Per year (DR 2)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Social Security Administration",
+      "title": "Data Scientist",
+      "location": "Woodlawn, Maryland",
+      "url": "https://www.usajobs.gov/job/856629100",
+      "date_posted": "2026-02-06",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    }
+  ],
+  "new_jobs": [
+    {
+      "company": "Office of the Inspector General, USPS",
+      "title": "Data Scientist - AI Engineer",
+      "location": "Bethesda, Maryland",
+      "url": "https://www.usajobs.gov/job/884227600",
+      "date_posted": "2026-09-10",
+      "salary": "Starting at $70,623 Per year (GG 00)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of the Fiscal Service",
+      "title": "Data Scientist",
+      "location": "Birmingham, Alabama",
+      "url": "https://www.usajobs.gov/job/885021600",
+      "date_posted": "2026-09-17",
+      "salary": "Starting at $125,776 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "National Security Agency/Central Security Service",
+      "title": "AI Engineer - Entry to Expert Level (Maryland)",
+      "location": "Fort Meade, Maryland",
+      "url": "https://www.usajobs.gov/job/884897900",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $87,362 Per year (GG 7-15)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of Labor Statistics",
+      "title": "Data Scientist",
+      "location": "Suitland, Maryland",
+      "url": "https://www.usajobs.gov/job/884783000",
+      "date_posted": "2026-09-16",
+      "salary": "Starting at $102,415 Per year (GS 12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Technology Transformation Service",
+      "title": "Senior AI Software Engineer",
+      "location": "San Francisco, California",
+      "url": "https://www.usajobs.gov/job/883693300",
+      "date_posted": "2026-09-04",
+      "salary": "Starting at $138,595 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Centers for Medicare & Medicaid Services",
+      "title": "Supervisory Data Scientist",
+      "location": "Woodlawn, Maryland",
+      "url": "https://www.usajobs.gov/job/885478800",
+      "date_posted": "2026-09-21",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "U.S. Mint",
+      "title": "Data Scientist",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov/job/885290700",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Geological Survey",
+      "title": "Data Scientist",
+      "location": "Lakewood, Colorado",
+      "url": "https://www.usajobs.gov/job/885233000",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $83,265 Per year (GS 11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Military Sealift Command",
+      "title": "DATA SCIENTIST",
+      "location": "Naval Base, Norfolk, Virginia",
+      "url": "https://www.usajobs.gov/job/885231900",
+      "date_posted": "2026-09-18",
+      "salary": "Starting at $62,640 Per year (GS 9-11)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Agricultural Marketing Service",
+      "title": "Data Scientist",
+      "location": "Little Rock, Arkansas",
+      "url": "https://www.usajobs.gov/job/884984400",
+      "date_posted": "2026-09-17",
+      "salary": "Starting at $89,508 Per year (GS 12-13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Citizenship and Immigration Services",
+      "title": "Data Scientist",
+      "location": "Camp Springs, Maryland",
+      "url": "https://www.usajobs.gov/job/884784400",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $43,106 Per year (GS 7-9)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Department of Education Headquarters",
+      "title": "Data Scientist, GS-1560-11/12, FPL 12 (DH)",
+      "location": "San Francisco County, California",
+      "url": "https://www.usajobs.gov/job/884680700",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $74,678 Per year (GS 11-12)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Bureau of the Fiscal Service",
+      "title": "Data Scientist",
+      "location": "Birmingham, Alabama",
+      "url": "https://www.usajobs.gov/job/884533800",
+      "date_posted": "2026-09-15",
+      "salary": "Starting at $106,437 Per year (GS 13)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "U.S. Special Operations Command (Army)",
+      "title": "Data Scientist",
+      "location": "Fort Bragg, North Carolina",
+      "url": "https://www.usajobs.gov/job/884068500",
+      "date_posted": "2026-09-10",
+      "salary": "Starting at $131,342 Per year (GS 14)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Air Force Elements, U.S. Strategic Command",
+      "title": "Software Developer/Data Scientist (Interdisciplinary) - Direct Hire Authority",
+      "location": "Dahlgren, Virginia",
+      "url": "https://www.usajobs.gov/job/870514400",
+      "date_posted": "2026-05-26",
+      "salary": "Starting at $101,103 Per year (DR 2)",
+      "ats": "USAJOBS"
+    },
+    {
+      "company": "Social Security Administration",
+      "title": "Data Scientist",
+      "location": "Woodlawn, Maryland",
+      "url": "https://www.usajobs.gov/job/856629100",
+      "date_posted": "2026-02-06",
+      "salary": "Starting at $143,913 Per year (GS 14)",
+      "ats": "USAJOBS"
+    }
+  ]
+}
