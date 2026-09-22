@@ -2,7 +2,7 @@
   "_README": "ONE config file drives the whole tracker (scraper + dashboard). Edit it by hand, or generate it from your CV using docs/cv-to-config-prompt.md. After editing, commit it and re-run the workflows. All matching is case-insensitive substring on the JOB TITLE unless noted.",
 
   "profile": {
-    "title": "ML / AI Engineer Job Tracker",
+    "title": "ML / AI / Data Science Job Tracker",
     "subtitle": "SF Bay Area · Remote (US)",
     "emoji": "🤖"
   },
@@ -11,33 +11,61 @@
     "_comment": "A job TITLE is kept if it contains any of these. Use full words; multi-word phrases match as substrings.",
     "include": [
       "machine learning engineer", "ml engineer", "machine learning", "ml platform",
-      "machine learning platform", "ml infrastructure", "machine learning infrastructure", "mlops",
-      "applied machine learning", "applied ai", "applied ml", "ai engineer",
-      "artificial intelligence engineer", "senior ai", "generative ai", "genai", "gen ai",
-      "llm engineer", "large language model", "foundation model", "forward deployed",
-      "forward-deployed", "applied scientist", "machine learning scientist", "ml scientist",
-      "research scientist", "research engineer", "ai research", "deep learning engineer",
-      "nlp engineer", "computer vision engineer", "ai infrastructure", "ai platform engineer",
-      "ai solutions engineer", "ai product engineer", "recommendation systems engineer",
-      "ai scientist", "senior machine learning", "staff machine learning", "principal machine learning"
+      "machine learning platform", "ml infrastructure", "machine learning infrastructure",
+      "mlops", "ml ops", "machine learning operations", "applied machine learning",
+      "applied ai", "applied ml", "ai engineer", "artificial intelligence engineer",
+      "ai software engineer", "ai product engineer", "ai platform", "ai infrastructure",
+      "senior ai", "staff ai", "principal ai", "founding ai",
+      "senior machine learning", "staff machine learning", "principal machine learning",
+      "founding machine learning",
+      "deep learning", "deep learning engineer", "nlp engineer", "natural language processing",
+      "computer vision", "recommendation systems", "recommender systems",
+      "reinforcement learning",
+      "llm", "llm engineer", "large language model", "genai", "gen ai", "generative ai",
+      "foundation model", "frontier model",
+      "agentic", "ai agent", "ai agents", "agent engineer", "multi-agent", "multi agent",
+      "forward deployed", "forward-deployed", "forward deploy",
+      "solutions architect", "solution architect", "ai architect", "ml architect",
+      "machine learning architect", "genai architect", "ai solutions",
+      "applied scientist", "applied research scientist", "machine learning scientist",
+      "ml scientist", "data scientist", "data science", "decision scientist",
+      "research scientist", "research engineer", "ai research", "ai researcher",
+      "machine learning researcher"
     ],
-    "_exclude_comment": "Titles containing any of these are dropped (junior, off-field, and people-management roles — IC-only per user preference).",
+    "_exclude_comment": "Titles containing any of these are dropped. Covers junior/intern, analyst roles, ETL & data-engineering, QA, sales, frontend, recruiting, people-management (IC-only), non-tech wet-lab science, and non-AI enterprise/architect flavors.",
     "exclude": [
       "intern", "internship", "co-op", "coop", "trainee", "apprentice", "new grad", "newgrad",
       "graduate program", "entry level", "entry-level", "junior", "jr.", "jr ",
       "postdoc", "postdoctoral", "phd student", "research assistant", "teaching assistant",
-      "volunteer", "unpaid",
-      "data entry", "data-entry", "data analyst", "business analyst", "bi analyst",
-      "reporting analyst", "analytics analyst",
+      "volunteer", "unpaid", "lab technician",
+
+      "analyst", "data entry", "data-entry",
+
+      "data engineer", "analytics engineer", "etl", "data warehouse", "data pipeline",
+      "database administrator", "dba", "sql developer", "bi developer", "tableau",
+      "power bi", "informatica", "hadoop",
+
       "qa engineer", "qa analyst", "qa specialist", "qa lead", "qa manager",
       "quality assurance", "sdet", "test engineer", "test automation",
+
       "sales", "account executive", "business development", "pre-sales", "presales",
       "customer success", "solutions consultant",
+
       "frontend", "front-end", "front end", "ui engineer", "ui developer", "web developer",
+
       "recruiter", "talent acquisition", "staffing",
-      "manager", "director", "head of", "vice president", "vp ", "vp,", "chief ", "cto"
+
+      "manager", "director", "head of", "vice president", "vp ", "vp,", "chief ", "cto",
+
+      "toxicolog", "epidemiolog", "clinical research", "clinical trial", "clinical scientist",
+      "in vivo", "in vitro", "wet lab", "oncology", "chemistr", "materials science",
+      "microbiolog", "pharmacolog", "veterinar", "ecolog", "wildlife", "environmental scientist",
+
+      "sap ", "salesforce", "servicenow", "pega ", "guidewire", "netsuite", "oracle erp",
+      "dynamics 365", "workday ", "network engineer", "network architect", "security architect",
+      "storage architect", "cisco", "firewall", "mainframe", "vmware", "sharepoint"
     ],
-    "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Catches title variants like 'Director, Engineering' when searching for 'Engineering Director'. Leave all three empty to use keyword-only matching.",
+    "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Leave all three empty to use keyword-only matching.",
     "fuzzy_seniority": [],
     "fuzzy_domain": [],
     "fuzzy_exclude": []
@@ -47,37 +75,35 @@
     "_comment": "Queries sent to the job boards' search boxes. Broader than 'keywords' (which then filters the titles).",
     "linkedin": [
       "Senior Machine Learning Engineer", "Machine Learning Engineer", "ML Engineer",
-      "Forward Deployed Engineer", "Forward Deployed AI Engineer", "Applied AI Engineer",
-      "AI Engineer", "ML Platform Engineer", "Machine Learning Platform Engineer",
-      "Senior Applied Scientist", "Applied Scientist", "Generative AI Engineer", "LLM Engineer",
-      "AI Infrastructure Engineer", "Applied Machine Learning Engineer", "AI Research Engineer",
-      "MLOps Engineer", "Deep Learning Engineer", "Machine Learning Scientist",
-      "Staff Machine Learning Engineer", "Founding AI Engineer", "AI Platform Engineer"
+      "AI Engineer", "Applied AI Engineer", "Forward Deployed Engineer",
+      "Forward Deployed AI Engineer", "Generative AI Engineer", "LLM Engineer",
+      "Agentic AI Engineer", "AI Agents Engineer", "ML Platform Engineer",
+      "Machine Learning Platform Engineer", "MLOps Engineer", "AI Infrastructure Engineer",
+      "Applied Scientist", "Senior Applied Scientist", "Data Scientist",
+      "Senior Data Scientist", "Machine Learning Scientist", "AI Research Engineer",
+      "Deep Learning Engineer", "AI Solutions Architect", "Solutions Architect",
+      "Applied Machine Learning Engineer"
     ],
     "indeed": [
-      "machine learning engineer", "ai engineer", "forward deployed engineer",
-      "applied ai engineer", "llm engineer", "generative ai engineer",
-      "ml platform engineer", "applied scientist", "mlops engineer", "deep learning engineer"
+      "machine learning engineer", "ai engineer", "data scientist", "applied scientist",
+      "llm engineer", "generative ai engineer", "forward deployed engineer",
+      "solutions architect", "mlops engineer", "agentic ai engineer"
     ],
     "glassdoor": [
-      "machine learning engineer", "ai engineer", "applied scientist",
-      "forward deployed engineer", "llm engineer", "generative ai engineer",
-      "mlops engineer", "ml platform engineer"
+      "machine learning engineer", "ai engineer", "data scientist", "applied scientist",
+      "llm engineer", "generative ai engineer", "mlops engineer", "solutions architect"
     ],
     "ziprecruiter": [
-      "machine learning engineer", "ai engineer", "applied scientist",
-      "forward deployed engineer", "llm engineer", "generative ai engineer",
-      "mlops engineer", "ml platform engineer"
+      "machine learning engineer", "ai engineer", "data scientist", "applied scientist",
+      "llm engineer", "generative ai engineer", "mlops engineer", "solutions architect"
     ],
     "google_jobs": [
-      "machine learning engineer", "ai engineer", "applied scientist",
-      "forward deployed engineer", "llm engineer", "generative ai engineer",
-      "mlops engineer", "ml platform engineer"
+      "machine learning engineer", "ai engineer", "data scientist", "applied scientist",
+      "llm engineer", "generative ai engineer", "mlops engineer", "solutions architect"
     ],
     "hiring_cafe": [
-      "machine learning engineer", "ai engineer", "applied scientist",
-      "forward deployed engineer", "llm engineer", "generative ai engineer",
-      "mlops engineer", "ml platform engineer"
+      "machine learning engineer", "ai engineer", "data scientist", "applied scientist",
+      "llm engineer", "generative ai engineer", "mlops engineer", "solutions architect"
     ],
     "calcareers": [
       "machine learning", "artificial intelligence", "data scientist", "research scientist"
@@ -90,7 +116,7 @@
       "machine learning", "artificial intelligence", "data scientist", "information technology"
     ],
     "workday": [
-      "machine learning engineer", "ai engineer", "applied scientist", "ml platform"
+      "machine learning engineer", "ai engineer", "applied scientist", "data scientist"
     ]
   },
 
@@ -130,7 +156,7 @@
   },
 
   "location_filter": {
-    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above. NOTE: this list is intentionally Bay-Area + remote only; add \"california\" here if you want California-wide results.",
+    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above. NOTE: intentionally Bay-Area + remote only; add \"california\" here if you want California-wide results.",
     "terms": [
       "remote", "hybrid", "work from home", "telecommute", "anywhere", "distributed",
       "san francisco", "south san francisco", "bay area", "oakland", "berkeley",
@@ -164,24 +190,20 @@
     "max_pages": 3
   },
 
+  "csucareers": {
+    "_comment": "Pagination depth for the CSU Careers board (read by scrape_jobs.py as csucareers.max_pages).",
+    "max_pages": 2
+  },
+
   "employers": {
-    "_priority_comment": "Optional. Companies worth a daily 'priority' digest even on a quiet day (case-insensitive substring match on the company name). Leave [] to disable. Trim or extend this list freely.",
+    "_priority_comment": "Optional. Companies worth a daily 'priority' digest even on a quiet day (case-insensitive substring match on the company name). Kept to ~20 because the digest runs ONE LinkedIn search PER ENTRY - a long list makes the run impractically slow. Trim or extend freely.",
     "priority": [
       "OpenAI", "Anthropic", "Google DeepMind", "Google", "Meta", "NVIDIA", "Microsoft",
-      "Apple", "Amazon", "xAI", "Mistral", "Cohere", "Perplexity", "Character.AI",
-      "Inflection AI", "Adept", "Imbue", "Thinking Machines",
-      "Palantir", "Scale AI", "Anduril", "Sierra", "Decagon", "Glean", "Harvey",
-      "Hebbia", "Abridge", "OpenEvidence", "Rogo",
-      "Databricks", "Snowflake", "Hugging Face", "Weights & Biases", "LangChain",
-      "LlamaIndex", "Arize", "Galileo", "Braintrust", "Together AI", "Fireworks AI",
-      "Groq", "Cerebras", "SambaNova", "Modal", "Anyscale", "Runway", "ElevenLabs",
-      "Synthesia", "Anysphere", "Cognition", "Replit", "Vercel",
-      "Stripe", "Figma", "Notion", "Airtable", "Airbnb", "Uber", "DoorDash",
-      "Instacart", "Pinterest", "Reddit", "LinkedIn", "Salesforce", "ServiceNow",
-      "Intuit", "Roblox", "Discord", "Duolingo", "Adobe",
-      "Waymo", "Zoox", "Nuro", "Aurora", "Applied Intuition", "Tesla", "Shield AI"
+      "Apple", "Amazon", "Palantir", "Scale AI", "Anduril", "Sierra", "Glean",
+      "Databricks", "Snowflake", "Hugging Face", "Stripe", "Figma", "Waymo", "Tesla",
+      "Perplexity"
     ],
-    "_exclude_comment": "Optional. Drop roles from these companies even if the title matches (case-insensitive substring). Used here to remove staffing/recruiting agencies that repost the same ML roles.",
+    "_exclude_comment": "Optional. Drop roles from these companies even if the title matches (case-insensitive substring). Used here to remove staffing/recruiting agencies that repost the same roles.",
     "exclude": [
       "jobot", "cybercoders", "robert half", "teksystems", "insight global", "randstad",
       "adecco", "kforce", "aerotek", "motion recruitment", "harnham", "dice",
@@ -193,31 +215,33 @@
   "priority_topics": {
     "_comment": "Optional. Roles touching these get a gold ★ + a 'Priority topics' filter on the dashboard. [name, regex] pairs.",
     "terms": [
-      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model"],
-      ["Forward-deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|solutions (engineer|architect)|field engineer"],
-      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|model serving|inference|feature store|training platform"],
-      ["Applied Science / Research", "applied scientist|research scientist|research engineer|machine learning scientist"],
-      ["LLM Agents / RAG", "agentic|ai agents?\\b|\\brag\\b|retrieval[\\s-]?augmented|tool use|function calling|\\bmcp\\b"],
-      ["Deep Learning / Model Training", "deep learning|neural|transformer|fine[\\s-]?tun|reinforcement learning|\\brlhf\\b|pretrain|pre-train|distributed training"]
+      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model|frontier model"],
+      ["Agentic / AI Agents", "agentic|ai agents?\\b|multi[\\s-]?agent|function calling|tool use|\\bmcp\\b"],
+      ["Forward-deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|solutions? architect|field engineer"],
+      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|model serving|inference|feature store"],
+      ["Data / Applied Science", "data scien|applied scientist|research scientist|decision scientist"],
+      ["Deep Learning / Model Training", "deep learning|neural|transformer|fine[\\s-]?tun|reinforcement learning|\\brlhf\\b|distributed training"]
     ]
   },
 
   "role_categories": {
-    "_comment": "Dashboard 'Role' filter buckets, applied top-to-bottom to each title. [name, regex] pairs.",
+    "_comment": "Dashboard 'Role' filter buckets, applied top-to-bottom to each title (first match wins). [name, regex] pairs.",
     "terms": [
-      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model"],
-      ["Forward Deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|solutions (engineer|architect)|field engineer|customer engineer"],
-      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|model serving|inference|feature store|platform engineer"],
-      ["AI / ML Engineering", "ai engineer|machine learning engineer|\\bml engineer\\b|artificial intelligence engineer|deep learning engineer|research engineer|nlp engineer|computer vision"],
-      ["Applied Science", "applied scientist|research scientist|machine learning scientist|\\bscientist\\b"],
-      ["Data / Analytics Engineering", "data engineer|analytics engineer|data scien|analytics"],
+      ["Agentic / AI Agents", "agentic|ai agents?\\b|multi[\\s-]?agent|agent engineer|tool use|function calling"],
+      ["LLM / GenAI", "\\bllm\\b|large language model|genai|gen ai|generative ai|foundation model|frontier model"],
+      ["Solutions Architect", "solutions? architect|ai architect|ml architect|machine learning architect|genai architect"],
+      ["Forward Deployed / Applied AI", "forward[\\s-]?deployed|applied ai|applied ml|field engineer|customer engineer"],
+      ["ML Platform / MLOps", "ml ?platform|\\bmlops\\b|ml (infrastructure|infra)|ai (infrastructure|infra)|model serving|inference|feature store|platform engineer"],
+      ["Data Science", "data scien|decision scientist"],
+      ["Applied Science / Research", "applied scientist|research scientist|machine learning scientist|\\bscientist\\b"],
+      ["AI / ML Engineering", "ai engineer|machine learning engineer|\\bml engineer\\b|artificial intelligence engineer|deep learning|natural language|\\bnlp\\b|computer vision|machine learning|recommendation|reinforcement learning"],
       ["Leadership / Management", "manager|director|head of|\\blead\\b|principal|staff"],
       ["Other Engineering", "engineer|developer|architect|programmer|technical"]
     ]
   },
 
   "notify": {
-    "_comment": "Pushover phone alerts (optional; needs PUSHOVER_TOKEN/USER secrets). Notify when a new role is a priority-topic OR scores at/above min_fit.",
+    "_comment": "Pushover phone alerts (optional; needs PUSHOVER_TOKEN/USER secrets). NOTE: notify.py reads the threshold from the NOTIFY_MIN_FIT repository variable, not from min_fit below; the weekly digest is gated by the WEEKLY_DIGEST_PUSHOVER variable. Only weekly_digest.days is read from this file.",
     "min_fit": 75,
     "weekly_digest": {
       "_comment": "Optional weekly Pushover brief. Prefer enabling via the WEEKLY_DIGEST_PUSHOVER repository variable so forks stay quiet by default.",
