@@ -6,3 +6,8 @@ workflow_runs.jsonl merge=union
 # prevents surprises if a conflict somehow occurs anyway.
 config.json merge=ours
 scoring_profile.json merge=ours
+
+# Scraped data must never be overwritten by upstream's copy of the same files.
+# Upstream DOES commit output/ (its workflows use `git add -f`), so without this
+# the weekly sync injects the upstream owner's job data into this fork.
+output/** merge=ours
