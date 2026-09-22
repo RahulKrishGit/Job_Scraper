@@ -30,7 +30,9 @@
       "applied scientist", "applied research scientist", "machine learning scientist",
       "ml scientist", "data scientist", "data science", "decision scientist",
       "research scientist", "research engineer", "ai research", "ai researcher",
-      "machine learning researcher"
+      "machine learning researcher",
+      "ml",
+      ", ai", "- ai", "(ai", "/ai", "ai developer", "ai software", "ai application"
     ],
     "_exclude_comment": "Titles containing any of these are dropped. Covers junior/intern, analyst roles, ETL & data-engineering, QA, sales, frontend, recruiting, people-management (IC-only), non-tech wet-lab science, and non-AI enterprise/architect flavors.",
     "exclude": [
@@ -63,7 +65,9 @@
 
       "sap ", "salesforce", "servicenow", "pega ", "guidewire", "netsuite", "oracle erp",
       "dynamics 365", "workday ", "network engineer", "network architect", "security architect",
-      "storage architect", "cisco", "firewall", "mainframe", "vmware", "sharepoint"
+      "storage architect", "cisco", "firewall", "mainframe", "vmware", "sharepoint",
+
+      "html", "xml", "aml"
     ],
     "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Leave all three empty to use keyword-only matching.",
     "fuzzy_seniority": [],
