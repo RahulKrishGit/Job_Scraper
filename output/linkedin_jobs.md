@@ -1,287 +1,206 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-09-24 19:43 UTC*
+*Last updated: 2026-09-24 22:52 UTC*
 
-**63 new role(s)** since last run · 63 total in last 1h
+**43 new role(s)** since last run · 43 total in last 1h
 
-### [Sr Agentic AI Architect](https://www.linkedin.com/jobs/view/4470026059/) — EROS Technologies Inc
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Tech Lead - Machine Learning Platform Engineer](https://www.linkedin.com/jobs/view/4470015707/) — ByteDance
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $254400 - $480000 annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Software Engineer II, AI Platform](https://www.linkedin.com/jobs/view/4426008052/) — Cadence
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $101,500 to $188,500
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Data Scientist, Level 5](https://www.linkedin.com/jobs/view/4443066222/) — Snap Inc.
+### [Lead AI/ML Engineer - Remote](https://www.linkedin.com/jobs/view/4471698215/) — Optum
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $190,000-$284,000 annually
+- 💰 **Salary:** $145,500 - $249,500 annually
 - 🕒 **Posted:** 2026-09-24
 
-### [Applied Scientist, Prime Video - Generative AI (Video)](https://www.linkedin.com/jobs/view/4462720080/) — Prime Video & Amazon MGM Studios
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Quantum Applied Research Scientist, Calibration and Decoding](https://www.linkedin.com/jobs/view/4425545673/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [AI Architect](https://www.linkedin.com/jobs/view/4466349768/) — The Information
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $155,000 - $175,000 USD Annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Lead Researcher, Large Language Models/LLM, TikTok](https://www.linkedin.com/jobs/view/4470024020/) — TikTok
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $308000 - $588000 annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Staff Product Data Scientist, Lending](https://www.linkedin.com/jobs/view/4443582867/) — Cash App
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $239,600—$359,400 USD
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal / Enterprise AI Architect (Agentic AI & Multi-Cloud)](https://www.linkedin.com/jobs/view/4471639763/) — Ikuto
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $200,000.00/yr - $275,000.00/yr
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal Software Engineer — Agentic AI Applications and Foundations](https://www.linkedin.com/jobs/view/4395922223/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal Software Engineer – Large-Scale LLM Memory and Storage Systems](https://www.linkedin.com/jobs/view/4395491334/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Software Engineer, Agentic Platform - TikTok USDS](https://www.linkedin.com/jobs/view/4471664246/) — TikTok USDS Joint Venture
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $136800 - $259200 annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal Healthcare Solutions Architect, AI Solutions](https://www.linkedin.com/jobs/view/4462726024/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Solutions Architect, Networking](https://www.linkedin.com/jobs/view/4442914461/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [AI Solutions Strategist](https://www.linkedin.com/jobs/view/4471658621/) — super{set}
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr Data Solutions Architect, Strategic Accounts](https://www.linkedin.com/jobs/view/4469733702/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr Data Solutions Architect, Strategic Accounts](https://www.linkedin.com/jobs/view/4469737476/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. Worldwide Specialist - AI, Data & AI GTM](https://www.linkedin.com/jobs/view/4471646118/) — Amazon Web Services (AWS)
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Solutions Architect, Strategic Digital Native Segment, AWS Industries, Strategic Customers](https://www.linkedin.com/jobs/view/4469736561/) — Amazon Web Services (AWS)
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Software Development Engineer II, Agentic WorkSpaces Client](https://www.linkedin.com/jobs/view/4469744266/) — Amazon Web Services (AWS)
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. Solutions Architect - Applied AI for Emerging Products, AWS Applied AI Solutions](https://www.linkedin.com/jobs/view/4462725038/) — Amazon Web Services (AWS)
-- 📍 **Location:** Mountain View, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Quantum Error Correction Research Scientist, Applied Research](https://www.linkedin.com/jobs/view/4395474488/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Solutions Architect, Strategic Accounts](https://www.linkedin.com/jobs/view/4469740358/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [AI Infrastructure Engineer - Recommendation & LLM](https://www.linkedin.com/jobs/view/4470020453/) — TikTok
-- 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $128000 - $316800 annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Software Engineer III, AI/ML GenAI, Google Cloud Compute Infrastructure](https://www.linkedin.com/jobs/view/4470019497/) — Google
-- 📍 **Location:** Sunnyvale, CA
-- 💰 **Salary:** $147000 - $210000
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Solutions Architect, Fintech, Fintech](https://www.linkedin.com/jobs/view/4469745229/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Solutions Architect, Strategic Accounts](https://www.linkedin.com/jobs/view/4469734684/) — Amazon Web Services (AWS)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Machine Learning Engineer - Artificial Intelligence](https://www.linkedin.com/jobs/view/4460424185/) — Bloomberg
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $165,000.00/yr - $260,000.00/yr
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior AI Engineer – Human Capital (0F81CD2)](https://www.linkedin.com/jobs/view/4471646178/) — Referment
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $175,000.00/yr - $250,000.00/yr
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Data and Applied Scientist, SCM Autonomous Suite, Palo Alto](https://www.linkedin.com/jobs/view/4461384807/) — SAP
+### [Sr. Software Engineer - Computer Vision](https://www.linkedin.com/jobs/view/4470035654/) — Rivian and Volkswagen Group Technologies
 - 📍 **Location:** Palo Alto, CA
-- 💰 **Salary:** $148,600 - $306,300
+- 💰 **Salary:** $146,900.00/yr - $201,950.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Senior AI/ML Engineer](https://www.linkedin.com/jobs/view/4471634664/) — Slate Auto
-- 📍 **Location:** Nevada, United States
+### [Embedded Computer Vision & Machine Learning Engineer](https://www.linkedin.com/jobs/view/4470037586/) — Intelliswift - An LTTS Company
+- 📍 **Location:** Sunnyvale, CA
+- 💰 **Salary:** $85.00/yr - $95.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Senior/Staff Forward Deployed Engineer, Applied AI](https://www.linkedin.com/jobs/view/4471625879/) — Snowflake
-- 📍 **Location:** Menlo Park, CA
-- 💰 **Salary:** $200,000.00/yr - $262,500.00/yr
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4471682964/) — Sia
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $136,000-155,000
 - 🕒 **Posted:** 2026-09-24
 
-### [Machine Learning Scientist](https://www.linkedin.com/jobs/view/4463104403/) — BigHat Biosciences
-- 📍 **Location:** San Mateo, CA
-- 💰 **Salary:** $150,000 - $200,000
+### [Forward-Deployed Engineer](https://www.linkedin.com/jobs/view/4471686795/) — Apetan Consulting LLC
+- 📍 **Location:** Hayward, CA
 - 🕒 **Posted:** 2026-09-24
 
-### [Acceleration Center- Agentic AI and Machine Learning Developer- Senior Associate](https://www.linkedin.com/jobs/view/4453670076/) — PwC
+### [Dialogue Flow Conversation Ai Architect](https://www.linkedin.com/jobs/view/4469788360/) — Apptoza Inc.
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $70.00/hr - $80.00/hr
+- 🕒 **Posted:** 2026-09-24
+
+### [AI Engineer](https://www.linkedin.com/jobs/view/4470043238/) — Jobright.ai
+- 📍 **Location:** Santa Clara County, CA
+- 🕒 **Posted:** 2026-09-24
+
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4470049030/) — Fonzi AI
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $150,000 – $300,000
+- 🕒 **Posted:** 2026-09-24
+
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4471621353/) — Hightouch
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $150,000 - $225,000 USD per year
+- 🕒 **Posted:** 2026-09-24
+
+### [Data Scientist - Client Platform](https://www.linkedin.com/jobs/view/4470035758/) — Discord
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $160,000 to $200,000
+- 🕒 **Posted:** 2026-09-24
+
+### [Principal Integration and AI Developer - Shockwave Medical](https://www.linkedin.com/jobs/view/4471680705/) — Shockwave Medical
+- 📍 **Location:** Santa Clara, CA
+- 💰 **Salary:** $125,000.00 - $201,250.00
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Applied Scientist, Real-Time Conversational AI , AGI](https://www.linkedin.com/jobs/view/4469788492/) — Amazon Science
+- 📍 **Location:** Sunnyvale, CA
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Machine Learning Engineer](https://www.linkedin.com/jobs/view/4470031813/) — Bumble Inc.
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $77,000 - $202,000
 - 🕒 **Posted:** 2026-09-24
 
-### [Full Stack Engineer (AI/ML)](https://www.linkedin.com/jobs/view/4470988410/) — Capgemini
+### [Senior AI Infrastructure Engineer](https://www.linkedin.com/jobs/view/4471687460/) — Anduril Industries
+- 📍 **Location:** Washington, DC
+- 💰 **Salary:** $191,000—$253,000 USD
+- 🕒 **Posted:** 2026-09-24
+
+### [Simulation CV/ML Engineer](https://www.linkedin.com/jobs/view/4470047001/) — Intelliswift - An LTTS Company
+- 📍 **Location:** Sunnyvale, CA
+- 💰 **Salary:** $85.00/hr - $95.00/hr
+- 🕒 **Posted:** 2026-09-24
+
+### [Machine Learning Engineer](https://www.linkedin.com/jobs/view/4471693348/) — MeeBoss
 - 📍 **Location:** New York, United States
+- 💰 **Salary:** $80,000-160,000/year
 - 🕒 **Posted:** 2026-09-24
 
-### [AI Research Scientist | Research & Development](https://www.linkedin.com/jobs/view/4444004128/) — Jump Trading
+### [Backend Engineer, Applied AI](https://www.linkedin.com/jobs/view/4470047018/) — Citizen
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $200,000 USD - $300,000 USD
+- 💰 **Salary:** $185,000–$245,000 per year
 - 🕒 **Posted:** 2026-09-24
 
-### [Research Engineer, Pre-Training](https://www.linkedin.com/jobs/view/4470008658/) — Jump Trading
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $300,000 USD - $350,000 USD
+### [Principal Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4469780161/) — Docker, Inc
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $198K – $319K
 - 🕒 **Posted:** 2026-09-24
 
-### [Principal Associate, Data Scientist - LLM Customization Team](https://www.linkedin.com/jobs/view/4426074995/) — Capital One
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $161,800 - $184,600
-- 🕒 **Posted:** 2026-09-24
-
-### [Cloud Data AI Architect](https://www.linkedin.com/jobs/view/4470009827/) — eTeam
-- 📍 **Location:** Texas, United States
-- 💰 **Salary:** $85.00/hr - $90.00/hr
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior GenAI Developer- 408684](https://www.linkedin.com/jobs/view/4471660056/) — Atrium
+### [AI Platform Architect with GCP](https://www.linkedin.com/jobs/view/4471690654/) — Envision Technology Solutions
 - 📍 **Location:** New York, NY
 - 🕒 **Posted:** 2026-09-24
 
-### [AI Engineer](https://www.linkedin.com/jobs/view/4470034062/) — EXL
-- 📍 **Location:** New York, United States
+### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4433251810/) — RK Infotech LLC
+- 📍 **Location:** Florida, United States
+- 💰 **Salary:** $90.00/yr - $120.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Senior Forward Deployed AI Engineer-Banking/Financial Services](https://www.linkedin.com/jobs/view/4471662483/) — NewRocket
+### [Staff Machine Learning Engineer, Financial Connections](https://www.linkedin.com/jobs/view/4458578088/) — Stripe
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $253,500 - $380,300
+- 🕒 **Posted:** 2026-09-24
+
+### [Data Scientist](https://www.linkedin.com/jobs/view/4469061572/) — Altamira Technologies Corporation
+- 📍 **Location:** Colorado Springs, CO
+- 🕒 **Posted:** 2026-09-24
+
+### [AI Research Engineer](https://www.linkedin.com/jobs/view/4471696173/) — TTN Talent
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $200,000.00/yr - $400,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Software Engineer - AI & Java](https://www.linkedin.com/jobs/view/4468685801/) — Core AI Consulting Inc
+- 📍 **Location:** Austin, Texas Metropolitan Area
+- 🕒 **Posted:** 2026-09-24
+
+### [VP, AI & Data Analytics](https://www.linkedin.com/jobs/view/4471692104/) — Selby Jennings
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $150,000.00/yr - $200,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Lead Engineer – Agentic AI & Java](https://www.linkedin.com/jobs/view/4468686660/) — Core AI Consulting Inc
+- 📍 **Location:** San Francisco Bay Area
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Data Scientist, Fleet Health](https://www.linkedin.com/jobs/view/4469776826/) — Gridware
+- 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $175,000.00/yr - $205,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [AI - Forward Deployed Engineer (contract)](https://www.linkedin.com/jobs/view/4470027683/) — KPMG US
 - 📍 **Location:** New York, NY
 - 🕒 **Posted:** 2026-09-24
 
-### [Applied Machine Learning Engineer, Circuit Design - New College Grad 2026](https://www.linkedin.com/jobs/view/4395485157/) — NVIDIA
-- 📍 **Location:** California, United States
+### [AI Engineering Leader](https://www.linkedin.com/jobs/view/4470038407/) — Vertafore
+- 📍 **Location:** Colorado, United States
+- 💰 **Salary:** $200,000 - $300,000
 - 🕒 **Posted:** 2026-09-24
 
-### [ML Research Scientist -Deep Learning & Transformer Architectures](https://www.linkedin.com/jobs/view/4425289010/) — Millennium
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $150,000 to $200,000,
-- 🕒 **Posted:** 2026-09-24
-
-### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4465242130/) — BeaconFire Inc.
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $65,000.00/yr - $80,000.00/yr
-- 🕒 **Posted:** 2026-09-24
-
-### [Staff Product Data Scientist, Lending](https://www.linkedin.com/jobs/view/4443597108/) — Cash App
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $239,600—$359,400 USD
-- 🕒 **Posted:** 2026-09-24
-
-### [Data Scientist I](https://www.linkedin.com/jobs/view/4470026263/) — Banner Health
-- 📍 **Location:** Arizona, United States
-- 💰 **Salary:** $35.37 - $58.95
-- 🕒 **Posted:** 2026-09-24
-
-### [Data Scientist, Payments](https://www.linkedin.com/jobs/view/4469771636/) — Square
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $111,700 USD - $167,500 USD
-- 🕒 **Posted:** 2026-09-24
-
-### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4465232275/) — BeaconFire Inc.
+### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4466689839/) — BeaconFire Inc.
 - 📍 **Location:** New Jersey, United States
 - 💰 **Salary:** $62,000.00/yr - $80,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Senior AI Engineer](https://www.linkedin.com/jobs/view/4469519793/) — Haystack
-- 📍 **Location:** New York, NY
+### [Data Scientist](https://www.linkedin.com/jobs/view/4464567294/) — RK Infotech LLC
+- 📍 **Location:** Florida, United States
+- 💰 **Salary:** $80.00/yr - $130.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Lead Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4453347688/) — MongoDB
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $168,000—$330,000 USD
+### [AI Engineer](https://www.linkedin.com/jobs/view/4466696331/) — BeaconFire Inc.
+- 📍 **Location:** New Jersey, United States
+- 💰 **Salary:** $62,000.00/yr - $80,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Technical Solutions Architect II – Microsoft Azure](https://www.linkedin.com/jobs/view/4470020351/) — World Wide Technology
-- 📍 **Location:** Maryland Heights, MO
-- 💰 **Salary:** $175,000.00 to $225,000.00 annually
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4470027926/) — Fonzi AI
+- 📍 **Location:** New York City Metropolitan Area
+- 💰 **Salary:** $150,000 – $300,000
 - 🕒 **Posted:** 2026-09-24
 
-### [Solutions Architect](https://www.linkedin.com/jobs/view/4470018508/) — UE SYSTEMS
-- 📍 **Location:** Indianapolis, IN
-- 💰 **Salary:** $85,000 - $110,000 USD annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal / Enterprise AI Architect (Agentic AI & Multi-Cloud)](https://www.linkedin.com/jobs/view/4471648345/) — Ikuto
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $200,000.00/yr - $275,000.00/yr
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Developer Relations, AI - Security](https://www.linkedin.com/jobs/view/4442914459/) — NVIDIA
-- 📍 **Location:** California, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Applied Scientist, LLM Code Agents, Kiro Science](https://www.linkedin.com/jobs/view/4462718108/) — Amazon Web Services (AWS)
+### [Software Engineer, Generative AI](https://www.linkedin.com/jobs/view/4470028951/) — Jobright.ai
 - 📍 **Location:** New York, United States
 - 🕒 **Posted:** 2026-09-24
 
-### [Forward Deployed Engineer-Agentic AI & Splunk](https://www.linkedin.com/jobs/view/4470034083/) — Khamis Partners, LLC
+### [AI Engineer - Startups](https://www.linkedin.com/jobs/view/4470025940/) — Fonzi AI
+- 📍 **Location:** New York City Metropolitan Area
+- 💰 **Salary:** $200,000 – $400,000
+- 🕒 **Posted:** 2026-09-24
+
+### [2027 University Graduate - Machine Learning Engineer](https://www.linkedin.com/jobs/view/4470035816/) — Adobe
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $102,400 - $202,250 annually
+- 🕒 **Posted:** 2026-09-24
+
+### [AI Engineer - Startups](https://www.linkedin.com/jobs/view/4470045193/) — Fonzi AI
 - 📍 **Location:** San Francisco Bay Area
+- 💰 **Salary:** $200,000 – $400,000
 - 🕒 **Posted:** 2026-09-24
 
-### [Oracle Cloud Solution Architect](https://www.linkedin.com/jobs/view/4449019889/) — DMI
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4470032817/) — Adobe
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $114,100 - $214,950 annually
+- 🕒 **Posted:** 2026-09-24
+
+### [AI Engineer – Backend](https://www.linkedin.com/jobs/view/4466922741/) — BeaconFire Inc.
+- 📍 **Location:** New Jersey, United States
+- 💰 **Salary:** $62,000.00/yr - $80,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Applied Scientist III, Demand Technology, Amazon Demand Side Platform, Bravo Non-endemic](https://www.linkedin.com/jobs/view/4470104035/) — Amazon Science
+- 📍 **Location:** New York, United States
+- 🕒 **Posted:** 2026-09-24
+
+### [Principal Machine Learning Engineer](https://www.linkedin.com/jobs/view/4469788561/) — Oracle
+- 📍 **Location:** Santa Clara, CA
+- 💰 **Salary:** $126,200 - $264,100 per year
+- 🕒 **Posted:** 2026-09-24
+
+### [Research Engineer, Data Infrastructure (Language Modeling)](https://www.linkedin.com/jobs/view/4471812010/) — Cartesia
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-09-24
+
+### [Sr. Solutions Architect – Corporate Physical & Electronic Security](https://www.linkedin.com/jobs/view/4471478773/) — COGENT Infotech
 - 📍 **Location:** Washington, DC
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Solutions Architect, Fintech, Fintech](https://www.linkedin.com/jobs/view/4469744253/) — Amazon Web Services (AWS)
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal Healthcare Solutions Architect, AI Solutions](https://www.linkedin.com/jobs/view/4462727021/) — Amazon Web Services (AWS)
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Staff AI Engineer (Remote Eligible)](https://www.linkedin.com/jobs/view/4471676163/) — Capital One
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $286,200 - $326,700
-- 🕒 **Posted:** 2026-09-24
-
-### [Principal AI Engineer](https://www.linkedin.com/jobs/view/4471661664/) — NAM Info Inc
-- 📍 **Location:** New York, United States
 - 🕒 **Posted:** 2026-09-24
