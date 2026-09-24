@@ -1,8 +1,20 @@
 {
-  "scraped_at": "2026-09-23 19:37 UTC",
+  "scraped_at": "2026-09-24 19:56 UTC",
   "total": 4,
   "new_count": 0,
   "jobs": [
+    {
+      "company": "Department of Public Health",
+      "title": "Intelligence Data Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533220",
+      "date_posted": "2026-09-24",
+      "salary": "$8327.00 - $10779.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
     {
       "company": "Department of Health Care Services",
       "title": "Eligibility Research Scientist (Hybrid)",
@@ -21,18 +33,6 @@
       "location": "Sacramento County",
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531734",
       "date_posted": "2026-09-10",
-      "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Fish and Wildlife",
-      "title": "Research Scientist",
-      "location": "Yolo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531426",
-      "date_posted": "2026-09-09",
       "salary": "$6942.00 - $9799.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
