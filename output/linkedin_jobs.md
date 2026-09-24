@@ -1,118 +1,117 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-09-24 01:12 UTC*
+*Last updated: 2026-09-24 02:22 UTC*
 
-**24 new role(s)** since last run · 24 total in last 1h
+**23 new role(s)** since last run · 37 total in last 1h
 
-### [Founding ML Engineer, Computer Vision (Item Identification)](https://www.linkedin.com/jobs/view/4469630246/) — Moe
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $200K–$260K
-- 🕒 **Posted:** 2026-09-24
-
-### [Senior Computer Vision Engineer, Embodied AI](https://www.linkedin.com/jobs/view/4471176025/) — Niantic Spatial, Inc.
+### [Research Engineer, Privacy and Anonymization](https://www.linkedin.com/jobs/view/4469624540/) — HUD
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $229,500 to $255,000 per year
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Product Engineer, AI](https://www.linkedin.com/jobs/view/4469625335/) — Fluidstack
+### [Research Engineer, Benchmarks](https://www.linkedin.com/jobs/view/4469621672/) — HUD
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $224,000.00/yr - $300,000.00/yr
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Software Engineer, AI Automation](https://www.linkedin.com/jobs/view/4469612988/) — Fluidstack
+### [Research Engineer, QC Automation](https://www.linkedin.com/jobs/view/4469622614/) — HUD
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $224,000.00/yr - $300,000.00/yr
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Technical Lead, GenAI - Autonomous Vehicles](https://www.linkedin.com/jobs/view/4469613998/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
+### [Lead Research Engineer, Data Quality](https://www.linkedin.com/jobs/view/4469620743/) — HUD
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Software Engineer, AI Automation](https://www.linkedin.com/jobs/view/4469625336/) — Fluidstack
+### [Research Engineer, Synthetic Data](https://www.linkedin.com/jobs/view/4469632331/) — HUD
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Research Engineer (General)](https://www.linkedin.com/jobs/view/4469630365/) — HUD
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Forward Deployed Research Engineer](https://www.linkedin.com/jobs/view/4469621673/) — HUD
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Full-Stack Software Engineer, Reinforcement Learning](https://www.linkedin.com/jobs/view/4469639170/) — HUD
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $140,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Machine Learning Researcher (Foundational Models)](https://www.linkedin.com/jobs/view/4469626473/) — Fintal Partners
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $224,000.00/yr - $300,000.00/yr
+- 💰 **Salary:** $1,000,000.00/yr - $2,000,000.00/yr
 - 🕒 **Posted:** 2026-09-24
 
-### [Product Engineer, AI](https://www.linkedin.com/jobs/view/4469618606/) — Fluidstack
+### [Senior Software Engineer (AI Infrastructure)](https://www.linkedin.com/jobs/view/4471161659/) — Alignerr
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $224,000.00/yr - $300,000.00/yr
+- 💰 **Salary:** $20.00/hr - $100.00/hr
 - 🕒 **Posted:** 2026-09-24
 
-### [AI Solutions Developer](https://www.linkedin.com/jobs/view/4469637149/) — Pop-Up Talent
+### [Staff Software Engineer - AI Compute, Together Cloud](https://www.linkedin.com/jobs/view/4469630498/) — Together AI
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $100,000.00/yr - $175,000.00/yr
+- 💰 **Salary:** $260,000 - $300,000
 - 🕒 **Posted:** 2026-09-24
 
-### [Delivery Solutions Architect - Public Sector (DOJ)](https://www.linkedin.com/jobs/view/4469380236/) — Databricks
-- 📍 **Location:** Alabama, United States
+### [CPGR Growth Leader - AI Engineering, Strategic Accounts](https://www.linkedin.com/jobs/view/4469638265/) — Fractal
+- 📍 **Location:** New York City Metropolitan Area
 - 🕒 **Posted:** 2026-09-24
 
-### [Sr Product Data Scientist](https://www.linkedin.com/jobs/view/4469374344/) — Workday
-- 📍 **Location:** Pleasanton, CA
-- 💰 **Salary:** $124,400 - $186,600
-- 🕒 **Posted:** 2026-09-24
-
-### [Data Scientist EXEC AIDE V](https://www.linkedin.com/jobs/view/4471178059/) — State of Maryland
-- 📍 **Location:** Maryland, United States
-- 💰 **Salary:** $129,985 - $137,943
-- 🕒 **Posted:** 2026-09-24
-
-### [Staff Data Scientist, Watchlist](https://www.linkedin.com/jobs/view/4471159168/) — Socure
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $191,000.00/yr - $230,000.00/yr
-- 🕒 **Posted:** 2026-09-23
-
-### [Principal Engineer (Quant) - Gen AI](https://www.linkedin.com/jobs/view/4466885582/) — Droisys
-- 📍 **Location:** New York, NY
-- 🕒 **Posted:** 2026-09-23
-
-### [Senior AI/ML Architect, Applied Field Engineering](https://www.linkedin.com/jobs/view/4471140864/) — Snowflake
-- 📍 **Location:** South Carolina, United States
-- 💰 **Salary:** $138,000.00/yr - $181,125.00/yr
-- 🕒 **Posted:** 2026-09-23
-
-### [Staff Data Scientist, Watchlist](https://www.linkedin.com/jobs/view/4471149576/) — Socure
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $191,000.00/yr - $230,000.00/yr
-- 🕒 **Posted:** 2026-09-23
-
-### [Senior Software Engineer, ML Infra - Asset Safety](https://www.linkedin.com/jobs/view/4469614798/) — Roblox
-- 📍 **Location:** San Mateo, CA
-- 💰 **Salary:** $278,530—$328,610 USD
-- 🕒 **Posted:** 2026-09-23
-
-### [Software Engineer, Generative AI](https://www.linkedin.com/jobs/view/4469625078/) — Jobright.ai
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-09-23
-
-### [Senior Solutions Architect - AI & Automation](https://www.linkedin.com/jobs/view/4471141489/) — White Cap
-- 📍 **Location:** Florida, United States
-- 🕒 **Posted:** 2026-09-23
-
-### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4469611829/) — Speridian Technologies
+### [Senior ML Infrastructure Engineer](https://www.linkedin.com/jobs/view/4464311025/) — SambaNova
 - 📍 **Location:** San Jose, CA
-- 🕒 **Posted:** 2026-09-23
+- 💰 **Salary:** $200,000—$275,000 USD
+- 🕒 **Posted:** 2026-09-24
 
-### [Data Scientist II](https://www.linkedin.com/jobs/view/4470652045/) — Parsons Corporation
-- 📍 **Location:** Washington, DC
-- 💰 **Salary:** $88,400.00 - $154,700.00
-- 🕒 **Posted:** 2026-09-23
+### [Senior Data Scientist, Medical Imaging](https://www.linkedin.com/jobs/view/4468777775/) — Heartflow
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $170,000 to $240,000,
+- 🕒 **Posted:** 2026-09-24
 
-### [Sr. Staff AI Security Engineer](https://www.linkedin.com/jobs/view/4471141521/) — BILL
+### [Sr. People Data Scientist](https://www.linkedin.com/jobs/view/4443809794/) — Sandisk
+- 📍 **Location:** Milpitas, CA
+- 💰 **Salary:** $116,800.00/yr - $198,500.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Software Engineer (Applied AI)](https://www.linkedin.com/jobs/view/4471178380/) — Traba
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $200,000.00/yr - $240,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Senior Applied AI Engineer](https://www.linkedin.com/jobs/view/4471169667/) — Roger Healthcare
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $200,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-09-24
+
+### [Data Scientist](https://www.linkedin.com/jobs/view/4469632748/) — Haystack
+- 📍 **Location:** Washington DC-Baltimore Area
+- 💰 **Salary:** $77,600 – $176,000
+- 🕒 **Posted:** 2026-09-24
+
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4471168566/) — MeeBoss
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $160,000–$200,000
+- 🕒 **Posted:** 2026-09-24
+
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4469643215/) — Veeam Software
 - 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $194,300—$243,000 USD
-- 🕒 **Posted:** 2026-09-23
+- 💰 **Salary:** $140,900—$234,800 USD
+- 🕒 **Posted:** 2026-09-24
 
-### [AI/Data Science Eng I](https://www.linkedin.com/jobs/view/4471144486/) — MiniMed
-- 📍 **Location:** Minnesota, United States
-- 💰 **Salary:** $71,000.00 - $121,000.00
-- 🕒 **Posted:** 2026-09-23
-
-### [Expert Opportunity - Machine Learning Engineer ($100/hr, up to $2,000/week)](https://www.linkedin.com/jobs/view/4471139660/) — Ethos
+### [Senior AI Engineer](https://www.linkedin.com/jobs/view/4469519793/) — Haystack
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $100.00/hr - $100.00/hr
-- 🕒 **Posted:** 2026-09-23
+- 🕒 **Posted:** 2026-09-24
 
-### [Senior Backend AI Engineer](https://www.linkedin.com/jobs/view/4469614717/) — Tata Consultancy Services
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $100,000 to $130,000 Per Annum
-- 🕒 **Posted:** 2026-09-23
+### [Data Scientist](https://www.linkedin.com/jobs/view/4469634673/) — Haystack
+- 📍 **Location:** Washington DC-Baltimore Area
+- 💰 **Salary:** $77,600 – $176,000
+- 🕒 **Posted:** 2026-09-24
+
+### [Data Scientist](https://www.linkedin.com/jobs/view/4469633776/) — Haystack
+- 📍 **Location:** North Carolina, United States
+- 💰 **Salary:** $99,000.00 - $225,000.00
+- 🕒 **Posted:** 2026-09-24
