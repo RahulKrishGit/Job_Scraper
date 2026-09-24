@@ -1,72 +1,39 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-09-24 06:52 UTC*
+*Last updated: 2026-09-24 07:52 UTC*
 
-**16 new role(s)** since last run · 16 total in last 1h
+**7 new role(s)** since last run · 20 total in last 1h
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4469395460/) — Stealth Startup
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-09-24
-
-### [Artificial Intelligence And Machine Learning Engineer](https://www.linkedin.com/jobs/view/4469367998/) — Soka Services
+### [Senior Research Scientist, Physical AI Infra](https://www.linkedin.com/jobs/view/4469701482/) — ByteDance
 - 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
 - 🕒 **Posted:** 2026-09-24
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4469395478/) — Stealth Startup
-- 📍 **Location:** San Francisco Bay Area
+### [Tech Lead Research Scientist, Physical AI Infra](https://www.linkedin.com/jobs/view/4469393701/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $480000 annually
 - 🕒 **Posted:** 2026-09-24
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4469397083/) — Stealth Startup
-- 📍 **Location:** San Francisco Bay Area
+### [Tech Lead Engineer, Physical AI Infrastructure](https://www.linkedin.com/jobs/view/4469388885/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $480000 annually
 - 🕒 **Posted:** 2026-09-24
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4469394251/) — Stealth Startup
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-09-24
-
-### [Data Scientist](https://www.linkedin.com/jobs/view/4469387667/) — Stealth Startup
-- 📍 **Location:** San Francisco Bay Area
-- 🕒 **Posted:** 2026-09-24
-
-### [Strategy Lead, AI-Marketing](https://www.linkedin.com/jobs/view/4469397044/) — Petfolk
+### [Computer Vision & ML Expert](https://www.linkedin.com/jobs/view/4470648915/) — Alignerr
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $150,000 to $180,000
+- 💰 **Salary:** $100.00/hr - $150.00/hr
 - 🕒 **Posted:** 2026-09-24
 
-### [Strategy Lead, AI](https://www.linkedin.com/jobs/view/4469390175/) — Petfolk
+### [Forward Deployed Engineer ($170K–$220K)](https://www.linkedin.com/jobs/view/4469388986/) — CodeRound AI
+- 📍 **Location:** New York City Metropolitan Area
+- 💰 **Salary:** $170K–$220K
+- 🕒 **Posted:** 2026-09-24
+
+### [Staff ML Engineer, VLA Training ($300k-$500k + Equity) at Nidus](https://www.linkedin.com/jobs/view/4471431209/) — Jack & Jill
 - 📍 **Location:** New York, NY
+- 💰 **Salary:** $300k-$500k
 - 🕒 **Posted:** 2026-09-24
 
-### [Sr. AI Architect - Enterprise (US)](https://www.linkedin.com/jobs/view/4471402363/) — Hewlett Packard Enterprise
-- 📍 **Location:** Georgia, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. AI Architect - Enterprise (US)](https://www.linkedin.com/jobs/view/4471199463/) — Hewlett Packard Enterprise
-- 📍 **Location:** North Carolina, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [AI Engineering Lead and Architect Intelligence Layer](https://www.linkedin.com/jobs/view/4471191674/) — Alvarez & Marsal
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $220,000 - $250,000 annually
-- 🕒 **Posted:** 2026-09-24
-
-### [Research Scientist - Personalization](https://www.linkedin.com/jobs/view/4471403460/) — CHEManager International
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $133,194 - $190,278
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. AI Architect - Enterprise (US)](https://www.linkedin.com/jobs/view/4471190646/) — Hewlett Packard Enterprise
-- 📍 **Location:** California, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. AI Architect - Enterprise (US)](https://www.linkedin.com/jobs/view/4471404296/) — Hewlett Packard Enterprise
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Sr. AI Architect - Enterprise (US)](https://www.linkedin.com/jobs/view/4471400480/) — Hewlett Packard Enterprise
-- 📍 **Location:** Texas, United States
-- 🕒 **Posted:** 2026-09-24
-
-### [Research Scientist III (Infectious Disease Epidemiology and Health Services Research)](https://www.linkedin.com/jobs/view/4471407314/) — CHEManager International
-- 📍 **Location:** Washington, DC
-- 💰 **Salary:** $190,000 to $210,000
+### [Research Engineer](https://www.linkedin.com/jobs/view/4471418706/) — Assort Health
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $190,000.00/yr - $240,000.00/yr
 - 🕒 **Posted:** 2026-09-24
