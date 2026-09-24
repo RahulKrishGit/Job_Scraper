@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-23 19:46 UTC",
+  "scraped_at": "2026-09-24 20:04 UTC",
   "total": 1,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "California State University",
@@ -16,18 +16,5 @@
       "ats": "CSUCareers"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "California State University",
-      "title": "Assistant Professor of Mathematics - Statistics or Data Science",
-      "location": "San José",
-      "url": "https://csucareers.calstate.edu/en-us/job/562269/assistant-professor-of-mathematics-statistics-or-data-science",
-      "direct_url": "https://csucareers.calstate.edu/en-us/job/562269/assistant-professor-of-mathematics-statistics-or-data-science",
-      "date_posted": "",
-      "closing_date": "",
-      "description": "",
-      "salary": "",
-      "ats": "CSUCareers"
-    }
-  ]
+  "new_jobs": []
 }
