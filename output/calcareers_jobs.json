@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-24 19:56 UTC",
+  "scraped_at": "2026-09-26 19:10 UTC",
   "total": 4,
   "new_count": 0,
   "jobs": [
@@ -16,6 +16,18 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
+      "company": "Department of Public Health",
+      "title": "Substance and Addiction Research Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533423",
+      "date_posted": "2026-09-25",
+      "salary": "$8327.00 - $10779.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
       "company": "Department of Health Care Services",
       "title": "Eligibility Research Scientist (Hybrid)",
       "location": "Sacramento County",
@@ -25,18 +37,6 @@
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Public Health",
-      "title": "Research Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531734",
-      "date_posted": "2026-09-10",
-      "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
       "work_arrangement": "Telecommute eligible"
     },
     {
