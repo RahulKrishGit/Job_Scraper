@@ -3,4 +3,6 @@
 
 **0 new role(s)** since last run · 0 total in recent GovernmentJobs postings
 
-No new state/local-gov roles since the last run.
+### [Senior Operator - Regional Water Quality Control Plant (Multiple Positions)](https://www.governmentjobs.com/jobs/5481782-0/senior-operator-regional-water-quality-control-plant-multiple-positions) — City of Palo Alto
+- 📍 **Location:** Palo Alto, CA
+- 💰 **Salary:** $126,256.00 - $154,440.00 Annually
