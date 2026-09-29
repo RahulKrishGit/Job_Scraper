@@ -1,8 +1,20 @@
 {
-  "scraped_at": "2026-09-28 22:14 UTC",
-  "total": 1,
-  "new_count": 0,
+  "scraped_at": "2026-09-29 20:59 UTC",
+  "total": 2,
+  "new_count": 1,
   "jobs": [
+    {
+      "company": "California State University",
+      "title": "Assistant Professor – Aviation - Aircraft Systems, Professional Flight, and/or Aviation Management",
+      "location": "San José",
+      "url": "https://csucareers.calstate.edu/en-us/job/562255/assistant-professor-aviation-aircraft-systems-professional-flight-andor-aviation-management",
+      "direct_url": "https://csucareers.calstate.edu/en-us/job/562255/assistant-professor-aviation-aircraft-systems-professional-flight-andor-aviation-management",
+      "date_posted": "",
+      "closing_date": "",
+      "description": "",
+      "salary": "",
+      "ats": "CSUCareers"
+    },
     {
       "company": "California State University",
       "title": "Assistant Professor of Mathematics - Statistics or Data Science",
@@ -16,5 +28,18 @@
       "ats": "CSUCareers"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "California State University",
+      "title": "Assistant Professor – Aviation - Aircraft Systems, Professional Flight, and/or Aviation Management",
+      "location": "San José",
+      "url": "https://csucareers.calstate.edu/en-us/job/562255/assistant-professor-aviation-aircraft-systems-professional-flight-andor-aviation-management",
+      "direct_url": "https://csucareers.calstate.edu/en-us/job/562255/assistant-professor-aviation-aircraft-systems-professional-flight-andor-aviation-management",
+      "date_posted": "",
+      "closing_date": "",
+      "description": "",
+      "salary": "",
+      "ats": "CSUCareers"
+    }
+  ]
 }

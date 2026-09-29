@@ -1,6 +1,7 @@
 # 🎓 CSU Careers — California State University ML / AI / Data Science Roles
-*Last updated: 2026-09-28 22:14 UTC*
+*Last updated: 2026-09-29 20:59 UTC*
 
-**0 new role(s)** since last run · 1 total in current CSU Careers postings
+**1 new role(s)** since last run · 2 total in current CSU Careers postings
 
-No new CSU Careers roles since the last run.
+### [Assistant Professor – Aviation - Aircraft Systems, Professional Flight, and/or Aviation Management](https://csucareers.calstate.edu/en-us/job/562255/assistant-professor-aviation-aircraft-systems-professional-flight-andor-aviation-management) — California State University
+- 📍 **Location:** San José
