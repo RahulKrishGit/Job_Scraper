@@ -4033,3 +4033,4 @@
 {"job_count": 0, "run_attempt": "1", "run_id": "36680480356", "timestamp": "2026-09-30T06:52:40Z", "workflow": "ziprecruiter"}
 {"job_count": 1, "run_attempt": "1", "run_id": "36683252117", "timestamp": "2026-09-30T07:22:30Z", "workflow": "google_jobs"}
 {"job_count": 0, "run_attempt": "1", "run_id": "36697822942", "timestamp": "2026-09-30T09:42:38Z", "workflow": "biotech"}
+{"job_count": 79, "run_attempt": "1", "run_id": "36769702270", "timestamp": "2026-09-30T21:00:12Z", "workflow": "linkedin"}
