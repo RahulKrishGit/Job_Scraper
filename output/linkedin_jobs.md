@@ -1,6 +1,8 @@
 # 🔥 LinkedIn — Environmental / Toxicology Roles
-*Last updated: 2026-10-02 06:13 UTC*
+*Last updated: 2026-10-02 07:15 UTC*
 
-**0 new role(s)** since last run · 0 total in last 1h
+**1 new role(s)** since last run · 1 total in last 1h
 
-No new roles since the last run.
+### [Environmental Protection Specialist (Direct Hire)](https://www.linkedin.com/jobs/view/4473110413/) — NASA - National Aeronautics and Space Administration
+- 📍 **Location:** Pasadena, CA
+- 🕒 **Posted:** 2026-10-02
