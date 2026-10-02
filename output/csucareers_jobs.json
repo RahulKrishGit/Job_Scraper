@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-01 21:13 UTC",
+  "scraped_at": "2026-10-02 20:53 UTC",
   "total": 2,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "California State University",
@@ -28,18 +28,5 @@
       "ats": "CSUCareers"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "California State University",
-      "title": "Assistant Professor - School of Information - Cultural Heritage Informatics, AI/Digital Transformation, and Critical Technology Studies",
-      "location": "San José",
-      "url": "https://csucareers.calstate.edu/en-us/job/562672/assistant-professor-school-of-information-cultural-heritage-informatics-aidigital-transformation-and-critical-technology-studies",
-      "direct_url": "https://csucareers.calstate.edu/en-us/job/562672/assistant-professor-school-of-information-cultural-heritage-informatics-aidigital-transformation-and-critical-technology-studies",
-      "date_posted": "",
-      "closing_date": "",
-      "description": "",
-      "salary": "",
-      "ats": "CSUCareers"
-    }
-  ]
+  "new_jobs": []
 }
