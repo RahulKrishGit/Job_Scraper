@@ -1,289 +1,390 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-01 20:52 UTC*
+*Last updated: 2026-10-02 00:44 UTC*
 
-**63 new role(s)** since last run · 63 total in last 1h
+**80 new role(s)** since last run · 80 total in last 1h
 
-### [Staff ML Engineer](https://www.linkedin.com/jobs/view/4472960462/) — Axiado Corporation
+### [Research Scientist - ByteBrain - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474562099/) — ByteDance
 - 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $220,000.00/yr - $270,000.00/yr
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $218400 - $387600 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [AI Engineer 5](https://www.linkedin.com/jobs/view/4474501719/) — Capital One
+### [Software Development Engineer – AI/ML Networking Disaggregated Inference, Annapurna Labs , Elastic Collectives](https://www.linkedin.com/jobs/view/4474556218/) — Amazon Web Services (AWS)
+- 📍 **Location:** Cupertino, CA
+- 🕒 **Posted:** 2026-10-02
+
+### [Large Language Model Training System Engineer Graduate (Applied Machine Learning) - 2027 Start](https://www.linkedin.com/jobs/view/4474544856/) — ByteDance
 - 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $229,900 - $262,400
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $128000 - $256000 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [Développeur.se sénior.e des données d’apprentissage automatique / Senior ML Data Developer](https://www.linkedin.com/jobs/view/4472973207/) — Electronic Arts (EA)
-- 📍 **Location:** Redwood City, CA
-- 💰 **Salary:** $169,500 - $242,600
-- 🕒 **Posted:** 2026-10-01
-
-### [Machine Learning Engineer](https://www.linkedin.com/jobs/view/4474506440/) — Vloombox
-- 📍 **Location:** Pleasanton, CA
-- 💰 **Salary:** $160,000 USD - $240,000 USD
-- 🕒 **Posted:** 2026-10-01
-
-### [Research Engineer, Index Intelligence](https://www.linkedin.com/jobs/view/4474509588/) — Exa
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $180,000.00/yr - $350,000.00/yr
-- 🕒 **Posted:** 2026-10-01
-
-### [Research Engineer, Content Understanding](https://www.linkedin.com/jobs/view/4474512588/) — Exa
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $180,000.00/yr - $350,000.00/yr
-- 🕒 **Posted:** 2026-10-01
-
-### [Technical Co-founder (CTO) - AI Collections Agent](https://www.linkedin.com/jobs/view/4472806795/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Technical Co-founder (CTO) - AI for Automotive Retail](https://www.linkedin.com/jobs/view/4472820208/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Forward Deployed Engineer (Palantir Foundry) Consultant- W2 Candidates Only](https://www.linkedin.com/jobs/view/4474510285/) — Shrive Technologies
-- 📍 **Location:** Livermore, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Technical Co-founder (CTO) - AI Legal Front Desk](https://www.linkedin.com/jobs/view/4472822042/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Co-Founder & CEO - AI LegalTech | AI-Native Litigation Defence Operations](https://www.linkedin.com/jobs/view/4472812409/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Co-Founder & CEO - AI Retail Planning Autopilot](https://www.linkedin.com/jobs/view/4472814398/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Co-Founder & CEO - AI WealthTech](https://www.linkedin.com/jobs/view/4472808770/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Co-Founder & CEO - AI-Native Mortgage Processing](https://www.linkedin.com/jobs/view/4472816352/) — FutureSight
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Actuarial Data Scientist](https://www.linkedin.com/jobs/view/4472966474/) — TechAviv
+### [Large Language Model Inference System Engineer Graduate (Applied Machine Learning) - 2027 Start](https://www.linkedin.com/jobs/view/4474560147/) — ByteDance
 - 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $145,000- $160,000
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $128000 - $256000 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [Data AI Solutions Leader](https://www.linkedin.com/jobs/view/4472827153/) — WinWire
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-10-01
+### [Research Scientist Graduate (Seed Model - Multimodal Interaction & World Model) - 2027 Start](https://www.linkedin.com/jobs/view/4474553356/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [Senior Applied Scientist, Sponsored Products and Brands -- Offsite](https://www.linkedin.com/jobs/view/4455908981/) — Amazon
-- 📍 **Location:** Palo Alto, CA
-- 🕒 **Posted:** 2026-10-01
+### [Research Scientist - Model Capability Boundary Exploration and AI Data Flywheel System Development - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474547660/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $480000 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [Forward Deployed Engineer (FDE)/Generative AI Solutions Architect/ Forward Deployed AI Engineer /Enterprise AI Architect /Principal AI Solutions Engineer](https://www.linkedin.com/jobs/view/4472819294/) — Programmers.io
-- 📍 **Location:** Texas, United States
-- 🕒 **Posted:** 2026-10-01
+### [Student Researcher - (Seed Model - LLM) - 2027 Start](https://www.linkedin.com/jobs/view/4474564054/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $55- $55
+- 🕒 **Posted:** 2026-10-02
 
-### [Agentic AI & Palantir Engineer / Consultant](https://www.linkedin.com/jobs/view/4472956478/) — Enterprise Engineering Inc. (EEI)
+### [Research Scientist - LLM Training System as a Service - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474548610/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $480000 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Scientist Graduate (Multi-modal Agentic Databases) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474540999/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Engineer Graduate (AI Infra Compute) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474544848/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Scientist - AI Compute & DPU - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474566007/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Student Researcher - (Seed Model - AI Foundation Model Infrastructure) - 2027 Start](https://www.linkedin.com/jobs/view/4474557236/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $55- $55
+- 🕒 **Posted:** 2026-10-02
+
+### [AI Agent Security Software Engineer Graduate (Security Engineering) - 2027 Start](https://www.linkedin.com/jobs/view/4474564050/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $316800 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Scientist Graduate (Seed Model - Vision - Generative AI) - 2026 Start (PhD)](https://www.linkedin.com/jobs/view/4474555277/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $480000 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Scientist Graduate (Seed Model - Speech) - 2027 Start](https://www.linkedin.com/jobs/view/4474547695/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Software Development Engineer-AI/LLM Network-Global Frontier Tech Research Program-2027 Start](https://www.linkedin.com/jobs/view/4474545793/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $480000 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Research Scientist Graduate- Computational Imaging- PICO- 2027 Start (PHD)](https://www.linkedin.com/jobs/view/4474559217/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $316800 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Student Researcher - (Seed Model - LLM) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474563083/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $85- $85
+- 🕒 **Posted:** 2026-10-02
+
+### [Member of Technical Staff - AI Cloud Infrastructure](https://www.linkedin.com/jobs/view/4449940804/) — Emerald AI
+- 📍 **Location:** San Francisco Bay Area
+- 🕒 **Posted:** 2026-10-02
+
+### [Site Reliability Engineer, AI Platform](https://www.linkedin.com/jobs/view/4472837596/) — VONDER
+- 📍 **Location:** Cupertino, CA
+- 💰 **Salary:** $135,000.00/yr - $180,000.00/yr
+- 🕒 **Posted:** 2026-10-02
+
+### [Solutions Architect, Security - USDS](https://www.linkedin.com/jobs/view/4474546904/) — TikTok USDS Joint Venture
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $199800 - $441600 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Applied Scientist, AgentCore Science](https://www.linkedin.com/jobs/view/4474546783/) — Amazon Web Services (AWS)
 - 📍 **Location:** New York, NY
-- 🕒 **Posted:** 2026-10-01
+- 🕒 **Posted:** 2026-10-02
 
-### [AI Engineer](https://www.linkedin.com/jobs/view/4474502443/) — VLink Inc
-- 📍 **Location:** Lafayette, Louisiana Metropolitan Area
-- 💰 **Salary:** $110k - $120k
-- 🕒 **Posted:** 2026-10-01
-
-### [Gen AI Engineer](https://www.linkedin.com/jobs/view/4474512293/) — Signature IT World Inc
+### [Machine Learning Engineer, Level 3](https://www.linkedin.com/jobs/view/4474557118/) — Snap Inc.
 - 📍 **Location:** New York, NY
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $118,000-$176,000 annually
+- 🕒 **Posted:** 2026-10-02
 
-### [Enterprise - Data Scientist - AWS, Python, Splunk](https://www.linkedin.com/jobs/view/4474505338/) — Erias Ventures
+### [Machine Learning Engineer, Level 4](https://www.linkedin.com/jobs/view/4474554218/) — Snap Inc.
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $173,000-$259,000 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [Machine Learning Engineer, Level 5](https://www.linkedin.com/jobs/view/4474538960/) — Snap Inc.
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $209,000-$313,000 annually
+- 🕒 **Posted:** 2026-10-02
+
+### [AI Engineer / Data Scientist, AI Senior Associate](https://www.linkedin.com/jobs/view/4474543891/) — PwC
 - 📍 **Location:** Washington, DC
-- 💰 **Salary:** $150,000 - $275,000
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $72,000 - $184,440
+- 🕒 **Posted:** 2026-10-02
 
-### [Mid-Level Data Scientist](https://www.linkedin.com/jobs/view/4474509174/) — Fusion Technology LLC
+### [AI Engineer / Data Scientist, AI Senior Associate](https://www.linkedin.com/jobs/view/4474554288/) — PwC
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $72,000 - $184,440
+- 🕒 **Posted:** 2026-10-02
+
+### [AI Engineer / Data Scientist, AI Experienced Associate](https://www.linkedin.com/jobs/view/4474551517/) — PwC
 - 📍 **Location:** Washington, DC
-- 🕒 **Posted:** 2026-10-01
+- 💰 **Salary:** $63,000 - $141,500
+- 🕒 **Posted:** 2026-10-02
 
-### [Gen AI Developer](https://www.linkedin.com/jobs/view/4472809681/) — Precision Technologies
+### [AI Engineer / Data Scientist, AI Experienced Associate](https://www.linkedin.com/jobs/view/4474551516/) — PwC
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $63,000 - $141,500
+- 🕒 **Posted:** 2026-10-02
+
+### [Mission Engineer - Air Systems](https://www.linkedin.com/jobs/view/4474559172/) — APIUM Swarm Robotics - A Red Cat Company
+- 📍 **Location:** California, United States
+- 🕒 **Posted:** 2026-10-02
+
+### [Member of Technical Staff - AI Cloud Infrastructure](https://www.linkedin.com/jobs/view/4449950233/) — Emerald AI
+- 📍 **Location:** Washington DC-Baltimore Area
+- 🕒 **Posted:** 2026-10-02
+
+### [Applied Scientist III, Sponsored Products](https://www.linkedin.com/jobs/view/4474554332/) — Amazon
 - 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-10-01
+- 🕒 **Posted:** 2026-10-02
 
-### [Actuarial Data Science Lead (#58907)](https://www.linkedin.com/jobs/view/4472957621/) — DW Simpson Global Actuarial & Analytics Recruitment
+### [AI Solutions Engineer - GenAI, AI Agents & Enterprise Integration](https://www.linkedin.com/jobs/view/4472834831/) — Seneca Resources
 - 📍 **Location:** New York, NY
+- 💰 **Salary:** $60-$65/hr
+- 🕒 **Posted:** 2026-10-02
+
+### [Sr Solutions Architect](https://www.linkedin.com/jobs/view/4474548744/) — University of Rochester
+- 📍 **Location:** Rochester, New York Metropolitan Area
+- 💰 **Salary:** $96,860.00 - $145,290.00
+- 🕒 **Posted:** 2026-10-02
+
+### [Senior Solutions Architect, Great Lakes Higher Education](https://www.linkedin.com/jobs/view/4474556204/) — Amazon Web Services (AWS)
+- 📍 **Location:** Lafayette, Indiana Metropolitan Area
+- 🕒 **Posted:** 2026-10-02
+
+### [Staff Computer Vision Engineer - Search AI Product Engineering](https://www.linkedin.com/jobs/view/4472844327/) — Coupang
+- 📍 **Location:** Mountain View, CA
+- 💰 **Salary:** $174,000.00/yr - $299,000.00/yr
 - 🕒 **Posted:** 2026-10-01
 
-### [Machine Learning Engineer, Level 5](https://www.linkedin.com/jobs/view/4437430607/) — Snap Inc.
+### [Machine Learning Engineer, Level 5](https://www.linkedin.com/jobs/view/4474558112/) — Snap Inc.
 - 📍 **Location:** Palo Alto, CA
 - 💰 **Salary:** $209,000-$313,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AI/ ML Engineer](https://www.linkedin.com/jobs/view/4472805273/) — Sharpe Recruiting Ventures
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $220,000.00/yr - $260,000.00/yr
-- 🕒 **Posted:** 2026-10-01
-
-### [Master's University Grad Machine Learning Engineer 2027 (USA)](https://www.linkedin.com/jobs/view/4474365479/) — Pinterest
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $146,000—$196,000 USD
-- 🕒 **Posted:** 2026-10-01
-
-### [Senior Applied Scientist , Amazon Ads](https://www.linkedin.com/jobs/view/4455914769/) — Amazon
-- 📍 **Location:** Sunnyvale, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Senior DFX Software Engineer - Machine Learning](https://www.linkedin.com/jobs/view/4454925881/) — NVIDIA
-- 📍 **Location:** Santa Clara, CA
-- 🕒 **Posted:** 2026-10-01
-
-### [Machine Learning Scientist](https://www.linkedin.com/jobs/view/4359826138/) — Suno
+### [Machine Learning Engineer, Level 5](https://www.linkedin.com/jobs/view/4474547524/) — Snap Inc.
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $207,454 – $394,800
+- 💰 **Salary:** $209,000-$313,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Data Scientist, Data & AI Team](https://www.linkedin.com/jobs/view/4353576227/) — Hearst Magazines
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $149,000-$181,000
+### [Senior AI Engineer, Enterprise](https://www.linkedin.com/jobs/view/4474549382/) — Snowflake
+- 📍 **Location:** Menlo Park, CA
+- 💰 **Salary:** $156,000.00/yr - $224,200.00/yr
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Data Scientist, Algorithm, Lyft Biz](https://www.linkedin.com/jobs/view/4437747126/) — Lyft
-- 📍 **Location:** San Francisco County, CA
-- 💰 **Salary:** $148,000 - $185,000,
+### [Data Scientist ADAS Analytics Machine Learning](https://www.linkedin.com/jobs/view/4474539938/) — Mercedes-Benz Research & Development North America, Inc.
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $118,200 - $147,700
 - 🕒 **Posted:** 2026-10-01
 
-### [Principal Associate, Data Scientist - Emerging ML](https://www.linkedin.com/jobs/view/4446596300/) — Capital One
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $161,800 - $184,600
+### [Machine Learning Engineer](https://www.linkedin.com/jobs/view/4474561090/) — EarnIn
+- 📍 **Location:** Mountain View, CA
+- 💰 **Salary:** $227,000 to $277,000
 - 🕒 **Posted:** 2026-10-01
 
-### [Principal Software Engineer, AI Platform Engineering](https://www.linkedin.com/jobs/view/4474366224/) — Saviynt
-- 📍 **Location:** Milpitas, CA
-- 💰 **Salary:** $274,000.00/yr - $304,000.00/yr
-- 🕒 **Posted:** 2026-10-01
-
-### [Principal Data Scientist - AI Foundations, Specialist Models](https://www.linkedin.com/jobs/view/4438220828/) — Capital One
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $161,800 - $184,600
-- 🕒 **Posted:** 2026-10-01
-
-### [Principal Applied Research Engineer, Content Authenticity](https://www.linkedin.com/jobs/view/4464147617/) — NVIDIA
+### [Systems Software Engineer - AI and Cloud](https://www.linkedin.com/jobs/view/4472829935/) — NVIDIA
 - 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-10-01
 
-### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4472941932/) — OneTrack.AI
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $100,000.00/yr - $150,000.00/yr
+### [Data Scientist, Algorithms](https://www.linkedin.com/jobs/view/4474556180/) — Lyft
+- 📍 **Location:** San Francisco County, CA
+- 💰 **Salary:** $128,000 - $160,000,
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Principal DSX Data Scientist, AI](https://www.linkedin.com/jobs/view/4456111955/) — Genentech
-- 📍 **Location:** South San Francisco, CA
-- 💰 **Salary:** $207,480 - $385,320
+### [Machine Learning Engineer Graduate (E-Commerce Risk Control) - 2027 Start](https://www.linkedin.com/jobs/view/4474540936/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $316800 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Full Stack AI Engineer – React / Node.js / AWS](https://www.linkedin.com/jobs/view/4474364147/) — FUSTIS LLC
-- 📍 **Location:** Texas, United States
+### [Senior AI Compute Engineer - NVIS](https://www.linkedin.com/jobs/view/4472842379/) — NVIDIA
+- 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-10-01
 
-### [Machine Learning Engineer, Generative ML, Level 4](https://www.linkedin.com/jobs/view/4456415385/) — Snap Inc.
+### [Machine Learning Engineer, Level 4](https://www.linkedin.com/jobs/view/4474560048/) — Snap Inc.
 - 📍 **Location:** Palo Alto, CA
 - 💰 **Salary:** $173,000-$259,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Master's University Grad Machine Learning Engineer 2027 (USA)](https://www.linkedin.com/jobs/view/4474358653/) — Pinterest
+### [Machine Learning Engineer, Level 4](https://www.linkedin.com/jobs/view/4474540900/) — Snap Inc.
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $146,000—$196,000 USD
+- 💰 **Salary:** $173,000-$259,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Applied AI Engineer](https://www.linkedin.com/jobs/view/4474522237/) — Ease Health
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $170K to $275K
+### [AI Engineer / Data Scientist, AI Senior Associate](https://www.linkedin.com/jobs/view/4474542973/) — PwC
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $72,000 - $184,440
 - 🕒 **Posted:** 2026-10-01
 
-### [AI Platform / ML Engineer](https://www.linkedin.com/jobs/view/4472826057/) — Greymatter Innovationz
-- 📍 **Location:** New York City Metropolitan Area
+### [Machine Learning Engineer, Level 3](https://www.linkedin.com/jobs/view/4474538968/) — Snap Inc.
+- 📍 **Location:** Palo Alto, CA
+- 💰 **Salary:** $118,000-$176,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AI Platform Engineer](https://www.linkedin.com/jobs/view/4472552918/) — Amtex Systems Inc
-- 📍 **Location:** Georgia, United States
+### [Machine Learning Engineer, Level 3](https://www.linkedin.com/jobs/view/4474543815/) — Snap Inc.
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $118,000-$176,000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AI Architect](https://www.linkedin.com/jobs/view/4472806930/) — Yochana
-- 📍 **Location:** North Carolina, United States
+### [AI Engineer / Data Scientist, AI Experienced Associate](https://www.linkedin.com/jobs/view/4474555202/) — PwC
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $63,000 - $141,500
 - 🕒 **Posted:** 2026-10-01
 
-### [Digital and AI Software Engineer](https://www.linkedin.com/jobs/view/4472948840/) — Idaho National Laboratory
-- 📍 **Location:** Idaho Falls, ID
-- 💰 **Salary:** $66,504 - $136,356
+### [Research Scientist Graduate (Applied Machine Learning - ML System) - 2026 Start (PhD)](https://www.linkedin.com/jobs/view/4474550471/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Sr. Digital and AI Software Engineer](https://www.linkedin.com/jobs/view/4472955615/) — Idaho National Laboratory
-- 📍 **Location:** Idaho Falls, ID
-- 💰 **Salary:** $95,256 - $195,288
+### [LLM Backend Engineer Graduate (Applied Machine Learning) - 2027 Start](https://www.linkedin.com/jobs/view/4474542965/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $256000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Applied Scientist, Prime Video - Generative AI](https://www.linkedin.com/jobs/view/4455922040/) — Prime Video & Amazon MGM Studios
-- 📍 **Location:** New York, NY
+### [Research Scientist Graduates - (Seed Model - AI Foundation Model Infrastructure) - 2027 Start](https://www.linkedin.com/jobs/view/4474555165/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Agentic Software Engineer](https://www.linkedin.com/jobs/view/4472960668/) — Akkodis
-- 📍 **Location:** Michigan, United States
-- 💰 **Salary:** $90.00/hr - $95.00/hr
+### [Applied Scientist - LLM Training System as a Service - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474541979/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $480000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Delivery Consultant - AI/ML, AWS Professional Services](https://www.linkedin.com/jobs/view/4455919753/) — Amazon Web Services (AWS)
-- 📍 **Location:** New York, United States
+### [Research Scientist Graduate (ML Recommendation Systems) - 2027 Start](https://www.linkedin.com/jobs/view/4474551483/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $256000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Client Solutions Architect](https://www.linkedin.com/jobs/view/4474521532/) — Tundra Technical Solutions
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $110.00/hr - $120.00/hr
+### [AI Vision Research Engineer Graduate (Pico) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474553280/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $316800 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AWS Solution Architect - NY, NY(Onsite)](https://www.linkedin.com/jobs/view/4474502594/) — Caliber Smart
-- 📍 **Location:** New York, NY
+### [Machine Learning System Scheduling Engineer Graduate (Applied Machine Learning) - 2027 Start](https://www.linkedin.com/jobs/view/4474560111/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $128000 - $256000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4474518699/) — Glocomms
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $120,000.00/yr - $200,000.00/yr
+### [Research Scientist Graduate (Seed Model - LLM) - 2027 Start](https://www.linkedin.com/jobs/view/4474547578/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $387600 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AI Engineer 5](https://www.linkedin.com/jobs/view/4474521085/) — Capital One
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $229,900 - $262,400
+### [Research Scientist Graduate (Video Quality Analysis&Coding Strategy) - 2026 Start (PHD)](https://www.linkedin.com/jobs/view/4474561075/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4474520271/) — Second Front
-- 📍 **Location:** Washington, DC
-- 💰 **Salary:** $160,000.00/yr - $200,000.00/yr
+### [Research Scientist - Driven Agent Self-Evolution - Global Frontier Tech Recruitment Program - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474549527/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $218400 - $480000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Principal Applied Scientist, AWS Agentic AI](https://www.linkedin.com/jobs/view/4455916787/) — Amazon Web Services (AWS)
-- 📍 **Location:** Santa Clara, CA
+### [Research Scientist, Generative AI Graduate (Intelligent Creation) -Global Frontier Tech Recruitment Program -2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474554277/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $588000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [AWS Cloud Solution Architect](https://www.linkedin.com/jobs/view/4472820362/) — BrainWave Professionals
-- 📍 **Location:** New York, United States
+### [Research Scientist Graduate (Seed Model - Multimodal Interaction & World Model) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474561058/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $480000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Senior Data Scientist](https://www.linkedin.com/jobs/view/4472811680/) — The Coca-Cola Company
-- 📍 **Location:** New York, NY
+### [Research Scientist Graduate (Seed Model - Multimodal Interaction & World Model) - 2026 Start (PhD)](https://www.linkedin.com/jobs/view/4474551490/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $254400 - $480000 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4474507693/) — Booz Allen Hamilton
-- 📍 **Location:** Washington, DC
-- 💰 **Salary:** $77,600.00 to $176,000.00
+### [Student Researcher - (Seed Model - AI Foundation Model Infrastructure) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474558138/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $85- $85
 - 🕒 **Posted:** 2026-10-01
 
-### [Research Scientist – Computer Vision (3D Environment Reconstruction)](https://www.linkedin.com/jobs/view/4474522228/) — Mecka
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $200,000.00/yr - CA$230,000.00/yr
+### [Research Scientist Graduate (Security-Flow) - 2026 Start (PhD)](https://www.linkedin.com/jobs/view/4474561067/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $387600 annually
 - 🕒 **Posted:** 2026-10-01
 
-### [ML Infrastructure](https://www.linkedin.com/jobs/view/4472820559/) — Voto Consulting LLC
+### [Solution Architect - Emerging Platforms-](https://www.linkedin.com/jobs/view/4474548216/) — Bristlecone
+- 📍 **Location:** San Jose, CA
+- 🕒 **Posted:** 2026-10-01
+
+### [AI/LLM Network Software Development Engineer Graduate (High Speed Network) - 2026 Start (PhD)](https://www.linkedin.com/jobs/view/4474546774/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-01
+
+### [AI/LLM Network Software Development Engineer Graduate (High Speed Network) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474541977/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-01
+
+### [Research Scientist Graduate (Distributed NoSQL Database Systems) - 2027 Start (PhD)](https://www.linkedin.com/jobs/view/4474548558/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-01
+
+### [Research Scientist Graduate (3D/4D Generation) - 2026 Start (PHD)](https://www.linkedin.com/jobs/view/4474555200/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-01
+
+### [Research Scientist Graduate (3D/4D Reconstruction/Generation/Relighting) - 2026 Start (PHD)](https://www.linkedin.com/jobs/view/4474556196/) — ByteDance
+- 📍 **Location:** San Jose, CA
+- 💰 **Salary:** $162000 - $316800 annually
+- 🕒 **Posted:** 2026-10-01
+
+### [Sr. AI / Machine Learning Platform Engineer - Voice Agents](https://www.linkedin.com/jobs/view/4472829614/) — Skyrocket Ventures
 - 📍 **Location:** San Francisco, CA
 - 🕒 **Posted:** 2026-10-01
 
-### [Solutions Architect](https://www.linkedin.com/jobs/view/4474512451/) — Whitney Museum of American Art
+### [AI Platform Engineer](https://www.linkedin.com/jobs/view/4474545432/) — Flywheel Energy, LLC
+- 📍 **Location:** Oklahoma City, OK
+- 🕒 **Posted:** 2026-10-01
+
+### [Data Scientist](https://www.linkedin.com/jobs/view/4474533814/) — SirenOpt
+- 📍 **Location:** San Leandro, CA
+- 💰 **Salary:** $100,000 USD - $160,000 USD
+- 🕒 **Posted:** 2026-10-01
+
+### [Machine Learning Scientist at Novateur Research Solutions](https://www.linkedin.com/jobs/view/4472832563/) — Berkeley Industrial Engineering & Operations Research
+- 📍 **Location:** Indiana, United States
+- 🕒 **Posted:** 2026-10-01
+
+### [Data Scientist with NOAA Fisheries at National Oceanic and Atmospheric Administration (NOAA)](https://www.linkedin.com/jobs/view/4472837237/) — Berkeley Industrial Engineering & Operations Research
+- 📍 **Location:** Delaware, United States
+- 🕒 **Posted:** 2026-10-01
+
+### [Senior Platform Engineer – AI/ML Infrastructure & Reliability](https://www.linkedin.com/jobs/view/4474540583/) — StratITech
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $210,000.00/yr - $260,000.00/yr
+- 🕒 **Posted:** 2026-10-01
+
+### [Founding Forward Deployment Engineer](https://www.linkedin.com/jobs/view/4472834671/) — Glimpse
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $170,000-$180,000 per annum
+- 💰 **Salary:** $195,000.00/yr - $250,000.00/yr
+- 🕒 **Posted:** 2026-10-01
+
+### [Associate Value Engineer (AI-Driven Data Science & Analytics) - Orbit Program](https://www.linkedin.com/jobs/view/4472985379/) — Celonis
+- 📍 **Location:** New York City Metropolitan Area
+- 💰 **Salary:** $90,000—$95,000 USD
 - 🕒 **Posted:** 2026-10-01
