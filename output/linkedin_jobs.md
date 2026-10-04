@@ -1,34 +1,39 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-04 07:00 UTC*
+*Last updated: 2026-10-04 08:51 UTC*
 
 **7 new role(s)** since last run · 7 total in last 1h
 
-### [Staff Software Engineer, AI Developer Tooling](https://www.linkedin.com/jobs/view/4475356990/) — Sentry
+### [AI Platform Go-to-Market Lead](https://www.linkedin.com/jobs/view/4473475409/) — Synechron
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $220,000 to $400,000 USD
+- 💰 **Salary:** $150,000.00/yr - $160,000.00/yr
 - 🕒 **Posted:** 2026-10-04
 
-### [Member of the Technical Staff - Solution Architect and Evangelist](https://www.linkedin.com/jobs/view/4465046250/) — Alice (Formerly ActiveFence)
-- 📍 **Location:** San Francisco Bay Area
+### [Senior AI Platform Specialist Solution Architect](https://www.linkedin.com/jobs/view/4474216029/) — Red Hat
+- 📍 **Location:** Oregon, United States
+- 💰 **Salary:** $172,020.00 - $275,360.00
 - 🕒 **Posted:** 2026-10-04
 
-### [Senior Solutions Architect, GovTech ISVs](https://www.linkedin.com/jobs/view/4475375172/) — Amazon Web Services (AWS)
-- 📍 **Location:** New York, United States
+### [Senior AI Platform Specialist Solution Architect](https://www.linkedin.com/jobs/view/4474216030/) — Red Hat
+- 📍 **Location:** Washington, United States
+- 💰 **Salary:** $172,020.00 - $275,360.00
 - 🕒 **Posted:** 2026-10-04
 
-### [Data Scientist with Python and LLM](https://www.linkedin.com/jobs/view/4475356970/) — AppLab Systems, Inc
-- 📍 **Location:** Sunnyvale, CA
+### [Senior AI Platform Specialist Solution Architect](https://www.linkedin.com/jobs/view/4474200632/) — Red Hat
+- 📍 **Location:** California, United States
+- 💰 **Salary:** $172,020.00 - $275,360.00
 - 🕒 **Posted:** 2026-10-04
 
-### [Data scientist](https://www.linkedin.com/jobs/view/4475360831/) — AppLab Systems, Inc
-- 📍 **Location:** Sunnyvale, CA
+### [Advisory AI Architect (FDE Unit)](https://www.linkedin.com/jobs/view/4474212215/) — Dell Technologies
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $286,450.00/yr - $370,700.00/yr
 - 🕒 **Posted:** 2026-10-04
 
-### [Agentic AI Coach](https://www.linkedin.com/jobs/view/4475372213/) — AppLab Systems, Inc
-- 📍 **Location:** Minnesota, United States
+### [Computer Vision & ML Expert](https://www.linkedin.com/jobs/view/4473992403/) — Alignerr
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $100.00/hr - $150.00/hr
 - 🕒 **Posted:** 2026-10-04
 
-### [GenAI CBRNE Cyber Security Expert](https://www.linkedin.com/jobs/view/4473726249/) — Alice (Formerly ActiveFence)
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $150K - $178K
+### [Solutions Architect](https://www.linkedin.com/jobs/view/4474203551/) — Haystack
+- 📍 **Location:** Texas, United States
+- 💰 **Salary:** $155,250 - $287,500
 - 🕒 **Posted:** 2026-10-04
