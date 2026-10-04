@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-10-04 09:38 UTC",
-  "total": 4,
-  "new_count": 0,
+  "scraped_at": "2026-10-04 19:32 UTC",
+  "total": 3,
+  "new_count": 1,
   "jobs": [
     {
       "company": "Deloitte",
@@ -40,41 +40,42 @@
       "ats": "Glassdoor"
     },
     {
-      "company": "Anyscale",
-      "title": "Software Engineer, ML Developer Experience",
-      "location": "San Francisco, CA",
-      "url": "https://www.glassdoor.com/job-listing/j?jl=1010284353518",
+      "company": "Keep Company",
+      "title": "Founding Data & Machine Learning Lead",
+      "location": "",
+      "url": "https://www.glassdoor.com/job-listing/j?jl=1010284716256",
       "direct_url": "",
-      "company_url": "https://www.glassdoor.com/Overview/W-EI_IE3377996.htm",
+      "company_url": "https://www.glassdoor.com/Overview/W-EI_IE10769279.htm",
       "date_posted": "2026-10-04",
       "description": "",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Glassdoor"
-    },
-    {
-      "company": "Zones",
-      "title": "Client Solution Architect",
-      "location": "Dallas, TX",
-      "url": "https://www.glassdoor.com/job-listing/j?jl=1010284355996",
-      "direct_url": "",
-      "company_url": "https://www.glassdoor.com/Overview/W-EI_IE6168.htm",
-      "date_posted": "2026-10-04",
-      "description": "",
-      "salary": "$150k–$200k/yr",
+      "salary": "$140k/yr",
       "salary_source": "direct_data",
       "salary_currency": "USD",
       "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
       "emails": "",
       "ats": "Glassdoor"
     }
   ],
-  "new_jobs": []
+  "new_jobs": [
+    {
+      "company": "Keep Company",
+      "title": "Founding Data & Machine Learning Lead",
+      "location": "",
+      "url": "https://www.glassdoor.com/job-listing/j?jl=1010284716256",
+      "direct_url": "",
+      "company_url": "https://www.glassdoor.com/Overview/W-EI_IE10769279.htm",
+      "date_posted": "2026-10-04",
+      "description": "",
+      "salary": "$140k/yr",
+      "salary_source": "direct_data",
+      "salary_currency": "USD",
+      "job_type": "",
+      "is_remote": true,
+      "work_arrangement": "Remote in-state eligible",
+      "emails": "",
+      "ats": "Glassdoor"
+    }
+  ]
 }
