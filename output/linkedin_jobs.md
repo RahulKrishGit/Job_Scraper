@@ -1,19 +1,24 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-05 02:24 UTC*
+*Last updated: 2026-10-05 08:15 UTC*
 
-**3 new role(s)** since last run · 22 total in last 1h
+**4 new role(s)** since last run · 5 total in last 1h
 
-### [Forward Deployed Engineer (AI)](https://www.linkedin.com/jobs/view/4473611062/) — scalr
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $200,000.00/yr - $300,000.00/yr
+### [Software Engineer - AI (Level determined by experience)](https://www.linkedin.com/jobs/view/4449019531/) — Synack
+- 📍 **Location:** San Mateo, CA
+- 💰 **Salary:** $145,000 - $250,000
 - 🕒 **Posted:** 2026-10-05
 
-### [Staff Software Engineer, AI Agent](https://www.linkedin.com/jobs/view/4475517706/) — Hercules
+### [Software Engineer III, AI/ML, Search Ads Bidding](https://www.linkedin.com/jobs/view/4474254297/) — Google
+- 📍 **Location:** Mountain View, CA
+- 💰 **Salary:** $147000 - $210000
+- 🕒 **Posted:** 2026-10-05
+
+### [Founding ML Engineer, Computer Vision (Object Detection)](https://www.linkedin.com/jobs/view/4474243590/) — Moe
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $200K–$260K
+- 🕒 **Posted:** 2026-10-05
+
+### [Senior Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4473894721/) — TrueFoundry
 - 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $100,000.00/yr - $350,000.00/yr
-- 🕒 **Posted:** 2026-10-05
-
-### [Forward Deployed Engineer - AI](https://www.linkedin.com/jobs/view/4473494909/) — scalr
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $250,000.00/yr - $500,000.00/yr
+- 💰 **Salary:** $180,000.00/yr - $230,000.00/yr
 - 🕒 **Posted:** 2026-10-05
