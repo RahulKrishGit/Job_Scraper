@@ -1,5 +1,5 @@
 # 🏛 CalOpps — California Local-Agency ML / AI / Data Science Roles
-*Last updated: 2026-10-06 21:04 UTC*
+*Last updated: 2026-10-07 21:24 UTC*
 
 **0 new role(s)** since last run · 0 total in recent CalOpps postings
 
