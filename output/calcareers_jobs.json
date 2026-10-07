@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-05 22:32 UTC",
-  "total": 5,
+  "scraped_at": "2026-10-07 21:13 UTC",
+  "total": 3,
   "new_count": 0,
   "jobs": [
     {
@@ -28,36 +28,12 @@
       "work_arrangement": "Telecommute eligible"
     },
     {
-      "company": "Department of Health Care Services",
-      "title": "Eligibility Research Scientist (Hybrid)",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531389",
-      "date_posted": "2026-09-15",
-      "salary": "$7625.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "12 Month Limited Term - Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
       "company": "Department of Fish and Wildlife",
       "title": "Research Scientist",
       "location": "Yolo County",
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533781",
       "date_posted": "2026-09-29",
       "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "Department of Cannabis Control",
-      "title": "Research Scientist Staff",
-      "location": "Contra Costa County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532256",
-      "date_posted": "2026-09-16",
-      "salary": "$8327.00 - $10779.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
