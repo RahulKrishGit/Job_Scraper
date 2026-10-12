@@ -1,32 +1,25 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-12 00:59 UTC*
+*Last updated: 2026-10-12 08:02 UTC*
 
-**6 new role(s)** since last run · 6 total in last 1h
+**5 new role(s)** since last run · 5 total in last 1h
 
-### [Data Scientist](https://www.linkedin.com/jobs/view/4478357930/) — Paragon Cyber Solutions | 8a, EDWOSB, SDVOSB, CMMC-C3PAO |
+### [AI Application Engineer (AI FDE)](https://www.linkedin.com/jobs/view/4477501353/) — Typify.dev
+- 📍 **Location:** San Francisco Bay Area
+- 🕒 **Posted:** 2026-10-12
+
+### [Lead, AI Engineering](https://www.linkedin.com/jobs/view/4441218161/) — Bain & Company
 - 📍 **Location:** Washington, DC
-- 💰 **Salary:** $120,000.00/yr - $140,000.00/yr
 - 🕒 **Posted:** 2026-10-12
 
-### [Forward Deployed Strategist (FDS)](https://www.linkedin.com/jobs/view/4477274556/) — Brillio
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $170,000.00/yr - $230,000.00/yr
-- 🕒 **Posted:** 2026-10-12
-
-### [Solutions Architect](https://www.linkedin.com/jobs/view/4477268840/) — Glasslake (Formerly Luzid)
-- 📍 **Location:** San Francisco, CA
-- 🕒 **Posted:** 2026-10-11
-
-### [Artificial Intelligence Engineer](https://www.linkedin.com/jobs/view/4475659979/) — SR2
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $250,000.00/yr - $350,000.00/yr
-- 🕒 **Posted:** 2026-10-11
-
-### [AI Engineer](https://www.linkedin.com/jobs/view/4478353982/) — Emerson Lea Group, LLC
-- 📍 **Location:** New York, United States
-- 🕒 **Posted:** 2026-10-11
-
-### [Machine Learning Performance Engineer (CUDA)](https://www.linkedin.com/jobs/view/4477272629/) — Fintal Partners
+### [Lead, AI Engineering](https://www.linkedin.com/jobs/view/4441207605/) — Bain & Company
 - 📍 **Location:** New York, NY
-- 💰 **Salary:** $500,000.00/yr - $1,500,000.00/yr
-- 🕒 **Posted:** 2026-10-11
+- 🕒 **Posted:** 2026-10-12
+
+### [Lead, AI Engineering](https://www.linkedin.com/jobs/view/4441205776/) — Bain & Company
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-10-12
+
+### [Data Scientist (Remote | $150–$350/hr)](https://www.linkedin.com/jobs/view/4475677847/) — Synthires
+- 📍 **Location:** California, United States
+- 💰 **Salary:** $150.00/hr - $350.00/hr
+- 🕒 **Posted:** 2026-10-12
