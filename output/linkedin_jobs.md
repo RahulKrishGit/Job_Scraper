@@ -1,77 +1,34 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-17 21:31 UTC*
+*Last updated: 2026-10-17 23:48 UTC*
 
-**15 new role(s)** since last run · 21 total in last 1h
+**7 new role(s)** since last run · 7 total in last 1h
 
-### [Research Engineer - Robotics](https://www.linkedin.com/jobs/view/4479691782/) — Rito AI
-- 📍 **Location:** San Mateo, CA
+### [Applied Scientist, Personalization, DTx Science](https://www.linkedin.com/jobs/view/4477787809/) — Amazon Science
+- 📍 **Location:** New York, United States
 - 🕒 **Posted:** 2026-10-17
 
-### [ML Engineer](https://www.linkedin.com/jobs/view/4479902195/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $180,000 to $300,000
+### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4477795488/) — Envision Technology Solutions
+- 📍 **Location:** Berkeley Heights, NJ
 - 🕒 **Posted:** 2026-10-17
 
-### [Research Engineer](https://www.linkedin.com/jobs/view/4479696600/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $170,000 to $250,000
-- 🕒 **Posted:** 2026-10-17
-
-### [AI Engineer - Startups](https://www.linkedin.com/jobs/view/4479688746/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $200,000 – $400,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Applied AI Engineer](https://www.linkedin.com/jobs/view/4479689740/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $200,000 to $350,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4479901178/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $150,000 to $300,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Senior ML Engineer](https://www.linkedin.com/jobs/view/4479901251/) — Fonzi AI
-- 📍 **Location:** San Francisco Bay Area
-- 💰 **Salary:** $180,000 to $300,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Senior ML Engineer](https://www.linkedin.com/jobs/view/4479900264/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $180,000 to $300,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Enterprise Data and AI Architect](https://www.linkedin.com/jobs/view/4480841870/) — Patterson Companies, Inc.
-- 📍 **Location:** Nevada, United States
-- 💰 **Salary:** $123,200.00 - $164,333.33
-- 🕒 **Posted:** 2026-10-17
-
-### [ML Engineer](https://www.linkedin.com/jobs/view/4479686977/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $180,000 to $300,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Research Engineer](https://www.linkedin.com/jobs/view/4479694703/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $170,000 to $250,000
-- 🕒 **Posted:** 2026-10-17
-
-### [AI Engineer - Startups](https://www.linkedin.com/jobs/view/4479906107/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $200,000 – $400,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Applied AI Engineer](https://www.linkedin.com/jobs/view/4479904158/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $200,000 to $350,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4479699234/) — Fonzi AI
-- 📍 **Location:** New York City Metropolitan Area
-- 💰 **Salary:** $150,000 to $300,000
-- 🕒 **Posted:** 2026-10-17
-
-### [Data Scientist](https://www.linkedin.com/jobs/view/4478204035/) — AMCID_Mx
+### [Full-Stack AI Engineer (Python + React/TypeScript)-Remote](https://www.linkedin.com/jobs/view/4480864109/) — Ideaon
 - 📍 **Location:** California, United States
+- 🕒 **Posted:** 2026-10-17
+
+### [Senior Data Scientist](https://www.linkedin.com/jobs/view/4480857455/) — STOPSO
+- 📍 **Location:** Washington, DC
+- 🕒 **Posted:** 2026-10-17
+
+### [AI Architect](https://www.linkedin.com/jobs/view/4480860242/) — ELYON International
+- 📍 **Location:** Washington, DC
+- 🕒 **Posted:** 2026-10-17
+
+### [ML Technical Lead, Agentic Interactions](https://www.linkedin.com/jobs/view/4480862178/) — Sandbar
+- 📍 **Location:** New York, NY
+- 💰 **Salary:** $230,000.00/yr - $290,000.00/yr
+- 🕒 **Posted:** 2026-10-17
+
+### [Government Subject Matter Expert (SME) - AI Model Evaluation](https://www.linkedin.com/jobs/view/4480859219/) — Volga Partners
+- 📍 **Location:** Washington, DC
+- 💰 **Salary:** $35–$40 USD/hour
 - 🕒 **Posted:** 2026-10-17
