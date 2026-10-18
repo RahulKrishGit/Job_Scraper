@@ -1,39 +1,25 @@
 # 🟩 Glassdoor — ML / AI / Data Science Roles
-*Last updated: 2026-10-17 23:59 UTC*
+*Last updated: 2026-10-18 04:20 UTC*
 
-**5 new role(s)** since last run · 41 total in last 24h
+**3 new role(s)** since last run · 18 total in last 24h
 
-### [Senior Engineer, Agentic Engineering Governance, Open Source](https://www.glassdoor.com/job-listing/j?jl=1010298855432) — The College Board
+### [Engineer, AI Training](https://www.glassdoor.com/job-listing/j?jl=1010298860001) — Cocient
 - 📍 **Location:** Not specified
-- 💰 **Salary:** $153k–$166k/yr
+- 💰 **Salary:** $50–$120/hr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-17
+- **Job type:** contract
+- 🕒 **Posted:** 2026-10-18
 
-### [Forward Deployment Eng Rpt Pro](https://www.glassdoor.com/job-listing/j?jl=1010298805677) — Deephealth
-- 📍 **Location:** Somerville, MA, USA
-- 💰 **Salary:** $125k–$145k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-17
-
-### [Staff Solutions Architect, AI Subject Matter Expert](https://www.glassdoor.com/job-listing/j?jl=1010298619623) — GitLab
+### [Software Engineer, AI Training](https://www.glassdoor.com/job-listing/j?jl=1010298859582) — Cocient
 - 📍 **Location:** Not specified
-- 💰 **Salary:** $166k–$280k/yr
+- 💰 **Salary:** $70–$150/hr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-17
+- **Job type:** contract
+- 🕒 **Posted:** 2026-10-18
 
-### [Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010298463455) — Suncoast Credit Union
-- 📍 **Location:** Tampa, FL, USA
-- 💰 **Salary:** $105k–$155k/yr
+### [Forward Deployed Engineer](https://www.glassdoor.com/job-listing/j?jl=1010298933799) — Westley Resource
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $75k–$92k/yr
 - **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-17
-
-### [Technology Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010298451125) — Securitas Electronic Security Inc.
-- 📍 **Location:** Dallas, TX, USA
-- 💰 **Salary:** $115k–$150k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-17
+- **Job type:** contract
+- 🕒 **Posted:** 2026-10-18
