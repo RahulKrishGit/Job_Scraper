@@ -74,7 +74,9 @@
       "work_arrangement": "On-site",
       "emails": "",
       "ats": "Indeed"
-    },
+    }
+  ],
+  "new_jobs": [
     {
       "company": "Youtube",
       "title": "Staff Software Engineering, GenAI Applications, YouTube",
@@ -1101,6 +1103,5 @@
       "emails": "",
       "ats": "Indeed"
     }
-  ],
-  "new_jobs": []
+  ]
 }
