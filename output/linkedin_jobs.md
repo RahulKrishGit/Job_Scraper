@@ -1,21 +1,19 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-19 02:04 UTC*
+*Last updated: 2026-10-19 07:03 UTC*
 
-**4 new role(s)** since last run · 6 total in last 1h
+**3 new role(s)** since last run · 3 total in last 1h
 
-### [Staff/Principal AI Transformation Engineer](https://www.linkedin.com/jobs/view/4480932220/) — Jobverse.io
-- 📍 **Location:** San Jose, CA
+### [Silicon Solution Architect & SME](https://www.linkedin.com/jobs/view/4480951038/) — Wipro
+- 📍 **Location:** Mountain View, CA
+- 💰 **Salary:** $200,000.00 to $280,000.00
 - 🕒 **Posted:** 2026-10-19
 
-### [Principal AI Solutions Architect](https://www.linkedin.com/jobs/view/4479955188/) — Blue Orange Digital
+### [Senior AI Engineer – Human Capital (ED0B288)](https://www.linkedin.com/jobs/view/4480937602/) — Referment
 - 📍 **Location:** New York, NY
+- 💰 **Salary:** $175,000.00/yr - $250,000.00/yr
 - 🕒 **Posted:** 2026-10-19
 
-### [Staff AI Engineer](https://www.linkedin.com/jobs/view/4477058723/) — Haystack
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $269,100.00/yr - $307,200.00/yr
-- 🕒 **Posted:** 2026-10-19
-
-### [AI/ML Data Scientist](https://www.linkedin.com/jobs/view/4477061567/) — Haystack
-- 📍 **Location:** Washington DC-Baltimore Area
+### [Senior/Staff Software Engineer, Agentic Applications](https://www.linkedin.com/jobs/view/4480945150/) — Supio
+- 📍 **Location:** San Francisco, CA
+- 💰 **Salary:** $190,000 – $240,000 annually
 - 🕒 **Posted:** 2026-10-19
