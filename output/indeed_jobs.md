@@ -1,10 +1,6 @@
 # 🟦 Indeed — ML / AI / Data Science Roles
-*Last updated: 2026-10-19 02:08 UTC*
+*Last updated: 2026-10-20 00:01 UTC*
 
-**0 new role(s)** since last run · 61 total in last 24h
+**0 new role(s)** since last run · 4 total in last 24h
 
-### [Consultant Environmental Scientist](https://au.indeed.com/viewjob?jk=f2801438313f3158) — Onterris
-- 📍 **Location:** Melbourne, VIC, Australia
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-19
+No new roles since the last run.
