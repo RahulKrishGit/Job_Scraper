@@ -113,7 +113,8 @@
 
 ### [Forward Deployed Engineer](https://www.linkedin.com/jobs/view/4483154930/) — Capgemini
 - 📍 **Location:** New York, NY
-- 🕒 **Posted:** 2026-10-23
+- 💰 **Salary:** $139,000.00 - 200,000.00
+- 🕒 **Posted:** 2026-10-24
 
 ### [AI and ML Solution Architect](https://www.linkedin.com/jobs/view/4482778625/) — Hewlett Packard Enterprise
 - 📍 **Location:** San Jose, CA
