@@ -1,20 +1,7 @@
 {
-  "scraped_at": "2026-10-24 19:02 UTC",
-  "total": 1,
+  "scraped_at": "2026-10-27 20:57 UTC",
+  "total": 0,
   "new_count": 0,
-  "jobs": [
-    {
-      "company": "California State University",
-      "title": "AI Solutions Engineer",
-      "location": "Northridge",
-      "url": "https://csucareers.calstate.edu/en-us/job/562235/ai-solutions-engineer",
-      "direct_url": "https://csucareers.calstate.edu/en-us/job/562235/ai-solutions-engineer",
-      "date_posted": "",
-      "closing_date": "",
-      "description": "",
-      "salary": "",
-      "ats": "CSUCareers"
-    }
-  ],
+  "jobs": [],
   "new_jobs": []
 }
