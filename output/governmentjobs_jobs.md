@@ -1,5 +1,5 @@
 # 🏛 NEOGOV — State & Local Government ML / AI / Data Science Roles
-*Last updated: 2026-10-24 18:52 UTC*
+*Last updated: 2026-10-27 20:49 UTC*
 
 **0 new role(s)** since last run · 0 total in recent GovernmentJobs postings
 
