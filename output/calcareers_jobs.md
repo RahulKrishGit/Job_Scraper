@@ -1,6 +1,6 @@
 # 🏛 CalCareers — California State ML / AI / Data Science Roles
-*Last updated: 2026-10-27 20:42 UTC*
+*Last updated: 2026-10-28 21:03 UTC*
 
-**0 new role(s)** since last run · 3 total in current CalCareers postings
+**0 new role(s)** since last run · 4 total in current CalCareers postings
 
 No new CalCareers roles since the last run.
