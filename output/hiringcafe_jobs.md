@@ -1,5 +1,5 @@
 # ☕ HiringCafe — ML / AI / Data Science Roles
-*Last updated: 2026-10-28 01:34 UTC*
+*Last updated: 2026-10-28 06:29 UTC*
 
 **0 new role(s)** since last run · 0 total in last 30d
 
