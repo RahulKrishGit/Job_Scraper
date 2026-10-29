@@ -1,5 +1,5 @@
 # 🎓 CSU Careers — California State University ML / AI / Data Science Roles
-*Last updated: 2026-10-27 20:57 UTC*
+*Last updated: 2026-10-29 21:27 UTC*
 
 **0 new role(s)** since last run · 0 total in current CSU Careers postings
 
