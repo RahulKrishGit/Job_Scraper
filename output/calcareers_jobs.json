@@ -1,20 +1,8 @@
 {
-  "scraped_at": "2026-10-29 21:08 UTC",
-  "total": 4,
+  "scraped_at": "2026-10-30 20:48 UTC",
+  "total": 2,
   "new_count": 0,
   "jobs": [
-    {
-      "company": "Covered California",
-      "title": "Research Data Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535726",
-      "date_posted": "2026-10-15",
-      "salary": "$6942.00 - $9799.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
     {
       "company": "California Health and Human Services Office of Technology and Solutions Integration",
       "title": "Solution Architect",
@@ -22,18 +10,6 @@
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535381",
       "date_posted": "2026-10-14",
       "salary": "$8625.00 - $11557.00",
-      "ats": "CalCareers",
-      "telework": "Hybrid",
-      "job_type": "Permanent, Full Time",
-      "work_arrangement": "Telecommute eligible"
-    },
-    {
-      "company": "California Energy Commission",
-      "title": "Electric Vehicle Infrastructure Data Scientist",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535511",
-      "date_posted": "2026-10-14",
-      "salary": "$10127.00 - $12669.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
