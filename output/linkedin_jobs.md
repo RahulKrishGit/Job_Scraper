@@ -1,73 +1,60 @@
 # 🔥 LinkedIn — ML / AI / Data Science Roles
-*Last updated: 2026-10-29 20:47 UTC*
+*Last updated: 2026-10-30 00:20 UTC*
 
-**14 new role(s)** since last run · 14 total in last 1h
+**13 new role(s)** since last run · 13 total in last 1h
 
-### [Senior Agentic AI Software Engineer](https://www.linkedin.com/jobs/view/4483190444/) — Skydance
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $124,000.00 - 186,000.00
+### [Senior AI Developer Technology Engineer](https://www.linkedin.com/jobs/view/4485256629/) — Thomas To
+- 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-10-29
 
-### [Lead Data Scientist](https://www.linkedin.com/jobs/view/4483177896/) — Skydance
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $139,000.00 - 200,000.00
+### [Software Engineer, ML Performance](https://www.linkedin.com/jobs/view/4485256631/) — Thomas To
+- 📍 **Location:** Santa Clara, CA
 - 🕒 **Posted:** 2026-10-29
 
-### [DevRel Engineer, Agentic Infrastructure](https://www.linkedin.com/jobs/view/4444741457/) — Vercel
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $168,000 - $252,000
-- 🕒 **Posted:** 2026-10-29
-
-### [Software Engineer, AI Gateway](https://www.linkedin.com/jobs/view/4465333600/) — Vercel
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $196,000-$294,000
-- 🕒 **Posted:** 2026-10-29
-
-### [Senior Quant/ML Engineer - Fixed Income -  Artificial Intelligence](https://www.linkedin.com/jobs/view/4411946630/) — Bloomberg
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $165,000.00/yr - $260,000.00/yr
-- 🕒 **Posted:** 2026-10-29
-
-### [Senior Staff Machine Learning Engineer, Agentic Application](https://www.linkedin.com/jobs/view/4420221328/) — ServiceNow
-- 📍 **Location:** Mountain View, CA
-- 💰 **Salary:** $201,300-352,300
-- 🕒 **Posted:** 2026-10-29
-
-### [Quant Researcher/Data Scientist - Volatility Alpha Technology](https://www.linkedin.com/jobs/view/4475745516/) — Millennium
-- 📍 **Location:** New York, NY
-- 💰 **Salary:** $175,000 to $250,000,
-- 🕒 **Posted:** 2026-10-29
-
-### [Sr. Research Engineer – AI/ML Image Processing & Computational Photography](https://www.linkedin.com/jobs/view/4466240343/) — Sony
+### [Senior Staff Engineer - Agentic Identity](https://www.linkedin.com/jobs/view/4485247902/) — Cisco
 - 📍 **Location:** San Jose, CA
-- 💰 **Salary:** $150,000 to $165,000
+- 💰 **Salary:** $214,100.00 to $309,800.00
 - 🕒 **Posted:** 2026-10-29
 
-### [Sr Staff AI Platform Engineer](https://www.linkedin.com/jobs/view/4459110775/) — WEX
-- 📍 **Location:** Maine, United States
-- 💰 **Salary:** $220,000.00 - $255,800.00
+### [Forward Deployed Manufacturing Engineer](https://www.linkedin.com/jobs/view/4454825100/) — Instrumental Inc.
+- 📍 **Location:** Palo Alto, CA
+- 💰 **Salary:** $140,000-$200,000
 - 🕒 **Posted:** 2026-10-29
 
-### [Senior Principal AI Engineer- AI Center of Excellence](https://www.linkedin.com/jobs/view/4474480828/) — Mastercard
+### [Agentic AI Solutions Architect, Conversational AI](https://www.linkedin.com/jobs/view/4483190410/) — ETHOS - Talent & Advisory
+- 📍 **Location:** Washington DC-Baltimore Area
+- 💰 **Salary:** $80.00/hr - $88.00/hr
+- 🕒 **Posted:** 2026-10-29
+
+### [AI/ML Data Scientist](https://www.linkedin.com/jobs/view/4477061567/) — Haystack
+- 📍 **Location:** Washington DC-Baltimore Area
+- 🕒 **Posted:** 2026-10-29
+
+### [Sr. Applied Scientist, Prime Video - Personalization and Discovery Science](https://www.linkedin.com/jobs/view/4485222441/) — Prime Video & Amazon MGM Studios
 - 📍 **Location:** New York, United States
-- 💰 **Salary:** $254,000 - $407,000 USD
 - 🕒 **Posted:** 2026-10-29
 
-### [Microsoft Cloud and OutSystems Solution Architect](https://www.linkedin.com/jobs/view/4482561104/) — PDSSOFT INC.
+### [Solutions Architect, Enterprise HealthCare and LifeSciences](https://www.linkedin.com/jobs/view/4485213677/) — Amazon Web Services (AWS)
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-10-29
+
+### [Solutions Architect, Enterprise HealthCare and LifeSciences](https://www.linkedin.com/jobs/view/4485222420/) — Amazon Web Services (AWS)
+- 📍 **Location:** East Palo Alto, CA
+- 🕒 **Posted:** 2026-10-29
+
+### [Sr. GenAI Specialist Solutions Architect, SLG/EDU Specialist SA](https://www.linkedin.com/jobs/view/4485224363/) — Amazon Web Services (AWS)
+- 📍 **Location:** Santa Clara, CA
+- 🕒 **Posted:** 2026-10-29
+
+### [Sr. GenAI Specialist Solutions Architect, SLG/EDU Specialist SA](https://www.linkedin.com/jobs/view/4485218383/) — Amazon Web Services (AWS)
+- 📍 **Location:** New York, United States
+- 🕒 **Posted:** 2026-10-29
+
+### [Data Scientist II - Customer Analytics](https://www.linkedin.com/jobs/view/4484971817/) — Gap Inc.
+- 📍 **Location:** San Francisco, CA
+- 🕒 **Posted:** 2026-10-29
+
+### [Solution Architect, Senior](https://www.linkedin.com/jobs/view/4485254237/) — Booz Allen Hamilton
 - 📍 **Location:** Washington, DC
-- 🕒 **Posted:** 2026-10-29
-
-### [Software Engineer, Agentic Infrastructure](https://www.linkedin.com/jobs/view/4469105025/) — Vercel
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $196,000.00 - $294,000.00
-- 🕒 **Posted:** 2026-10-29
-
-### [Software Engineer, Agentic Infrastructure](https://www.linkedin.com/jobs/view/4468898134/) — Vercel
-- 📍 **Location:** New York, United States
-- 💰 **Salary:** $196,000.00 - $294,000.00
-- 🕒 **Posted:** 2026-10-29
-
-### [Senior Systems Engineer - AI Infrastructure](https://www.linkedin.com/jobs/view/4473959834/) — Clockwork Systems, Inc.
-- 📍 **Location:** San Francisco, CA
-- 💰 **Salary:** $150,000 - $230,000
+- 💰 **Salary:** $99,000.00 to $225,000.00
 - 🕒 **Posted:** 2026-10-29
