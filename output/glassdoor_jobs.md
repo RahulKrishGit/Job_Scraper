@@ -1,168 +1,160 @@
 # 🟩 Glassdoor — ML / AI / Data Science Roles
-*Last updated: 2026-10-30 00:51 UTC*
+*Last updated: 2026-10-30 07:03 UTC*
 
-**24 new role(s)** since last run · 69 total in last 24h
+**23 new role(s)** since last run · 74 total in last 24h
 
-### [Founding Engineer, Applied AI](https://www.glassdoor.com/job-listing/j?jl=1010310872565) — Monarch Artificial Intelligence, Inc.
+### [Data Scientist, ADAS Analytics Machine Learning](https://www.glassdoor.com/job-listing/j?jl=1010311170283) — Mercedes-Benz Group AG
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $118k–$148k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Sr. Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010311111718) — Tesla
+- 📍 **Location:** Fremont, CA, USA
+- 💰 **Salary:** $124k–$258k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Associate Engineer- AI and Agentics](https://www.glassdoor.com/job-listing/j?jl=1010311057396) — Exelixis, Inc.
+- 📍 **Location:** Alameda, CA, USA
+- 💰 **Salary:** $115k–$145k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Associate AI and Agentic Engineer](https://www.glassdoor.com/job-listing/j?jl=1010311057394) — Exelixis, Inc.
+- 📍 **Location:** Alameda, CA, USA
+- 💰 **Salary:** $115k–$145k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Senior Software Engineer, AI/ML, Google Workspace](https://www.glassdoor.com/job-listing/j?jl=1010311006208) — Google
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $174k–$252k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Sr. Principal Machine Learning Software Engineer – Inference Serving Engine](https://www.glassdoor.com/job-listing/j?jl=1010311006001) — Ampere Computing
+- 📍 **Location:** Santa Clara, CA, USA
+- 💰 **Salary:** $226k–$356k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Data Science](https://www.glassdoor.com/job-listing/j?jl=1010310993749) — Adidev Technologies Inc
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $96k–$170k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime, contract
+- 🕒 **Posted:** 2026-10-30
+
+### [Machine Learning Expert](https://www.glassdoor.com/job-listing/j?jl=1010310993721) — Adidev Technologies Inc
+- 📍 **Location:** Palo Alto, CA, USA
+- 💰 **Salary:** $108k–$171k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-30
+
+### [ML/AI Engineers](https://www.glassdoor.com/job-listing/j?jl=1010310993716) — Adidev Technologies Inc
 - 📍 **Location:** Oakland, CA, USA
-- 💰 **Salary:** $80k–$100k/yr
+- 💰 **Salary:** $94k–$172k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-10-30
+
+### [Lead Machine Learning Engineer , AI Defense (Hybrid)](https://www.glassdoor.com/job-listing/j?jl=1010310925764) — Cisco Systems
+- 📍 **Location:** Milpitas, CA, USA
+- 💰 **Salary:** $198k–$323k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Applied Scientist, AWS Agentic AI](https://www.glassdoor.com/job-listing/j?jl=1010310797940) — Amazon.com Services LLC
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $172k–$222k/yr
+### [SI/ML Computational Biologist - Academic Graduate Appointee](https://www.glassdoor.com/job-listing/j?jl=1010310903072) — Lawrence Livermore National Laboratory
+- 📍 **Location:** Livermore, CA, USA
+- 💰 **Salary:** $6748–$7718/mo
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Applied Scientist, AWS Agentic AI](https://www.glassdoor.com/job-listing/j?jl=1010310797939) — Amazon Web Services, Inc.
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $172k–$222k/yr
+### [Associate AI and Agentic Engineer](https://www.glassdoor.com/job-listing/j?jl=1010311057519) — Exelixis, Inc.
+- 📍 **Location:** Alameda, CA, USA
+- 💰 **Salary:** $115k–$145k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Applied Scientist, Amazon Robotics](https://www.glassdoor.com/job-listing/j?jl=1010310797727) — Amazon.com Services LLC
-- 📍 **Location:** Sunnyvale, CA, USA
+### [Member of Technical Staff - ML Research Engineer, Pre-Training Data](https://www.glassdoor.com/job-listing/j?jl=1010311013615) — Liquid AI
+- 📍 **Location:** San Francisco, CA, USA
 - 💰 **Salary:** $157k–$213k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Senior Software Engineer, Applied ML - Watch Software](https://www.glassdoor.com/job-listing/j?jl=1010310434499) — Apple
-- 📍 **Location:** Cupertino, CA, USA
-- 💰 **Salary:** $175k–$308k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-30
-
-### [Associate Data Scientist, Fraud Strategy](https://www.glassdoor.com/job-listing/j?jl=1010310826439) — Happen Bank, N.A.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $125k–$145k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Applied Scientist, AWS Agentic AI](https://www.glassdoor.com/job-listing/j?jl=1010310797938) — Amazon Web Services, Inc.
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $172k–$222k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Applied Computer Vision Engineer](https://www.glassdoor.com/job-listing/j?jl=1010310886817) — SpreeAI
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $145k–$180k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-10-30
-
-### [Principal Applied Scientist, QEC SW, MQS Center for Quantum Computing](https://www.glassdoor.com/job-listing/j?jl=1010310798014) — Amazon Development Center U.S., Inc.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $229k–$309k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Sr. GTM Specialist, GenAI, Startups, WWSO Startup GTM, WWSO SUP NAMER GTM](https://www.glassdoor.com/job-listing/j?jl=1010310798064) — Amazon Web Services, Inc.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $163k–$220k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Sr. GTM Specialist, Agentic Infra, Startup, WWSO SUP NAMER GTM](https://www.glassdoor.com/job-listing/j?jl=1010310798083) — Amazon Web Services, Inc.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $163k–$220k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010310682878) — Cisco Systems
-- 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $124k–$226k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Consultant VI Principal Business & Technology Solutions Architect - Health Plan Operations](https://www.glassdoor.com/job-listing/j?jl=1010310633302) — Kaiser Permanente
+### [Data Scientist III](https://www.glassdoor.com/job-listing/j?jl=1010311226640) — Kaiser Permanente
 - 📍 **Location:** Oakland, CA, USA
-- 💰 **Salary:** $178k–$231k/yr
+- 💰 **Salary:** $147k–$190k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Sr Solutions Architect, AWSI MEGS](https://www.glassdoor.com/job-listing/j?jl=1010310566233) — Amazon Web Services, Inc.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $154k–$239k/yr
+### [Data Scientist – Machine Learning Focus](https://www.glassdoor.com/job-listing/j?jl=1010310993747) — Adidev Technologies Inc
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $112k–$169k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime, contract
+- 🕒 **Posted:** 2026-10-30
+
+### [Senior Data Scientist AI/ML](https://www.glassdoor.com/job-listing/j?jl=1010310916521) — Stanford Health Care
+- 📍 **Location:** Palo Alto, CA, USA
+- 💰 **Salary:** $86.50–$114.61/hr
+- **Work mode:** On-site
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-10-30
+
+### [Solution Architect EPIC 6546149](https://www.glassdoor.com/job-listing/j?jl=1010311150856) — Logic
+- 📍 **Location:** Walnut Creek, CA, USA
+- 💰 **Salary:** $70–$80/hr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Sr. GenAI Specialist Solutions Architect, SLG/EDU Specialist SA](https://www.glassdoor.com/job-listing/j?jl=1010310566201) — Amazon Web Services, Inc.
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $154k–$208k/yr
+### [Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010310903083) — Lawrence Livermore National Laboratory
+- 📍 **Location:** Livermore, CA, USA
+- 💰 **Salary:** $146k–$223k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Epic Solutions Architect III](https://www.glassdoor.com/job-listing/j?jl=1010310174637) — Sutter Health
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $163k–$245k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [AWS Enterprise Sr. Solutions Architect, Engineering, Construction, Real Estate and Transportation & Logistics](https://www.glassdoor.com/job-listing/j?jl=1010310137857) — Amazon Web Services, Inc.
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Software Engineering - Lead Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010310768443) — FICO
+### [AI/ML Software Engineer](https://www.glassdoor.com/job-listing/j?jl=1010311150556) — Alpine SG
 - 📍 **Location:** Not specified
-- 💰 **Salary:** $105k–$165k/yr
+- 💰 **Salary:** $200k–$250k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-10-30
+
+### [Senior Staff Engineer - Agentic Identity](https://www.glassdoor.com/job-listing/j?jl=1010310925752) — Cisco Systems
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $192k–$356k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Reinforcement Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010310600787) — Bright Vision Technologies
+### [Associate AI Engineer (Remote Opportunity)](https://www.glassdoor.com/job-listing/j?jl=1010310978127) — Mind Computing
 - 📍 **Location:** Not specified
-- 💰 **Salary:** $100k–$150k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
 
-### [Senior AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010310815050) — StaffWizard Corp
-- 📍 **Location:** Tampa, FL, USA
-- 💰 **Salary:** $200k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [ML Engineer, Trust & Safety [Hapiko]](https://www.glassdoor.com/job-listing/j?jl=1010310793488) — Spin Master Ltd
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $137k–$182k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Principal AI Engineer, Agentic Systems](https://www.glassdoor.com/job-listing/j?jl=1010310803623) — Vuori, Inc
-- 📍 **Location:** Carlsbad, CA, USA
-- 💰 **Salary:** $198k–$264k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-10-30
-
-### [Senior Staff, AI Architect - REMOTE](https://www.glassdoor.com/job-listing/j?jl=1010310789020) — Westinghouse Electric Company
-- 📍 **Location:** Cranberry Twp, PA, USA
-- 💰 **Salary:** $103k–$129k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-10-30
-
-### [Workfront Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010310787984) — Infoverity
+### [Senior Applied AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010310955859) — Givzey
 - 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-10-30
+
+### [Customer Solution Architect, Chemicals, Glass and Energy](https://www.glassdoor.com/job-listing/j?jl=1010311061308) — Siemens
+- 📍 **Location:** Alpharetta, GA, USA
+- 💰 **Salary:** $91k–$188k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
 - 🕒 **Posted:** 2026-10-30
