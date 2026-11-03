@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-30 20:48 UTC",
-  "total": 2,
+  "scraped_at": "2026-11-03 21:47 UTC",
+  "total": 4,
   "new_count": 0,
   "jobs": [
     {
@@ -25,6 +25,30 @@
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "12 Month Limited Term - Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Research Scientist Supervisor I",
+      "location": "Yolo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537668",
+      "date_posted": "2026-11-02",
+      "salary": "$9865.00 - $12960.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Fish and Wildlife",
+      "title": "Research Scientist Supervisor I",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537687",
+      "date_posted": "2026-11-02",
+      "salary": "$9865.00 - $12960.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
       "work_arrangement": "Telecommute eligible"
     }
   ],
