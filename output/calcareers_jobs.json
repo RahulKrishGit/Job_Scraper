@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-11-03 21:47 UTC",
-  "total": 4,
+  "scraped_at": "2026-11-05 22:00 UTC",
+  "total": 6,
   "new_count": 0,
   "jobs": [
     {
@@ -10,6 +10,30 @@
       "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535381",
       "date_posted": "2026-10-14",
       "salary": "$8625.00 - $11557.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Water Resources",
+      "title": "Principle Application Solutions Architect",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535944",
+      "date_posted": "2026-11-04",
+      "salary": "$8625.00 - $11557.00",
+      "ats": "CalCareers",
+      "telework": "Hybrid",
+      "job_type": "Permanent, Full Time",
+      "work_arrangement": "Telecommute eligible"
+    },
+    {
+      "company": "Department of Pesticide Regulation",
+      "title": "Research Scientist",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536909",
+      "date_posted": "2026-11-04",
+      "salary": "$7150.00 - $10289.00",
       "ats": "CalCareers",
       "telework": "Hybrid",
       "job_type": "Permanent, Full Time",
@@ -30,8 +54,8 @@
     {
       "company": "Department of Fish and Wildlife",
       "title": "Research Scientist Supervisor I",
-      "location": "Yolo County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537668",
+      "location": "Sacramento County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537687",
       "date_posted": "2026-11-02",
       "salary": "$9865.00 - $12960.00",
       "ats": "CalCareers",
@@ -42,8 +66,8 @@
     {
       "company": "Department of Fish and Wildlife",
       "title": "Research Scientist Supervisor I",
-      "location": "Sacramento County",
-      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537687",
+      "location": "Yolo County",
+      "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537668",
       "date_posted": "2026-11-02",
       "salary": "$9865.00 - $12960.00",
       "ats": "CalCareers",
