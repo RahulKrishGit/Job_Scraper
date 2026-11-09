@@ -528,7 +528,7 @@ def scrape_curated_employers() -> list:
 
 LINKEDIN_SEARCH_TERMS = _cfg("search_terms.linkedin", [])
 
-LINKEDIN_LOOKBACK_SECONDS = 3600          # 1h — every-2h watcher only surfaces the freshest hour
+LINKEDIN_LOOKBACK_SECONDS = 4 * 3600      # 4h: the watcher runs every 3h (linkedin_watch.yml); 1h overlap covers a late scheduler start
 LINKEDIN_PRIORITY_LOOKBACK_SECONDS = 86400 # 24h — priority digest is a daily 8pm PT run
 
 # Geographies to search. geoId is LinkedIn's authoritative region filter; an
@@ -991,7 +991,7 @@ def _enrich_linkedin_postings(jobs: list) -> tuple[int, int]:
 def scrape_linkedin_recent() -> list:
     print(f"🔎 Scraping LinkedIn (last {LINKEDIN_LOOKBACK_SECONDS // 3600}h)...")
     jobs, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_LOOKBACK_SECONDS,
-                                        max_results=100)
+                                        max_results=300)  # 4h window: 100 cards per term could cap out
     # Block guard (mirrors Indeed's): zero raw cards across every term means
     # LinkedIn gave us nothing — rate-limited or blocked, not a quiet hour.
     # Reuse the previous results so we don't clobber the dedupe baseline.

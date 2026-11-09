@@ -167,11 +167,11 @@ Output goes to `jobs.json`, `jobs.md`, and `jobs.html`. Each run dedupes against
 
 > A direct-ATS probe path (`CURATED_BIOTECHS`) also exists but is **empty by default** in the shipped example. It is useful only when your target employers expose job data through supported public ATS endpoints. The LinkedIn + JobSpy-backed keyword watchers (Indeed, Glassdoor, ZipRecruiter, and Google Jobs) are the primary sources for most users.
 
-### 2. LinkedIn watcher — hourly, last 1h
+### 2. LinkedIn watcher — every 3 hours, last 4h
 
-Hits LinkedIn's public guest endpoint for roles in your configured locations posted in the last hour across your `search_terms`, dedupes by job ID, and sorts by recency. Output goes to `linkedin_jobs.json`, `linkedin_jobs.md`, and `linkedin_jobs.html`.
+Hits LinkedIn's public guest endpoint for roles in your configured locations posted in the last 4 hours across your `search_terms`, dedupes by job ID, and sorts by recency. Output goes to `linkedin_jobs.json`, `linkedin_jobs.md`, and `linkedin_jobs.html`.
 
-Runs hourly at :17 PT (8am–8pm) via native GitHub cron, with the in-repo watchdog (`linkedin_watch_backup.yml` at :33) re-dispatching missed slots. A block guard preserves the previous results when LinkedIn returns zero cards across every term (rate-limited run).
+Runs every 3 hours at :17 UTC (15:00–03:00 UTC) via native GitHub cron. On this fork the watchdog (`linkedin_watch_backup.yml`) is disabled, because its hourly re-dispatch would undo the 3-hour cadence. A block guard preserves the previous results when LinkedIn returns zero cards across every term (rate-limited run).
 
 > ⚠️ Uses the unauthenticated public guest endpoint only — **never** signs in with a user account and does not use LinkedIn cookies, tokens, or credentials.
 
@@ -233,7 +233,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 | File | Source | Description |
 |------------------------|------------------------|------------------------|
 | `jobs.json` / `.md` / `.html` | Priority-employer digest | Allowlisted employer roles for your configured domain, last 24h, deduped against the previous run |
-| `linkedin_jobs.json` / `.md` / `.html` | LinkedIn watcher | Roles in your configured locations, last 1h, deduped |
+| `linkedin_jobs.json` / `.md` / `.html` | LinkedIn watcher | Roles in your configured locations, last 4h, deduped |
 | `indeed_jobs.json` / `.md` / `.html` | Indeed watcher | Indeed-sourced roles in your locations, last 24h, deduped |
 | `glassdoor_jobs.json` / `.md` / `.html` | Glassdoor watcher | Glassdoor-sourced roles in your locations, last 24h, deduped |
 | `ziprecruiter_jobs.json` / `.md` / `.html` | ZipRecruiter watcher | ZipRecruiter-sourced roles in your locations, last 24h, deduped |
@@ -310,7 +310,7 @@ From the **Actions** tab → *Run workflow* on any watcher, or locally:
 
 ``` bash
 python scrape_jobs.py --biotech-only         # priority-employer digest (allowlist)
-python scrape_jobs.py --linkedin-only        # general LinkedIn, last 1h
+python scrape_jobs.py --linkedin-only        # general LinkedIn, last 4h
 python scrape_jobs.py --indeed-only          # general Indeed, last 24h
 python scrape_jobs.py --glassdoor-only       # general Glassdoor, last 24h
 python scrape_jobs.py --ziprecruiter-only    # general ZipRecruiter, last 24h
@@ -502,9 +502,9 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 │   └── triage.gif                  # Dashboard demo
 └── .github/workflows/
     ├── scrape_jobs.yml             # Daily — priority-employer digest
-    ├── linkedin_watch.yml          # Hourly :17 PT — general LinkedIn (last 1h)
-    ├── indeed_watch.yml            # Hourly :47 PT — Indeed (last 24h)
-    ├── glassdoor_watch.yml         # Hourly :07 PT — Glassdoor (last 24h)
+    ├── linkedin_watch.yml          # Every 3h at :17 UTC — general LinkedIn (last 4h)
+    ├── indeed_watch.yml            # Hourly :47 PT — Indeed (last 24h); disabled on this fork
+    ├── glassdoor_watch.yml         # 3x daily :07 UTC — Glassdoor (last 24h)
     ├── ziprecruiter_watch.yml      # Hourly :27 PT — ZipRecruiter (last 24h)
     ├── google_jobs_watch.yml       # Hourly :37 PT — Google Jobs (last 24h)
     ├── hiringcafe_watch.yml        # Hourly :57 PT — HiringCafe (last 30d)

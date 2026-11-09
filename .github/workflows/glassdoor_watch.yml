@@ -4,8 +4,10 @@ on:
   # JobSpy-backed Glassdoor pass. Scheduled runs are opt-in with
   # repository Variable ENABLE_GLASSDOOR_WATCHER=true because Glassdoor
   # frequently returns 403/location-parse failures from shared CI IPs.
+  # Three runs a day (9am, 1pm, 5pm PST) since 2026-11-09; the scrape looks back
+  # 24h, so this misses nothing. Was hourly until GitHub paused this fork's Actions.
   schedule:
-    - cron: "07 16-23,0-3 * * *"
+    - cron: "07 17,21,1 * * *"
   workflow_dispatch:
     inputs:
       backfill:
