@@ -16,7 +16,7 @@ Designed to be forked. No server. No paid services required (AI triage is option
 | `scrape_jobs.py` | Main scraper. Dispatched by all watcher workflows. |
 | `triage_agent.py` | Claude API fit-scoring agent. Run by `triage.yml`. |
 | `triage.html` | The dashboard. Pure client-side JS; reads `output/*.json` at page-load time. |
-| `output/` | All scraped data (gitignored upstream). `all_jobs.json` = 14-day rolling master. |
+| `output/` | All scraped data (gitignored upstream). `all_jobs.json` = 14-day rolling master. `deltas/` = per-run LinkedIn delta files for downstream tools (format: `docs/JOB_SCHEMA.md`). |
 
 ## Workflow architecture
 
@@ -24,7 +24,7 @@ All 18 workflows live in `.github/workflows/`. Pattern:
 - **Watcher workflows** (`*_watch.yml`, `scrape_jobs.yml`) run on cron, call `scrape_jobs.py`, then commit to `output/` when `vars.ENABLE_DATA_COMMITS == 'true'`.
 - **Concurrency group** `job-scraper-commit-push` serializes all commits (prevents push conflicts).
 - **`triage.yml`** scores new roles via Claude API nightly. Disabled by default — requires `ANTHROPIC_API_KEY`, `CANDIDATE_PROFILE`, `CANDIDATE_RESUME` secrets.
-- **`sync_upstream.yml`** rebases the fork weekly on upstream. Safer than GitHub's "Sync fork" button.
+- **`sync_upstream.yml`** merges upstream into the fork weekly via `scripts/sync-upstream.sh`, keeping the fork's `output/` and config. Safer than GitHub's "Sync fork" button.
 
 ## Required GitHub configuration (for a fork to work)
 
@@ -34,6 +34,7 @@ All 18 workflows live in `.github/workflows/`. Pattern:
 | Workflow permissions: Read+write | Settings → Actions → General → Workflow permissions | **Yes** |
 | GitHub Pages: main branch, / root | Settings → Pages | Yes (for dashboard) |
 | `PUSHOVER_TOKEN` + `PUSHOVER_USER` secrets | Settings → Secrets | Optional |
+| `SYNC_TOKEN` secret (fine-grained PAT: Contents + Workflows write) | Settings → Secrets | Optional — lets `sync_upstream.yml` push upstream workflow-file changes |
 | `ANTHROPIC_API_KEY` secret | Settings → Secrets | Optional (AI triage only) |
 | `CANDIDATE_PROFILE` + `CANDIDATE_RESUME` secrets | Settings → Secrets | Optional (AI triage only) |
 
@@ -84,6 +85,7 @@ python eval_triage.py
 2. Add a corresponding `--sourcename` flag to `scrape_jobs.py`.
 3. The watcher should write to `output/SOURCENAME_jobs.json` (and `.md`/`.html`).
 4. `triage.html` discovers output files at runtime — no changes needed to the dashboard unless adding new fields.
+5. Optional: to publish per-run delta files for the source, pass `source="sourcename"` to `save_jobs_output()` and stage `output/deltas/` in the workflow's commit step (guarded, as in `linkedin_watch.yml`). See `docs/JOB_SCHEMA.md`.
 
 ## Secrets vs variables
 

@@ -4,7 +4,7 @@ GitHub Actions pipelines that scrape job boards (LinkedIn, Indeed, Glassdoor, Zi
 
 **Everything you search for lives in one file: [`config.json`](config.json)** — point it at your field and locations (or generate it from your CV with an LLM) and you have your own tracker. Live example: [scottcoff.in/Job_Scraper/triage.html](https://scottcoff.in/Job_Scraper/triage.html).
 
-![The triage dashboard in action — filtering, salary distribution, map, and triage](docs/triage.gif)
+https://github.com/user-attachments/assets/1b7f695b-c900-4af6-8ca1-4a85f5f5b55f
 
 > This repo ships configured for **environmental / toxicology** roles (Dr. Scott Coffin's field — [scottcoff.in](https://scottcoff.in)) as a worked example, and began as [Ernesto Diaz](https://github.com/ernestod1998)'s Bay Area ML-engineer scraper. The walkthrough below sets up your own copy from scratch.
 
@@ -32,9 +32,19 @@ Your personal config (`config.json`, `scoring_profile.json`) and all scraped dat
 
 ### Staying up to date
 
-Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it rebases new code improvements every Monday.
+Enable the **`sync_upstream.yml`** workflow in your repo (**Actions → Sync from upstream → Enable workflow**) and it merges new code improvements every Monday. Your `output/` data, `config.json` and `scoring_profile.json` always stay exactly as your fork has them.
 
-> **Use the workflow, not the GitHub "Sync fork" button.** Because your fork has commits upstream doesn't (your `config.json`, your scraped data), GitHub's built-in button shows "Discard N commits" — which would delete your config. The `sync_upstream.yml` workflow handles this correctly by rebasing your commits on top of upstream. The button is safe only before you've committed any personalization.
+> **Use the workflow, not the GitHub "Sync fork" button.** Because your fork has commits upstream doesn't (your `config.json`, your scraped data), GitHub's built-in button shows "Discard N commits" — which would delete your config. The `sync_upstream.yml` workflow handles this correctly by merging upstream into your fork (see [`scripts/sync-upstream.sh`](scripts/sync-upstream.sh)). The button is safe only before you've committed any personalization.
+
+**Add a `SYNC_TOKEN` secret** so syncs that include workflow-file changes can push. GitHub never lets the default Actions token change files under `.github/workflows/`, and upstream updates often do. Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new) scoped to your fork with **Contents: Read and write** and **Workflows: Read and write**, then save it as the repository secret `SYNC_TOKEN`. Without it, those syncs fail with "Push refused".
+
+**If a sync fails**, run it from a local clone instead; it pushes with your own GitHub login:
+
+```bash
+bash scripts/sync-upstream.sh
+```
+
+> The sync never changes your copy of `sync_upstream.yml` or `scripts/sync-upstream.sh`, so a bad upstream edit can't break your syncs. To pick up a newer version of either, copy it from this repo by hand.
 
 > Always pull from `https://github.com/ScottCoffin/Job_Scraper` — never from someone else's personal fork.
 
@@ -87,26 +97,57 @@ Want it on a custom domain (like `you.com/jobs`)? See [Managing a custom domain]
 
 ## Step 5 — Run it the first time
 
-In the **Actions** tab, open each watcher and click **Run workflow**. Afterwards they run automatically on their schedule — this first manual run seeds your dataset.
+In the **Actions** tab, open each watcher and click **Run workflow**, **one at a time**: wait for each run to finish before starting the next. The watchers share a lock so they never write your data at the same time, and GitHub **cancels** runs that pile up waiting for it. Afterwards they run automatically on their schedule — this first manual run seeds your dataset. (`scripts/setup.sh` can do this for you, one at a time.)
 
 **One-time historical backfill (recommended for new setups):**
 
-Several watchers have a `backfill` toggle in the "Run workflow" dialog that pulls a longer historical window to give you a full initial picture:
+Several watchers have a `backfill` toggle in the "Run workflow" dialog that pulls a longer historical window to give you a full initial picture. Run them one at a time, like above. For LinkedIn, use the separate **LinkedIn Backfill (Parallel)** workflow — see [LinkedIn backfill](#linkedin-backfill) below.
 
 | Watcher | Default window | Backfill window |
 |---|---|---|
-| **LinkedIn Watcher** | last 1 hour | last 30 days |
+| **LinkedIn Watcher** | last 1 hour | last 30 days — use [LinkedIn Backfill (Parallel)](#linkedin-backfill) instead |
 | **Indeed Watcher** | last 24 hours | last 50 days |
 | **Glassdoor Watcher** | last 24 hours | last 30 days; scheduled runs are opt-in |
 | **ZipRecruiter Watcher** | last 24 hours | last 30 days |
 | **Google Jobs Watcher** | last 24 hours | last 30 days |
-| **HiringCafe Watcher** | last 30 days | last 61 days |
+| **HiringCafe Watcher** | last 30 days, stale-preserving | last 61 days; **currently blocked by HiringCafe's Cloudflare challenge** |
 | **Priority Employer Digest** | last 24 hours | last 30 days |
 | **Local & State Gov Watcher (NEOGOV)** | last 21 days | last 60 days |
 
 To use: **Actions → [Watcher name] → Run workflow → check "One-time backfill" → Run workflow**.
 
 **No backfill needed** for **CalCareers**, **USAJOBS**, and **CalOpps** — these sources return all current open listings on every run, so a single normal run is already a full snapshot.
+
+### LinkedIn backfill
+
+LinkedIn is the biggest source, so its 30-day backfill has its own workflow, **LinkedIn Backfill (Parallel)**. It splits the work into many small jobs that run side by side on GitHub, then merges and commits the results. There are two ways to backfill LinkedIn:
+
+| | **LinkedIn Backfill (Parallel)** (recommended) | **LinkedIn Watcher** with "One-time backfill" ticked |
+|---|---|---|
+| Where | **US only**: the states in `locations.linkedin_partitions.states`, plus US-wide and Remote | **Anywhere** in `locations.linkedin` |
+| How | Many small jobs side by side; high-volume places split into one-day slices | One job, one search per term and location |
+| Limits | GitHub allows at most 256 jobs per phase | Each search returns at most ~1,000 results, so busy places get cut off; LinkedIn rate-limits long runs, and GitHub stops any job after 6 hours, losing everything unsaved. Keep the list of places short. |
+
+**Outside the US**, use the Watcher's checkbox, and make sure each country is in `location_filter.terms` (for example `"australia"`). The location filter drops postings in a built-in list of non-US countries (so that `", ca"` for California can't match Canada) unless you name the country there.
+
+**Before you run it**
+
+1. **Commit your `config.json` with your own `search_terms.linkedin`** (Step 2). A backfill sends hundreds of LinkedIn searches, so it **never falls back** to `config.example.json`: it refuses to run unless your `config.json` sets `search_terms.linkedin` itself. (To use the example's searches, copy `config.example.json` to `config.json`.)
+2. **`ENABLE_DATA_COMMITS=true`** (Step 4), or nothing gets saved.
+3. **Check the size.** Each job searches 2 of your `search_terms.linkedin` in one location:
+   - **Phase 1** runs (number of search terms ÷ 2, rounded up) × (the states in `locations.linkedin_partitions.states`, plus US-wide and Remote) jobs, each covering all 30 days.
+   - **Phase 2** runs only if you list `locations.linkedin_partitions.high_volume.locations` — places with so many jobs that one search hits LinkedIn's 1,000-result cap. Each gets (search terms ÷ 2) × 30 one-day jobs. Leave it empty unless you need it.
+   - GitHub allows at most **256** jobs per phase. If either phase would need more, the run stops before any searching and tells you what to trim.
+4. **Budget your Actions minutes.** With the example config (21 search terms, US-wide and Remote) Phase 1 is 22 jobs: about **50 minutes** start to finish, but about **470 runner minutes** in total. That's free on a public repo; a private repo on GitHub's free plan gets 2,000 minutes a month.
+
+**Run it**
+
+1. Make sure no other watcher is running or queued (they share the lock).
+2. **Actions → LinkedIn Backfill (Parallel) → Run workflow → Run workflow.**
+3. Watch it in the Actions tab: **Emit matrix** lists the jobs, the **Phase 1 —** jobs search, then **Merge Phase 1 + commit** saves the results. If you have no high-volume locations, Phase 2's search jobs are skipped and **Merge Phase 2 + commit** just records the run.
+4. When it's done, hard-refresh your `…/triage.html`.
+
+Run it once when you set up. After that the hourly LinkedIn Watcher keeps you current.
 
 Give it 1–2 minutes per watcher, then open your `…/triage.html` URL. 🎉 Hard-refresh (ctrl+R) after each scrape to see new jobs.
 
@@ -151,6 +192,7 @@ python -m http.server 8000                 # then open http://localhost:8000/tri
 
 The dashboard must be served over HTTP (the commands above) — opening `triage.html` from `file://` won't load the data.
 
+![The triage dashboard in action — filtering, salary distribution, map, and triage](docs/triage.gif)
 ------------------------------------------------------------------------
 
 > **The rest of this README documents how it works**, using the shipped environmental / toxicology example. Skim it to customize further; you don't need any of it to get running.
@@ -195,9 +237,13 @@ Uses JobSpy's Google Jobs adapter first, which keeps this repo free of paid prox
 
 If JobSpy returns zero raw rows across every query, the watcher can fall back to structured Google Jobs APIs. Add either `SERPAPI_API_KEY` or both `OXYLABS_USERNAME` and `OXYLABS_PASSWORD` as GitHub Actions secrets. The Oxylabs fallback follows their Google Jobs API pattern: `q`, `ibp=htl;jobs`, `hl`, and `gl` in the Google URL plus rendered parsing instructions. Output goes to `google_jobs.json`, `google_jobs.md`, and `google_jobs.html`, deduped against the previous run. Runs at :37 PT.
 
-### 7. HiringCafe watcher — hourly, last 30d
+### 7. HiringCafe watcher (currently blocked; previous results preserved)
 
-Searches HiringCafe's public SSR `/jobs/<query>` pages for direct-from-employer listings, because the old unauthenticated API endpoint now returns 401/405. Configure with `search_terms.hiring_cafe` and cap pagination with `hiring_cafe.max_pages` in `config.json`. The public SEO route currently defaults to United States results. If HiringCafe returns no rows or errors for every page, the scraper preserves the previous `hiringcafe_jobs.*` files instead of wiping the dashboard source.
+> **Known upstream breakage (verified 2026-10-22):** HiringCafe redirects the former `https://hiring.cafe/jobs/<query>` route to `hiringcafe.com`, where requests from the Python standard-library client and GitHub-hosted runners receive HTTP 403 with `Cf-Mitigated: challenge`. This happens before the scraper can read the page, so changing search terms, pagination, the hostname, or ordinary request headers does not fix it. An all-error run deliberately preserves the previous `hiringcafe_jobs.*` files instead of erasing the dashboard source.
+
+HiringCafe now documents an unauthenticated [ChatGPT MCP search endpoint](https://hiringcafe.com/documentation/hiringcafe-chatgpt-app), but describes it as intended for normal conversational search and says heavy automated use is unsupported. It is therefore **not** treated here as a drop-in replacement for this frequently scheduled multi-query watcher. HiringCafe's [terms and conditions](https://hiringcafe.com/terms-and-conditions) also restrict copying and redistribution; downstream maintainers should review those terms and obtain permission or an approved data-access arrangement before publishing automated results. Do not add browser-challenge bypasses, session cookies, stealth browsers, or proxy rotation as a workaround.
+
+Until a permitted integration is available, disable the **HiringCafe Watcher** in the repository's Actions settings if you do not want repeated stale-preserving runs. The code remains available for manual diagnostics and for a future approved route. Configure its historical query set with `search_terms.hiring_cafe` and `hiring_cafe.max_pages` in `config.json`.
 
 ## Keywords Matched
 
@@ -224,7 +270,7 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 -   **LinkedIn** — `locations.linkedin`: each is a `location` + LinkedIn `geoId`. Leave `geoId` blank to let LinkedIn resolve the text (works for most cities/metros), or fill in the numeric id for tighter filtering. A geoId reference table is in [`docs/cv-to-config-prompt.md`](docs/cv-to-config-prompt.md).
 -   **Indeed / Glassdoor / ZipRecruiter** — each takes a `location` + `country` (`USA`, `Australia`, `GB`, `Canada`, …). Glassdoor falls back to Indeed locations if omitted; ZipRecruiter defaults to the US Indeed locations.
 -   **Google Jobs** — `locations.google_jobs` is used to build the full `google_search_term` text JobSpy requires; advanced users can bypass auto-building with `google_jobs.queries`.
--   **HiringCafe** — currently uses HiringCafe's public US SEO search route; page depth is capped by `hiring_cafe.max_pages`.
+-   **HiringCafe** — the legacy public US SEO route is currently blocked by a Cloudflare challenge. Existing results are preserved; see the [known upstream breakage](#7-hiringcafe-watcher-currently-blocked-previous-results-preserved) before enabling or replacing this source.
 -   **USAJOBS** is nationwide US (federal); **NEOGOV** is filtered to your configured locations; **CalCareers** and **CalOpps** are California-only boards by nature (disable them if you're not searching California).
 -   The map and dashboard auto-fit to wherever your jobs are.
 
@@ -238,13 +284,14 @@ The list is deliberately **tight** for precision: generic titles (`research scie
 | `glassdoor_jobs.json` / `.md` / `.html` | Glassdoor watcher | Glassdoor-sourced roles in your locations, last 24h, deduped |
 | `ziprecruiter_jobs.json` / `.md` / `.html` | ZipRecruiter watcher | ZipRecruiter-sourced roles in your locations, last 24h, deduped |
 | `google_jobs.json` / `.md` / `.html` | Google Jobs watcher | Google Jobs roles in your locations, last 24h, deduped |
-| `hiringcafe_jobs.json` / `.md` / `.html` | HiringCafe watcher | Direct-employer roles from HiringCafe, last 30d, guarded |
+| `hiringcafe_jobs.json` / `.md` / `.html` | HiringCafe watcher | Last successful HiringCafe snapshot; stale-preserved while the public route returns 403 |
 | `calcareers_jobs.json` / `.md` / `.html` | CalCareers watcher | California state civil-service roles (calcareers.ca.gov) |
 | `csucareers_jobs.json` / `.md` / `.html` | CSU Careers watcher | California State University systemwide roles (csucareers.calstate.edu) |
 | `usajobs_jobs.json` / `.md` / `.html` | USAJOBS watcher | US federal roles matching your configured keywords, with salary, via usajobs.gov |
 | `governmentjobs_jobs.json` / `.md` / `.html` | NEOGOV watcher | State & local-gov roles matching your configured keywords via governmentjobs.com |
 | `calopps_jobs.json` / `.md` / `.html` | CalOpps watcher | California local-agency roles (cities, counties, special districts) via calopps.org |
 | `all_jobs.json` | accumulator | Cumulative 30-day master (feeds the dashboard + triage) |
+| `deltas/<timestamp>_linkedin.json` + `deltas/index.jsonl` | LinkedIn watcher | Per-run "what changed" files for downstream tools, 30-day retention — see [`docs/JOB_SCHEMA.md`](docs/JOB_SCHEMA.md) |
 | `scores.json` | triage agent | Optional fit verdicts keyed by job URL |
 
 ### CalCareers (California state jobs)
@@ -315,7 +362,7 @@ python scrape_jobs.py --indeed-only          # general Indeed, last 24h
 python scrape_jobs.py --glassdoor-only       # general Glassdoor, last 24h
 python scrape_jobs.py --ziprecruiter-only    # general ZipRecruiter, last 24h
 python scrape_jobs.py --google-jobs-only     # Google Jobs, last 24h
-python scrape_jobs.py --hiringcafe-only      # HiringCafe, last 30d
+python scrape_jobs.py --hiringcafe-only      # HiringCafe diagnostic; public route currently returns 403
 python scrape_jobs.py --usajobs-only         # US federal jobs (usajobs.gov, no API key)
 python scrape_jobs.py --governmentjobs-only  # state/local gov (NEOGOV)
 python scrape_jobs.py --calopps-only         # California local agencies (calopps.org)
@@ -496,8 +543,10 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 │   ├── all_jobs.json               # Cumulative 30-day master (feeds dashboard + triage)
 │   ├── scores.json                 # Triage verdicts (optional)
 │   ├── notified.json               # Push-notification dedup log
+│   ├── deltas/                     # Per-run LinkedIn delta files + index.jsonl manifest
 │   └── workflow_runs.jsonl         # CI run audit log
 ├── docs/
+│   ├── JOB_SCHEMA.md               # Data contract: job records + delta files
 │   ├── cv-to-config-prompt.md      # LLM prompt to generate config.json from a CV
 │   └── triage.gif                  # Dashboard demo
 └── .github/workflows/
@@ -507,7 +556,7 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
     ├── glassdoor_watch.yml         # 3x daily :07 UTC — Glassdoor (last 24h)
     ├── ziprecruiter_watch.yml      # Hourly :27 PT — ZipRecruiter (last 24h)
     ├── google_jobs_watch.yml       # Hourly :37 PT — Google Jobs (last 24h)
-    ├── hiringcafe_watch.yml        # Hourly :57 PT — HiringCafe (last 30d)
+    ├── hiringcafe_watch.yml        # HiringCafe (currently blocked upstream; preserves prior snapshot)
     ├── calcareers_watch.yml        # Daily — CalCareers (California state jobs)
     ├── usajobs_watch.yml           # Daily — USAJOBS (federal jobs, no API key)
     ├── localgov_watch.yml          # Daily — NEOGOV + CalOpps (state & local gov)
@@ -520,6 +569,6 @@ Paste your CV text into `CANDIDATE_RESUME`. Without these secrets, leave `triage
 
 ## Tuning the search
 
-Everything you'd adjust lives in [**`config.json`**](config.json) (no code edits) — the scraper and dashboard both read it: - `keywords.include` — title-match terms · `keywords.exclude` — titles to drop. - `search_terms.*` — queries sent to LinkedIn, Indeed, Glassdoor, ZipRecruiter, Google Jobs, HiringCafe, CalCareers, USAJOBS, GovernmentJobs/NEOGOV, and any curated Workday boards. - `locations.*` — LinkedIn `geoId`, JobSpy `location` + `country`, and Google query location text. - `location_filter.terms` — substrings used to post-filter boards (curated direct-ATS sweep, NEOGOV) that don't support geo-scoping at the API level. - `google_jobs.queries` — optional exact Google Jobs search-box strings; Google Jobs API fallback credentials should be stored as GitHub Actions secrets. - `jobspy` — optional proxies/user-agent for blocked JobSpy-backed boards; prefer GitHub Actions secrets for proxy credentials. - `hiring_cafe` — optional page-depth guardrail. - `employers.priority` (allowlist for the digest) / `employers.exclude` (drop). - `priority_topics` (⭐ highlights) · `role_categories` (Role-filter buckets) · `profile` (dashboard + digest branding).
+Everything you'd adjust lives in [**`config.json`**](config.json) (no code edits) — the scraper and dashboard both read it: - `keywords.include` — title-match terms · `keywords.exclude` — titles to drop. - `search_terms.*` — queries sent to LinkedIn, Indeed, Glassdoor, ZipRecruiter, Google Jobs, HiringCafe, CalCareers, USAJOBS, GovernmentJobs/NEOGOV, and any curated Workday boards. - `locations.*` — LinkedIn `geoId`, JobSpy `location` + `country`, and Google query location text. - `location_filter.terms` — substrings used to post-filter boards (curated direct-ATS sweep, NEOGOV) that don't support geo-scoping at the API level. - `google_jobs.queries` — optional exact Google Jobs search-box strings; Google Jobs API fallback credentials should be stored as GitHub Actions secrets. - `jobspy` — optional proxies/user-agent for blocked JobSpy-backed boards; prefer GitHub Actions secrets for proxy credentials. - `hiring_cafe` — retained for the currently blocked legacy route; changing it will not solve the upstream 403. - `employers.priority` (allowlist for the digest) / `employers.exclude` (drop). - `priority_topics` (⭐ highlights) · `role_categories` (Role-filter buckets) · `profile` (dashboard + digest branding).
 
 Generate the whole file from your CV with [`docs/cv-to-config-prompt.md`](docs/cv-to-config-prompt.md), or edit it by hand (every key is commented).

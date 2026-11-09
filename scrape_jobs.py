@@ -72,6 +72,16 @@ def _deep_merge(base: dict, override: dict) -> dict:
     return merged
 
 
+# LinkedIn backfills send hundreds to thousands of searches. Unlike the hourly
+# watcher, they never fall back to config.example.json's search terms: on
+# someone else's search they only fill your data with jobs you don't want
+# and burn through LinkedIn rate limits and Actions minutes.
+LINKEDIN_BACKFILL_FLAGS = {
+    "--linkedin-backfill", "--linkedin-backfill-partition", "--linkedin-backfill-term",
+    "--linkedin-emit-matrix", "--linkedin-merge-backfill",
+}
+
+
 def _load_config() -> dict:
     base = _read_json(os.path.join(SCRIPT_DIR, "config.example.json")) or {}
     user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
@@ -82,8 +92,9 @@ def _load_config() -> dict:
                 "both missing or unparseable). Copy config.example.json to config.json, "
                 "or fix its JSON syntax, and re-run."
             )
-        print("  ℹ️  config.json not found; using config.example.json as-is "
-              "(copy it to config.json and customize)")
+        if not LINKEDIN_BACKFILL_FLAGS & set(sys.argv):  # backfills refuse instead
+            print("  ℹ️  config.json not found; using config.example.json as-is "
+                  "(copy it to config.json and customize)")
         return base
     if not base:
         print("  ⚠️  config.example.json not loaded; using config.json only "
@@ -93,6 +104,28 @@ def _load_config() -> dict:
 
 
 CONFIG = _load_config()
+
+
+def _require_own_linkedin_search() -> None:
+    """Exit unless config.json itself sets search_terms.linkedin.
+
+    config.json is layered over config.example.json, so without this check a
+    missing config.json, or one without search_terms.linkedin, would silently
+    run the example's searches.
+    """
+    user = _read_json(os.path.join(SCRIPT_DIR, "config.json"))
+    if user is None:
+        problem = "config.json is missing or isn't valid JSON"
+    elif not ((user.get("search_terms") or {}).get("linkedin")):
+        problem = "config.json doesn't set search_terms.linkedin"
+    else:
+        return
+    sys.exit(
+        f"  ⛔ Refusing to run a LinkedIn backfill: {problem}.\n"
+        "     A backfill sends hundreds of LinkedIn searches, so it never falls back to\n"
+        "     config.example.json's searches. Commit a config.json that sets your own\n"
+        "     search_terms.linkedin (README → Step 2 and 'LinkedIn backfill')."
+    )
 
 
 def _cfg(path: str, default):
@@ -131,6 +164,8 @@ FRESH_JOB_LOOKBACK = timedelta(hours=24)
 # Titles containing any excluded term are dropped (config.json → keywords.exclude).
 # Single tokens are word-bounded; multi-word phrases match as substrings.
 def _build_title_re(terms: list) -> re.Pattern:
+    if not terms:
+        return re.compile(r"(?!)")  # Empty exclusions must not reject every title.
     return re.compile(
         "|".join(re.escape(t) if (" " in t or "&" in t) else rf"\b{re.escape(t)}\b" for t in terms),
         re.IGNORECASE,
@@ -300,9 +335,26 @@ NON_US_COUNTRIES_SINGLE = [
     "austria", "poland", "czech", "romania", "hungary", "israel",
     "qatar", "egypt",
 ]
+def _targeted_country(country: str) -> bool:
+    """True if location_filter.terms name this country as a whole word."""
+    pattern = re.compile(r"\b" + re.escape(country) + r"\b")
+    return any(pattern.search(term) for term in TARGET_LOCATIONS)
+
+
+# Countries are rejected unless the user targets them in location_filter.terms
+# (e.g. "australia"), so a search outside the US works when asked for.
+# A location naming a targeted country skips country rejection entirely, so
+# regions inside it that are also on the list ("New South Wales, Australia",
+# "England, United Kingdom") aren't dropped.
+_TARGETED_COUNTRIES = [c for c in NON_US_COUNTRIES_MULTI + NON_US_COUNTRIES_SINGLE if _targeted_country(c)]
+_TARGETED_COUNTRY_RE = re.compile(
+    r'\b(?:' + '|'.join(re.escape(c) for c in _TARGETED_COUNTRIES) + r')\b'
+) if _TARGETED_COUNTRIES else None
+_REJECTED_COUNTRIES_MULTI = [c for c in NON_US_COUNTRIES_MULTI if not _targeted_country(c)]
+_REJECTED_COUNTRIES_SINGLE = [c for c in NON_US_COUNTRIES_SINGLE if not _targeted_country(c)]
 _NON_US_COUNTRY_RE = re.compile(
-    r'\b(?:' + '|'.join(re.escape(c) for c in NON_US_COUNTRIES_SINGLE) + r')\b'
-)
+    r'\b(?:' + '|'.join(re.escape(c) for c in _REJECTED_COUNTRIES_SINGLE) + r')\b'
+) if _REJECTED_COUNTRIES_SINGLE else None
 
 
 # US state full names (lowercased) — used to override country-match false
@@ -331,14 +383,21 @@ def is_target_location(location: str) -> bool:
     # which would otherwise be rejected by the country check below.
     if any(state in loc for state in _US_STATE_NAMES):
         return True
+    # A country the user targets: only their location terms decide.
+    if _TARGETED_COUNTRY_RE and _TARGETED_COUNTRY_RE.search(loc):
+        return any(place in loc for place in TARGET_LOCATIONS)
     # Reject non-US countries — prevents ", ca" matching "Canada", etc.
     # Multi-word countries: substring match (safe, distinctive phrases).
-    if any(country in loc for country in NON_US_COUNTRIES_MULTI):
+    if any(country in loc for country in _REJECTED_COUNTRIES_MULTI):
         return False
     # Single-word countries: word-boundary match (prevents "india" matching
     # "Indiana", "mexico" matching "New Mexico", etc.).
-    if _NON_US_COUNTRY_RE.search(loc):
+    if _NON_US_COUNTRY_RE and _NON_US_COUNTRY_RE.search(loc):
         return False
+    # State abbreviations require city/comma context, not substrings (CA != Canada).
+    codes = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC"
+    if re.search(r",\s*(?:" + "|".join(codes.split()) + r")\b", location):
+        return True
     return any(place in loc for place in TARGET_LOCATIONS)
 
 
@@ -637,7 +696,9 @@ def _parse_linkedin_cards(html: str) -> tuple[list[dict], int]:
 
 def _linkedin_search(terms: list[str], lookback_seconds: int,
                      geos: list[dict] | None = None,
-                     max_results: int = 500) -> tuple[list[dict], int]:
+                     max_results: int = 500, *, strict: bool = False,
+                     health: dict | None = None,
+                     filter_titles: bool = True) -> tuple[list[dict], int]:
     """
     Per-geo, per-term, paginated LinkedIn guest-endpoint search. Dedupes by job
     ID across every geography and sorts by recency. Used by both the general
@@ -657,6 +718,11 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     is also empty. A module-level _RATE_LIMITED flag dynamically increases the
     inter-request delay when 429s have been seen.
     """
+    # Digest mode: no stale fallback, bounded fetch without retry/backoff, and
+    # explicit query health. Legacy watchers retain their existing behavior.
+    if health is None:
+        health = {}
+    health.update(attempted=0, succeeded=0, failed=0, capped=0, raw=0)
     global _RATE_LIMITED
     if geos is None:
         geos = LINKEDIN_GEOS
@@ -666,6 +732,7 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     pages_fetched = 0
     for geo in geos:
         geo_param = f"&geoId={geo['geoId']}" if geo.get("geoId") else ""
+        remote_param = "&f_WT=2" if geo.get("remote") else ""
         for term in terms:
             term_start = pages_fetched
             for start in range(0, max_results, 10):
@@ -678,11 +745,15 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                     "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
                     f"?keywords={urllib.parse.quote(term)}"
                     f"&location={urllib.parse.quote(geo['location'])}"
-                    f"{geo_param}"
+                    f"{geo_param}{remote_param}"
                     f"&f_TPR=r{lookback_seconds}"
                     f"&start={start}"
                 )
-                html = fetch(url)
+                health["attempted"] += 1
+                html = fetch(url, retries=0) if strict else fetch(url)
+                if strict and not html.strip():
+                    health["failed"] += 1
+                    break
                 if not html.strip():
                     # Could be rate-limited (429 exhausted retries) or genuinely
                     # no more results. Retry once with a long pause before giving
@@ -703,6 +774,11 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 consecutive_empty = 0
                 parsed, raw_count = _parse_linkedin_cards(html)
                 total_raw_cards += raw_count
+                health["raw"] += raw_count
+                # Empty / unrecognized HTML is not proof of a successful zero.
+                health["succeeded" if raw_count else "failed"] += 1
+                if raw_count and start + 10 >= max_results:
+                    health["capped"] += 1
                 pages_fetched += 1
                 if pages_fetched % 10 == 0:
                     print(f"  📊 {pages_fetched} pages fetched | "
@@ -713,10 +789,14 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                 # of 10 off-target roles must not end pagination for the term.
                 if not raw_count:
                     break
+                if strict:
+                    parsed = parsed[:min(10, max_results - start)]
                 for p in parsed:
                     if p["id"] in jobs_by_id:
+                        if geo.get("remote"):
+                            jobs_by_id[p["id"]]["remote_query"] = True
                         continue
-                    if not role_is_relevant(p["title"], p["company"]):
+                    if filter_titles and not role_is_relevant(p["title"], p["company"]):
                         continue
                     jobs_by_id[p["id"]] = {
                         "company": p["company"],
@@ -726,6 +806,8 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         "date_posted": p["date_posted"],
                         "salary": p.get("salary", ""),
                         "ats": "LinkedIn",
+                        # Search filter is evidence of remote, not worldwide eligibility.
+                        "remote_query": bool(geo.get("remote")),
                     }
 
     jobs = list(jobs_by_id.values())
@@ -1133,7 +1215,8 @@ def _ensure_work_arrangement(job: dict) -> dict:
     return job
 
 
-def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
+def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict],
+                      filter_titles: bool = True) -> int:
     """Normalize a JobSpy dataframe into this repo's jobs_by_id dict. Returns raw row count."""
     if df is None or df.empty:
         return 0
@@ -1142,7 +1225,7 @@ def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
     df = df.fillna("")
     for _, row in df.iterrows():
         title = str(row.get("title", "") or "")
-        if not title_matches_keywords(title):
+        if filter_titles and not title_matches_keywords(title):
             continue
         url = str(row.get("job_url", "") or "")
         if not url:
@@ -1179,17 +1262,31 @@ def _ingest_jobspy_df(df, *, label: str, jobs_by_id: dict[str, dict]) -> int:
             "emails": str(row.get("emails", "") or ""),
             "ats": label,
         })
+        if not filter_titles:
+            # Digest retains raw evidence, not the dashboard's inferred eligibility.
+            jobs_by_id[ident]["work_arrangement"] = str(row.get("work_arrangement", "") or "")
+            amounts = [str(row.get(k)) for k in ("min_amount", "max_amount")
+                       if row.get(k) not in (None, "")]
+            jobs_by_id[ident]["salary"] = " ".join(filter(None, [
+                str(row.get("currency", "") or ""), "–".join(amounts),
+                str(row.get("interval", "") or "")])) if amounts else ""
     return raw_rows
 
 
 def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
                          hours_old: int, prev_basename: str,
-                         results_wanted: int = 50) -> list:
+                         results_wanted: int = 50, strict: bool = False,
+                         health: dict | None = None,
+                         filter_titles: bool = True) -> list:
     """Scrape one JobSpy-supported board and normalize rows into this repo's schema."""
+    if health is None:
+        health = {}
+    health.update(attempted=0, succeeded=0, failed=0, capped=0, raw=0)
     print(f"🟦 Scraping {label} (last {hours_old}h)...")
     try:
         from jobspy import scrape_jobs as jobspy_scrape
     except ImportError:
+        health["failed"] += 1
         print(f"  ⚠️  python-jobspy not installed; skipping {label}")
         return []
 
@@ -1199,6 +1296,7 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
     raw_rows = 0
     for geo in geos:
       for term in terms:
+        health["attempted"] += 1
         time.sleep(REQUEST_DELAY)  # throttle: back-to-back calls invite blocking on CI IPs
         try:
             # JobSpy gotcha: hours_old / is_remote / job_type / easy_apply
@@ -1212,16 +1310,23 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
                 hours_old=hours_old,
                 country_indeed=geo.get("country", "USA"),
                 enforce_annual_salary=False,
-                proxies=_jobspy_proxies(),
-                user_agent=_jobspy_user_agent(),
+                proxies=None if strict else _jobspy_proxies(),
+                user_agent=None if strict else _jobspy_user_agent(),
                 verbose=0,
             )
         except Exception as e:
             errored_terms += 1
+            health["failed"] += 1
             print(f"  ⚠️  {label} ({geo['location']} · {term!r}): {e}")
             continue
         ok_terms += 1
-        raw_rows += _ingest_jobspy_df(df, label=label, jobs_by_id=jobs_by_id)
+        count = _ingest_jobspy_df(df, label=label, jobs_by_id=jobs_by_id,
+                                  filter_titles=filter_titles)
+        raw_rows += count
+        health["raw"] += count
+        health["succeeded" if count else "failed"] += 1
+        if count >= results_wanted:
+            health["capped"] += 1
     jobs = list(jobs_by_id.values())
     print(
         f"  📊 {label}: {len(geos)}×{len(terms)} queries → "
@@ -1234,7 +1339,7 @@ def _scrape_jobspy_board(*, label: str, site_name: str, geos: list, terms: list,
     # which is a legitimate empty result. On a no-data run, reuse the previous results
     # so we don't clobber the dedupe baseline (and the dashboard's source column) with
     # an empty file; the saver then reports 0 new (all already seen).
-    if raw_rows == 0:
+    if raw_rows == 0 and not strict:
         prev = _load_prev_jobs(os.path.join(OUTPUT_DIR, f"{prev_basename}.json"))
         print(
             f"  ⛔ {label} returned 0 rows across all terms (likely blocked); "
@@ -1659,7 +1764,12 @@ def scrape_google_jobs_recent(hours_old: int | None = None) -> list:
 
 
 # ---------------------------------------------------------------------------
-# HiringCafe — public SSR search pages (direct-from-employer listings)
+# HiringCafe — legacy public SSR search pages (currently Cloudflare-blocked)
+#
+# Verified 2026-10-22: hiring.cafe redirects to hiringcafe.com, which returns
+# HTTP 403 with Cf-Mitigated: challenge to this non-browser client. Keep the
+# stale-result guard below; do not add challenge bypasses or session credentials.
+# See README for the official MCP endpoint's automation limits and terms.
 # ---------------------------------------------------------------------------
 
 HIRINGCAFE_LOOKBACK_DAYS = 30
@@ -1825,7 +1935,7 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
     d = days if days is not None else HIRINGCAFE_LOOKBACK_DAYS
     print(f"☕ Scraping HiringCafe (last {d}d)...")
     jobs_by_id: dict[str, dict] = {}
-    ok_pages = errored_pages = raw_rows = 0
+    ok_pages = errored_pages = blocked_403_pages = raw_rows = 0
     for term in HIRINGCAFE_SEARCH_TERMS:
         for page in range(HIRINGCAFE_MAX_PAGES):
             time.sleep(REQUEST_DELAY)
@@ -1833,6 +1943,8 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
                 batch, is_last = _hiringcafe_ssr_hits(term, page=page)
             except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as e:
                 errored_pages += 1
+                if isinstance(e, urllib.error.HTTPError) and e.code == 403:
+                    blocked_403_pages += 1
                 print(f"  ⚠️  HiringCafe ({term!r} page {page}): {e}")
                 break
             ok_pages += 1
@@ -1854,6 +1966,15 @@ def scrape_hiringcafe_recent(days: int | None = None) -> list:
         f"{raw_rows} raw, {len(jobs)} matched"
     )
     if raw_rows == 0:
+        if errored_pages and blocked_403_pages == errored_pages:
+            print(
+                "  ℹ️  Known upstream block: HiringCafe redirects to hiringcafe.com, "
+                "which returns a Cloudflare browser challenge to this client."
+            )
+            print(
+                "  ℹ️  Changing terms, max_pages, hostname, or ordinary headers will not fix it; "
+                "see README before enabling or replacing this source."
+            )
         prev = _load_prev_jobs(os.path.join(OUTPUT_DIR, "hiringcafe_jobs.json"))
         print(
             f"  ⛔ HiringCafe returned 0 rows across all terms; preserving previous "
@@ -2789,19 +2910,121 @@ def _load_prev_ids(json_path: str) -> set[str]:
 
 
 ALL_JOBS_PRUNE_DAYS = 30
+# Delta files and manifest lines older than this are pruned on each run.
+# Consumers needing historical data beyond this window should use all_jobs.json.
+DELTA_PRUNE_DAYS = 30
 # LinkedIn's guest API reliably supports ~30 days via f_TPR; use this for the
 # one-time historical backfill (--linkedin-backfill) so new users get a full
 # picture without running hourly for weeks.
 LINKEDIN_BACKFILL_DAYS = 30
 
 
-def _merge_into_all_jobs(new_jobs: list) -> int:
+def _write_delta(added_jobs: list[dict], updated_jobs: list[dict],
+                 source: str, run_at: str) -> None:
+    """Write a per-run delta file and append to the manifest.
+
+    Delta file: output/deltas/<timestamp>_<source>.json
+    Manifest:   output/deltas/index.jsonl (append-only, pruned at DELTA_PRUNE_DAYS)
+
+    Skipped silently if both added and updated are empty (nothing changed).
+    """
+    if not added_jobs and not updated_jobs:
+        return
+
+    deltas_dir = os.path.join(OUTPUT_DIR, "deltas")
+    os.makedirs(deltas_dir, exist_ok=True)
+
+    # Filename: sanitize timestamp for filesystem safety (replace : with -)
+    safe_ts = run_at.replace(":", "-")
+    filename = f"{safe_ts}_{source}.json"
+    delta_path = os.path.join(deltas_dir, filename)
+
+    # Handle same-second collisions (rare — concurrency group serializes runs,
+    # but two could finish/start within the same second). Append a counter.
+    if os.path.exists(delta_path):
+        counter = 2
+        while os.path.exists(os.path.join(deltas_dir, f"{safe_ts}_{source}_{counter}.json")):
+            counter += 1
+        filename = f"{safe_ts}_{source}_{counter}.json"
+        delta_path = os.path.join(deltas_dir, filename)
+
+    delta = {
+        "run_at": run_at,
+        "source": source,
+        "added": added_jobs,
+        "updated": updated_jobs,
+    }
+    with open(delta_path, "w", encoding="utf-8") as f:
+        json.dump(delta, f, separators=(",", ":"), ensure_ascii=False)
+
+    # Append to manifest (after delta file is written — see docs/JOB_SCHEMA.md
+    # on atomicity: an orphaned delta file without a manifest line is harmless;
+    # the consumer just won't see it and the next full sync catches those jobs).
+    manifest_path = os.path.join(deltas_dir, "index.jsonl")
+    entry = {
+        "run_at": run_at,
+        "file": filename,
+        "source": source,
+        "added": len(added_jobs),
+        "updated": len(updated_jobs),
+    }
+    with open(manifest_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, separators=(",", ":")) + "\n")
+
+    _prune_deltas(deltas_dir, run_at)
+
+    print(f"  📦 Delta: {filename} (+{len(added_jobs)} added, "
+          f"{len(updated_jobs)} updated)")
+
+
+def _prune_deltas(deltas_dir: str, now_iso: str) -> None:
+    """Delete delta files and manifest lines older than DELTA_PRUNE_DAYS."""
+    manifest_path = os.path.join(deltas_dir, "index.jsonl")
+    if not os.path.exists(manifest_path):
+        return
+
+    cutoff_dt = datetime.strptime(now_iso, "%Y-%m-%dT%H:%M:%SZ") - timedelta(days=DELTA_PRUNE_DAYS)
+    cutoff = cutoff_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    kept_lines = []
+    pruned = 0
+    with open(manifest_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if entry.get("run_at", "") < cutoff:
+                # Delete the delta file
+                delta_path = os.path.join(deltas_dir, entry.get("file", ""))
+                if os.path.exists(delta_path):
+                    os.remove(delta_path)
+                pruned += 1
+            else:
+                kept_lines.append(line)
+
+    if pruned > 0:
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            for line in kept_lines:
+                f.write(line + "\n")
+        print(f"  📦 Pruned {pruned} delta(s) older than {DELTA_PRUNE_DAYS}d")
+
+
+def _merge_into_all_jobs(new_jobs: list, source: str | None = None) -> int:
     """
     Maintain all_jobs.json — a cumulative, URL/content-deduped master of every role the
     scrapers surface, each stamped with first_seen. The per-source JSONs are
     rolling windows that overwrite every run (LinkedIn keeps only ~1h), so this
     master is what the triage agent and the dashboard's Rank tab read to see
     everything from the last ALL_JOBS_PRUNE_DAYS days. Returns count added.
+
+    If source is provided (e.g. "linkedin"), a per-run delta file is written to
+    output/deltas/ capturing jobs added and enriched this run. See
+    docs/JOB_SCHEMA.md for the delta format. If source is None, no delta is
+    produced (backward-compatible for non-LinkedIn sources).
     """
     path = os.path.join(OUTPUT_DIR, "all_jobs.json")
     try:
@@ -2829,6 +3052,8 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
     added = 0
     enriched = enriched_existing
     merged_new = 0
+    delta_added: list[dict] = []
+    delta_updated: list[dict] = []
     for j in new_jobs:
         url = j.get("url")
         ident = _job_identity(url or "")
@@ -2841,10 +3066,16 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
             entries.append(entry)
             index_entry(entry)
             added += 1
+            if source:
+                delta_added.append(entry)
         elif existing is not None:
+            before_enriched = enriched
             enriched += _merge_duplicate_job(existing, j)
             index_entry(existing)
             merged_new += 1
+            # Only include in delta_updated if description or salary was backfilled
+            if source and enriched > before_enriched:
+                delta_updated.append(dict(existing))
 
     cutoff = (now - timedelta(days=ALL_JOBS_PRUNE_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     kept = [j for j in entries if j.get("first_seen", stamp) >= cutoff]
@@ -2860,14 +3091,21 @@ def _merge_into_all_jobs(new_jobs: list) -> int:
         f"{len(kept)} total (last {ALL_JOBS_PRUNE_DAYS}d)"
     )
 
+    if source:
+        _write_delta(delta_added, delta_updated, source, stamp)
+
     return added
 
 
 def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
-                     accent: str, empty_message: str, window_label: str):
+                     accent: str, empty_message: str, window_label: str,
+                     source: str | None = None):
     """
     Save jobs to {basename}.{json,md,html}. Dedupes against the previous JSON at
     the same path so each email surfaces only postings new to this run.
+
+    If source is provided (e.g. "linkedin"), a per-run delta file is written to
+    output/deltas/ capturing jobs added and enriched this run.
     """
     # Single chokepoint for the company exclusion: every source (LinkedIn,
     # Indeed, priority, CalCareers) funnels through here, so dropping excluded
@@ -2891,7 +3129,7 @@ def save_jobs_output(jobs: list, *, basename: str, title: str, subtitle: str,
     try:
         # Merge the full current source window, not only brand-new notifications:
         # existing sparse LinkedIn records can gain salary/description later.
-        _merge_into_all_jobs(jobs)
+        _merge_into_all_jobs(jobs, source=source)
     except Exception as e:
         print(f"  ⚠️  all_jobs.json accumulator failed (non-fatal): {e}")
 
@@ -2958,6 +3196,7 @@ def save_linkedin_results(jobs: list):
         accent="#3b82f6",
         empty_message="No new roles since the last run.",
         window_label=f"last {LINKEDIN_LOOKBACK_SECONDS // 3600}h",
+        source="linkedin",
     )
 
 
@@ -3209,6 +3448,9 @@ def _linkedin_merge_backfill_files(output_dir: str) -> tuple[list[dict], list[di
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    if LINKEDIN_BACKFILL_FLAGS & set(sys.argv):
+        _require_own_linkedin_search()
+
     if "--indeed-only" in sys.argv:
         save_indeed_results(scrape_indeed_recent())
         sys.exit(0)
@@ -3440,6 +3682,21 @@ if __name__ == "__main__":
                   f"{len(matrix)} work items "
                   f"({len(term_batches)} term-batches × {len(locations)} locations)")
         print(f"  Term batches: {term_batches}")
+        # GitHub allows at most 256 jobs per matrix. Check both phases here, so
+        # an oversized Phase 2 stops the run before Phase 1 does any searching.
+        phase_sizes = {
+            "Phase 1": len(matrix) if phase != "high" else None,
+            "Phase 2": len(term_batches) * len(LINKEDIN_HIGH_VOLUME_LOCATIONS) * LINKEDIN_BACKFILL_DAYS,
+        }
+        too_big = {name: n for name, n in phase_sizes.items() if n and n > 256}
+        if too_big:
+            sizes = ", ".join(f"{name} needs {n}" for name, n in too_big.items())
+            sys.exit(
+                f"  ⛔ Too many parallel jobs ({sizes}); GitHub allows at most 256 per phase.\n"
+                "     Use fewer search_terms.linkedin (2 per job), or fewer locations in\n"
+                "     locations.linkedin_partitions: states (Phase 1), or high_volume.locations\n"
+                f"     (Phase 2 runs each one for {LINKEDIN_BACKFILL_DAYS} days)."
+            )
         matrix_path = os.path.join(OUTPUT_DIR, "linkedin_matrix.json")
         with open(matrix_path, "w", encoding="utf-8") as f:
             json.dump({"matrix": matrix}, f, indent=2, ensure_ascii=False)

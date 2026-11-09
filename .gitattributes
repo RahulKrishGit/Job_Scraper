@@ -1,4 +1,8 @@
-workflow_runs.jsonl merge=union
+# All scraped output data (including output/deltas/ and the workflow_runs.jsonl
+# audit log) is per-repo and always keeps the fork's version on merge.
+# sync_upstream.yml defines the "ours" driver and also resets output/ to the
+# fork's tree after merging; this attribute is belt-and-suspenders.
+output/** merge=ours
 
 # Fork-owner personal files — always keep the fork's version on any merge.
 # This is belt-and-suspenders: these files are gitignored upstream (so upstream
@@ -6,8 +10,3 @@ workflow_runs.jsonl merge=union
 # prevents surprises if a conflict somehow occurs anyway.
 config.json merge=ours
 scoring_profile.json merge=ours
-
-# Scraped data must never be overwritten by upstream's copy of the same files.
-# Upstream DOES commit output/ (its workflows use `git add -f`), so without this
-# the weekly sync injects the upstream owner's job data into this fork.
-output/** merge=ours
