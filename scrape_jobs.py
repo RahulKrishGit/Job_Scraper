@@ -1073,7 +1073,7 @@ def _enrich_linkedin_postings(jobs: list) -> tuple[int, int]:
 def scrape_linkedin_recent() -> list:
     print(f"🔎 Scraping LinkedIn (last {LINKEDIN_LOOKBACK_SECONDS // 3600}h)...")
     jobs, raw_cards = _linkedin_search(LINKEDIN_SEARCH_TERMS, LINKEDIN_LOOKBACK_SECONDS,
-                                        max_results=300)  # 4h window: 100 cards per term could cap out
+                                        max_results=100)
     # Block guard (mirrors Indeed's): zero raw cards across every term means
     # LinkedIn gave us nothing — rate-limited or blocked, not a quiet hour.
     # Reuse the previous results so we don't clobber the dedupe baseline.

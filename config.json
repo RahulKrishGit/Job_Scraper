@@ -128,7 +128,7 @@
     "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are.",
     "linkedin": [
       { "name": "SF Bay Area",        "location": "San Francisco Bay Area", "geoId": "90000084" },
-      { "name": "Remote / US",        "location": "United States",          "geoId": "103644278" }
+      { "name": "Remote / US",        "location": "United States",          "geoId": "103644278", "remote": true }
     ],
     "indeed": [
       { "location": "San Francisco, CA", "country": "USA" },
