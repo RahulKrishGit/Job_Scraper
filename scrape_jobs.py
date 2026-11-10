@@ -727,6 +727,11 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     if geos is None:
         geos = LINKEDIN_GEOS
     jobs_by_id: dict[str, dict] = {}
+    # Every card ID seen this search, relevant or not. The guest endpoint never
+    # returns an empty page once a term's real results run out: it keeps
+    # serving cards already shown, so the empty-page check never fires and each
+    # term paged to max_results (2026-11-10: 500 pages, 4,989 cards, 263 unique).
+    seen_card_ids: set[str] = set()
     total_raw_cards = 0
     consecutive_empty = 0
     pages_fetched = 0
@@ -735,6 +740,7 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
         remote_param = "&f_WT=2" if geo.get("remote") else ""
         for term in terms:
             term_start = pages_fetched
+            stale_pages = 0
             for start in range(0, max_results, 10):
                 # Dynamic delay: increase when we've been rate-limited
                 delay = LINKEDIN_REQUEST_DELAY + random.uniform(0, 2)
@@ -809,6 +815,14 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         # Search filter is evidence of remote, not worldwide eligibility.
                         "remote_query": bool(geo.get("remote")),
                     }
+                if not strict:
+                    new_ids = {p["id"] for p in parsed} - seen_card_ids
+                    seen_card_ids.update(new_ids)
+                    stale_pages = 0 if new_ids else stale_pages + 1
+                    if stale_pages >= 2:
+                        print(f"  ⏭  \"{term}\" in {geo['name']}: 2 pages with no new cards; "
+                              f"stopping at start={start}")
+                        break
 
     jobs = list(jobs_by_id.values())
     jobs.sort(key=lambda j: -_iso_to_ts(j.get("date_posted", "")))
