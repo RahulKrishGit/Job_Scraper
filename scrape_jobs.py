@@ -727,11 +727,6 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
     if geos is None:
         geos = LINKEDIN_GEOS
     jobs_by_id: dict[str, dict] = {}
-    # Every card ID seen this search, relevant or not. The guest endpoint never
-    # returns an empty page once a term's real results run out: it keeps
-    # serving cards already shown, so the empty-page check never fires and each
-    # term paged to max_results (2026-11-10: 500 pages, 4,989 cards, 263 unique).
-    seen_card_ids: set[str] = set()
     total_raw_cards = 0
     consecutive_empty = 0
     pages_fetched = 0
@@ -797,6 +792,7 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                     break
                 if strict:
                     parsed = parsed[:min(10, max_results - start)]
+                found_before = len(jobs_by_id)
                 for p in parsed:
                     if p["id"] in jobs_by_id:
                         if geo.get("remote"):
@@ -815,12 +811,17 @@ def _linkedin_search(terms: list[str], lookback_seconds: int,
                         # Search filter is evidence of remote, not worldwide eligibility.
                         "remote_query": bool(geo.get("remote")),
                     }
+                # Results come in relevance order and the guest endpoint never
+                # runs dry: past a term's real matches it serves loosely related
+                # jobs (page 1 of "machine learning engineer" in the Bay Area had
+                # 9 ML titles, page 2 had 1). So a term stops after 2 pages that
+                # add no new relevant job; one off-target page still continues.
+                # Before this, every term paged to max_results (2026-11-10: 500
+                # pages, 263 unique jobs, 86 rate limits, 204 min).
                 if not strict:
-                    new_ids = {p["id"] for p in parsed} - seen_card_ids
-                    seen_card_ids.update(new_ids)
-                    stale_pages = 0 if new_ids else stale_pages + 1
+                    stale_pages = 0 if len(jobs_by_id) > found_before else stale_pages + 1
                     if stale_pages >= 2:
-                        print(f"  ⏭  \"{term}\" in {geo['name']}: 2 pages with no new cards; "
+                        print(f"  ⏭  \"{term}\" in {geo['name']}: 2 pages with no new relevant job; "
                               f"stopping at start={start}")
                         break
 
