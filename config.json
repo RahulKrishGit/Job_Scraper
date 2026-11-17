@@ -124,25 +124,73 @@
   },
 
   "locations": {
-    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are.",
+    "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are. Owner's 12 US hubs (2026-11-17): Bay Area, Seattle, Austin, Atlanta, Southern California, Research Triangle, Houston, Portland, Charlotte, Miami, Nashville, Richmond. LinkedIn keeps two searches (Bay Area, and US-wide with no remote flag, so on-site hub roles come in too); career-ops' prefilter keeps only the hubs. The JobSpy boards search each hub city.",
     "linkedin": [
       { "name": "SF Bay Area",        "location": "San Francisco Bay Area", "geoId": "90000084" },
-      { "name": "Remote / US",        "location": "United States",          "geoId": "103644278", "remote": true }
+      { "name": "United States",      "location": "United States",          "geoId": "103644278" }
     ],
     "indeed": [
       { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Seattle, WA",       "country": "USA" },
+      { "location": "Austin, TX",        "country": "USA" },
+      { "location": "Atlanta, GA",       "country": "USA" },
+      { "location": "Los Angeles, CA",   "country": "USA" },
+      { "location": "San Diego, CA",     "country": "USA" },
+      { "location": "Raleigh, NC",       "country": "USA" },
+      { "location": "Houston, TX",       "country": "USA" },
+      { "location": "Portland, OR",      "country": "USA" },
+      { "location": "Charlotte, NC",     "country": "USA" },
+      { "location": "Miami, FL",         "country": "USA" },
+      { "location": "Nashville, TN",     "country": "USA" },
+      { "location": "Richmond, VA",      "country": "USA" },
       { "location": "Remote",            "country": "USA" }
     ],
     "glassdoor": [
       { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Seattle, WA",       "country": "USA" },
+      { "location": "Austin, TX",        "country": "USA" },
+      { "location": "Atlanta, GA",       "country": "USA" },
+      { "location": "Los Angeles, CA",   "country": "USA" },
+      { "location": "San Diego, CA",     "country": "USA" },
+      { "location": "Raleigh, NC",       "country": "USA" },
+      { "location": "Houston, TX",       "country": "USA" },
+      { "location": "Portland, OR",      "country": "USA" },
+      { "location": "Charlotte, NC",     "country": "USA" },
+      { "location": "Miami, FL",         "country": "USA" },
+      { "location": "Nashville, TN",     "country": "USA" },
+      { "location": "Richmond, VA",      "country": "USA" },
       { "location": "Remote",            "country": "USA" }
     ],
     "ziprecruiter": [
       { "location": "San Francisco, CA", "country": "USA" },
+      { "location": "Seattle, WA",       "country": "USA" },
+      { "location": "Austin, TX",        "country": "USA" },
+      { "location": "Atlanta, GA",       "country": "USA" },
+      { "location": "Los Angeles, CA",   "country": "USA" },
+      { "location": "San Diego, CA",     "country": "USA" },
+      { "location": "Raleigh, NC",       "country": "USA" },
+      { "location": "Houston, TX",       "country": "USA" },
+      { "location": "Portland, OR",      "country": "USA" },
+      { "location": "Charlotte, NC",     "country": "USA" },
+      { "location": "Miami, FL",         "country": "USA" },
+      { "location": "Nashville, TN",     "country": "USA" },
+      { "location": "Richmond, VA",      "country": "USA" },
       { "location": "Remote",            "country": "USA" }
     ],
     "google_jobs": [
       { "location": "San Francisco Bay Area", "country": "USA" },
+      { "location": "Seattle, WA",            "country": "USA" },
+      { "location": "Austin, TX",             "country": "USA" },
+      { "location": "Atlanta, GA",            "country": "USA" },
+      { "location": "Los Angeles, CA",        "country": "USA" },
+      { "location": "San Diego, CA",          "country": "USA" },
+      { "location": "Raleigh, NC",            "country": "USA" },
+      { "location": "Houston, TX",            "country": "USA" },
+      { "location": "Portland, OR",           "country": "USA" },
+      { "location": "Charlotte, NC",          "country": "USA" },
+      { "location": "Miami, FL",              "country": "USA" },
+      { "location": "Nashville, TN",          "country": "USA" },
+      { "location": "Richmond, VA",           "country": "USA" },
       { "location": "Remote",                 "country": "USA" }
     ],
     "hiring_cafe": [
@@ -159,7 +207,7 @@
   },
 
   "location_filter": {
-    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above. NOTE: intentionally Bay-Area + remote only; add \"california\" here if you want California-wide results.",
+    "_comment": "Case-insensitive substrings matched against a job's location text. Used to post-filter boards that don't support geo-scoping at the API level: the curated direct-ATS sweep, and NEOGOV/GovernmentJobs.com (a nationwide board). Keep this in sync with your locations.* entries above. Owner's 12 US hubs plus remote (2026-11-17): Bay Area, Seattle, Austin, Atlanta, Southern California, Research Triangle, Houston, Portland, Charlotte, Miami, Nashville, Richmond.",
     "terms": [
       "remote", "hybrid", "work from home", "telecommute", "anywhere", "distributed",
       "san francisco", "south san francisco", "bay area", "oakland", "berkeley",
@@ -167,10 +215,21 @@
       "sunnyvale", "santa clara", "san jose", "cupertino", "los altos", "los gatos",
       "saratoga", "campbell", "milpitas", "san mateo", "foster city", "belmont, ca",
       "san carlos", "redwood city", "burlingame", "brisbane, ca", "daly city", "pacifica",
-      "half moon bay", "san bruno", "fremont", "newark, ca", "union city", "hayward",
+      "half moon bay", "san bruno", "fremont", "newark, ca", "union city, ca", "hayward",
       "pleasanton", "livermore", "dublin, ca", "san ramon", "walnut creek", "concord, ca",
       "richmond, ca", "vallejo", "fairfield, ca", "san rafael", "novato", "sausalito",
-      "mill valley", "stanford"
+      "mill valley", "stanford",
+      "seattle", "bellevue", "redmond", "kirkland",
+      "austin",
+      "atlanta", "alpharetta",
+      "los angeles", "santa monica", "culver city", "playa vista", "el segundo", "irvine", "san diego",
+      "raleigh", "durham", "cary, nc", "research triangle",
+      "houston", "the woodlands",
+      "portland, or", "hillsboro", "beaverton",
+      "charlotte",
+      "miami", "fort lauderdale",
+      "nashville",
+      "richmond, va"
     ]
   },
 
