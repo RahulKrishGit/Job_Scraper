@@ -1,62 +1,50 @@
 # 🟩 Glassdoor — ML / AI / Data Science Roles
-*Last updated: 2026-11-22 22:33 UTC*
+*Last updated: 2026-11-23 09:01 UTC*
 
-**9 new role(s)** since last run · 17 total in last 24h
+**7 new role(s)** since last run · 13 total in last 24h
 
-### [Research Engineer / Research Scientist, Post-Training — Collective Alignment (User Signals)](https://www.glassdoor.com/job-listing/j?jl=1010332954695) — OpenAI
+### [Software Engineer, AI Tooling](https://www.glassdoor.com/job-listing/j?jl=1010333166905) — Airwallex
 - 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $380k–$500k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-22
-
-### [Research Engineer/Research Scientist-Post Training, Proactivity](https://www.glassdoor.com/job-listing/j?jl=1010332954682) — OpenAI
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $380k–$500k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-22
-
-### [Principal Research Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010332953570) — iSpot
-- 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $169k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime, parttime
-- 🕒 **Posted:** 2026-11-22
-
-### [Member of Technical Staff - Applied Scientist I [Reinforcement Learning and Simulation Environments]](https://www.glassdoor.com/job-listing/j?jl=1010332784884) — NTT DATA AIVista
-- 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $300k–$400k/yr
+- 💰 **Salary:** $200k–$250k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-22
+- 🕒 **Posted:** 2026-11-23
 
-### [Senior Python AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010332953573) — Robotics Technologies
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $82/hr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-22
-
-### [Associate Research Scientist I, Vicković Lab](https://www.glassdoor.com/job-listing/j?jl=1010332809599) — New York Genome Center
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $55k–$60k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-22
-
-### [Lead Applied AI Engineer II - Databricks](https://www.glassdoor.com/job-listing/j?jl=1010332806426) — Deloitte
-- 📍 **Location:** Jersey City, NJ, USA
-- 💰 **Salary:** $113k–$232k/yr
+### [Senior AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333084464) — QXO
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $134k–$198k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-22
+- 🕒 **Posted:** 2026-11-23
 
-### [Senior AI Platform Engineer](https://www.glassdoor.com/job-listing/j?jl=1010332963863) — Blackbaud
+### [Senior AI Engineer, Platform](https://www.glassdoor.com/job-listing/j?jl=1010333084423) — QXO
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $169k–$243k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-23
+
+### [Staff AI Engineer, Full-Stack](https://www.glassdoor.com/job-listing/j?jl=1010333084415) — QXO
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $140k–$206k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-23
+
+### [Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010333142030) — Baker Hughes
+- 📍 **Location:** Houston, TX, USA
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-23
+
+### [Senior Software Engineer / Solutions Architect – Epic EHR & Interoperability](https://www.glassdoor.com/job-listing/j?jl=1010333156349) — Folio3 Software
 - 📍 **Location:** Not specified
-- 💰 **Salary:** $117k–$158k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-22
+- 🕒 **Posted:** 2026-11-23
 
-### [Python with Agentic AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010332953560) — Robotics Technologies
-- 📍 **Location:** Alpharetta, GA, USA
-- 💰 **Salary:** $77/hr
+### [AI Application Architect](https://www.glassdoor.com/job-listing/j?jl=1010332953583) — Robotics Technologies
+- 📍 **Location:** Berkeley Heights, NJ, USA
+- 💰 **Salary:** $87/hr
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-22
+- 🕒 **Posted:** 2026-11-23
