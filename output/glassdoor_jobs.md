@@ -1,715 +1,928 @@
 # 🟩 Glassdoor — ML / AI / Data Science Roles
-*Last updated: 2026-11-24 03:37 UTC*
+*Last updated: 2026-11-25 01:50 UTC*
 
-**106 new role(s)** since last run · 111 total in last 24h
+**138 new role(s)** since last run · 146 total in last 24h
 
-### [Senior Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333449887) — ICF
+### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334860152) — Thinking Machines
 - 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $144k–$244k/yr
+- 💰 **Salary:** $117k–$142k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Data Scientist III, Product](https://www.glassdoor.com/job-listing/j?jl=1010333308629) — YouTube
-- 📍 **Location:** San Bruno, CA, USA
-- 💰 **Salary:** $138k–$197k/yr
+### [AI Research Scientist (Technical Leadership), MSL FAIR Data](https://www.glassdoor.com/job-listing/j?jl=1009974719211) — Meta
+- 📍 **Location:** Menlo Park, CA, USA
+- 💰 **Salary:** $219k–$301k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Data Scientist, Growth](https://www.glassdoor.com/job-listing/j?jl=1010333085552) — E2B
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $180k–$260k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr Software Engineer - ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333801675) — Uber
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $202k–$224k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333801674) — Uber
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $202k–$224k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Software Engineer III, AI/ML GenAI, YouTube](https://www.glassdoor.com/job-listing/j?jl=1010333783504) — YouTube
-- 📍 **Location:** Mountain View, CA, USA
-- 💰 **Salary:** $147k–$210k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [GenAI Developer](https://www.glassdoor.com/job-listing/j?jl=1010333751604) — Robotics Technologies
-- 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $77/hr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Principal Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723827) — Unity Technologies SF
-- 📍 **Location:** Mountain View, CA, USA
-- 💰 **Salary:** $197k–$325k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [ML Applications Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333708656) — Zeromatter Technologies Inc
-- 📍 **Location:** Mountain View, CA, USA
-- 💰 **Salary:** $100k–$300k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Machine Learning Engineer - Incubation](https://www.glassdoor.com/job-listing/j?jl=1010333684781) — Adobe
-- 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $172k–$307k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Machine Learning Engineer, Target Triage](https://www.glassdoor.com/job-listing/j?jl=1010333634946) — GlaxoSmithKline
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $200k–$334k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Applied Scientist, AWS Elemental](https://www.glassdoor.com/job-listing/j?jl=1010333621054) — Elemental Technologies LLC
+### [AI Engineer/Data Scientist NCG- Bachelor's (Santa Clara, CA)](https://www.glassdoor.com/job-listing/j?jl=1010334919519) — Applied Materials
 - 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $167k–$260k/yr
+- 💰 **Salary:** $110k–$152k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Generative AI / RAG Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333530253) — Robotics Technologies
+### [Staff Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334769185) — paypal
 - 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $82/hr
+- 💰 **Salary:** $176k–$262k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
+- **Job type:** internship
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Data Scientist, Product, Search AI Experiences](https://www.glassdoor.com/job-listing/j?jl=1010333308641) — Google
+### [Sr Staff Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334769066) — paypal
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $218k–$324k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Software Engineer, Safety Classifiers and Agentic Systems](https://www.glassdoor.com/job-listing/j?jl=1010334538973) — Google
 - 📍 **Location:** Mountain View, CA, USA
-- 💰 **Salary:** $163k–$236k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Staff Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723824) — Unity Technologies SF
-- 📍 **Location:** Mountain View, CA, USA
-- 💰 **Salary:** $172k–$284k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [2027 University Graduate - Research Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333684779) — Adobe
-- 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $121k–$239k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Applied Scientist, Agentic Automated Reasoning Group](https://www.glassdoor.com/job-listing/j?jl=1010333621361) — Amazon Development Center U.S., Inc.
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $167k–$260k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Applied Scientist, Last Hundred Yards](https://www.glassdoor.com/job-listing/j?jl=1010333621062) — Amazon.com Services LLC
-- 📍 **Location:** Santa Clara, CA, USA
-- 💰 **Salary:** $192k–$260k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Applied AI Architect, Technology Partnerships](https://www.glassdoor.com/job-listing/j?jl=1010333798987) — Anthropic
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $240k–$315k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Principal Software Development Engineer, AI Security (C++/Rust/Go)](https://www.glassdoor.com/job-listing/j?jl=1010333712518) — Zscaler
-- 📍 **Location:** San Jose, CA, USA
-- 💰 **Salary:** $186k–$265k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Software Development Engineer – AI/ML Networking Disaggregated Inference, Annapurna Labs, Annapurna Labs](https://www.glassdoor.com/job-listing/j?jl=1010333621204) — Annapurna Labs (U.S.) Inc.
-- 📍 **Location:** Cupertino, CA, USA
-- 💰 **Salary:** $168k–$227k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Forward Deployed Engineer (Applied AI)](https://www.glassdoor.com/job-listing/j?jl=1010333567834) — Together AI
-- 📍 **Location:** San Francisco, CA, USA
-- 💰 **Salary:** $103k–$177k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Staff Software Engineer, Agentic SDLC Foundations](https://www.glassdoor.com/job-listing/j?jl=1010333308771) — Google
-- 📍 **Location:** San Jose, CA, USA
 - 💰 **Salary:** $207k–$300k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333751324) — Robotics Technologies
-- 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $75/hr
-- **Work mode:** On-site
-- **Job type:** contract
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Applied Scientist - Experience Data and Capabilities Team](https://www.glassdoor.com/job-listing/j?jl=1010333810437) — Expedia
-- 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $184k–$295k/yr
+### [Staff Software Engineer, Generative AI, Google Cloud AI](https://www.glassdoor.com/job-listing/j?jl=1010334536853) — Google
+- 📍 **Location:** Sunnyvale, CA, USA
+- 💰 **Salary:** $207k–$300k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr Software Engineer - ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333801670) — Uber
-- 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $202k–$224k/yr
+### [Engineer - MLOps & Scientific Platforms - Data Foundry](https://www.glassdoor.com/job-listing/j?jl=1010334521270) — Eli Lilly
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $99k–$180k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Principal Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723823) — Unity Technologies SF
+### [Sr MLOps Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334501347) — Intuitive Surgical
+- 📍 **Location:** Sunnyvale, CA, USA
+- 💰 **Salary:** $160k–$271k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334445423) — SAP IT Business Systeme
+- 📍 **Location:** Palo Alto, CA, USA
+- 💰 **Salary:** $107k–$229k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Staff Machine Learning Engineer, Query Understanding](https://www.glassdoor.com/job-listing/j?jl=1010334420002) — Coupang
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $118k–$204k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Embedded Software Engineer, Annapurna Ml Software](https://www.glassdoor.com/job-listing/j?jl=1010334402783) — Annapurna Labs (U.S.) Inc.
+- 📍 **Location:** Cupertino, CA, USA
+- 💰 **Salary:** $144k–$224k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Software Engineer, AI/ML](https://www.glassdoor.com/job-listing/j?jl=1010334210681) — Google
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $174k–$252k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Staff Software Engineer, Search Platforms, GenAI Content](https://www.glassdoor.com/job-listing/j?jl=1010334210368) — Google
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $262k–$364k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Technical Lead, YouTube Posts Discovery, Machine Learning and Recommendation](https://www.glassdoor.com/job-listing/j?jl=1010334210178) — YouTube
+- 📍 **Location:** San Bruno, CA, USA
+- 💰 **Salary:** $207k–$300k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Sr Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334037123) — paypal
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $160k–$236k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Staff Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334037042) — paypal
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $196k–$292k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334037014) — paypal
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $130k–$192k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Research Scientist, Energy-Based Models](https://www.glassdoor.com/job-listing/j?jl=1010333947819) — Logical Intelligence
+- 📍 **Location:** San Francisco, CA, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Research Scientist: Materials Discovery](https://www.glassdoor.com/job-listing/j?jl=1010333947805) — Logical Intelligence
+- 📍 **Location:** San Francisco, CA, USA
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [AI/ML Engineer & Applied Researcher, Early Stage Projects](https://www.glassdoor.com/job-listing/j?jl=1010333887089) — Loon
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $147k–$221k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Founding AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334881193) — Clera
+- 📍 **Location:** San Jose, CA, USA
+- 💰 **Salary:** $200k–$400k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Founding Engineer, AI Platform](https://www.glassdoor.com/job-listing/j?jl=1010334881182) — Clera
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $130k–$170k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Software Engineer, AI Orchestration (OSS) - Bay Area](https://www.glassdoor.com/job-listing/j?jl=1010334744889) — Astronomer
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $225k–$245k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Forward Deployed AI Engineer (Claude, AWS), NYC / SF Bay Area](https://www.glassdoor.com/job-listing/j?jl=1010334869392) — Provectus
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $180k–$250k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Customer Engineer III, AI/ML, Mid-Market Enterprise, Google Cloud](https://www.glassdoor.com/job-listing/j?jl=1010334210370) — Google
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $152k–$221k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Staff Security Engineer, AI Security Standards, DeepMind](https://www.glassdoor.com/job-listing/j?jl=1010334210163) — DeepMind
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $262k–$364k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Staff Security Engineer, AI Security Standards, DeepMind](https://www.glassdoor.com/job-listing/j?jl=1010334210161) — DeepMind
+- 📍 **Location:** Mountain View, CA, USA
+- 💰 **Salary:** $262k–$364k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Machine Learning Hardware Architect, Google Cloud](https://www.glassdoor.com/job-listing/j?jl=1010333967789) — Google
+- 📍 **Location:** Sunnyvale, CA, USA
+- 💰 **Salary:** $163k–$236k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Software Engineer, ML infrastructure](https://www.glassdoor.com/job-listing/j?jl=1010333777728) — Sesame AI
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $175k–$280k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Staff Data Scientist, CEO Office](https://www.glassdoor.com/job-listing/j?jl=1010334334797) — Airwallex
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $250k–$299k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Innovation Accelerator Data Science Lead](https://www.glassdoor.com/job-listing/j?jl=1010334821905) — Genentech
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $221k–$411k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Computational & Applied AI - Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334821946) — Genentech
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $145k–$269k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Research Scientist, Real-Time Interactivity / Inference](https://www.glassdoor.com/job-listing/j?jl=1010333851063) — Reactor
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $131k–$207k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Product Owner – Applied AI Lab](https://www.glassdoor.com/job-listing/j?jl=1010334419769) — RnB Consultancy
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $180k–$250k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Forward Deployed Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333851055) — Reactor
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $114k–$175k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Applied AI Architect, Customer Enablement & Strategic Operations](https://www.glassdoor.com/job-listing/j?jl=1010334921432) — Salesforce
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $148k–$218k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010334877460) — Collective
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $180k–$230k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM](https://www.glassdoor.com/job-listing/j?jl=1010334402876) — Amazon Web Services, Inc.
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $144k–$204k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal, Solution Architect, Compute AI](https://www.glassdoor.com/job-listing/j?jl=1010334402696) — Amazon.com Services LLC
+- 📍 **Location:** Santa Clara, CA, USA
+- 💰 **Salary:** $210k–$284k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Partner Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010333792540) — Together AI
+- 📍 **Location:** San Francisco, CA, USA
+- 💰 **Salary:** $132k–$186k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Machine Learning Engineer II](https://www.glassdoor.com/job-listing/j?jl=1010334116199) — Chewy
 - 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $197k–$325k/yr
+- 💰 **Salary:** $120k–$190k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr. Software Development Engineer – AI/ML Networking Disaggregated Inference, Annapurna Labs, Annapurna Labs](https://www.glassdoor.com/job-listing/j?jl=1010333621211) — Annapurna Labs (U.S.) Inc.
+### [Senior AI Solutions Architect, Leo Intelligence Technologies](https://www.glassdoor.com/job-listing/j?jl=1010334773205) — Amazon Kuiper Manufacturing Enterprises LLC
+- 📍 **Location:** Bellevue, WA, USA
+- 💰 **Salary:** $154k–$208k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Sr. Research Scientist , WW Sustainability](https://www.glassdoor.com/job-listing/j?jl=1010334773190) — Amazon.com Services LLC
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $159k–$215k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Applied Scientist, Amazon Customer Service](https://www.glassdoor.com/job-listing/j?jl=1010334773182) — Amazon.com Services LLC
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $143k–$193k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Software Dev Engineer II, EC2 , EC2 Machine Learning Super Compute](https://www.glassdoor.com/job-listing/j?jl=1010334773154) — Amazon Development Center U.S., Inc.
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $144k–$194k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Software Development Engineer, EC2 Machine Learning Super Compute](https://www.glassdoor.com/job-listing/j?jl=1010334773148) — Amazon Development Center U.S., Inc.
 - 📍 **Location:** Seattle, WA, USA
 - 💰 **Salary:** $168k–$227k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior AI Forward Deployment Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333498379) — Armada
+### [CV/ML Systems Integration Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334117294) — Apple
 - 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $184k–$230k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Software Engineer, BigQuery Agentic AI](https://www.glassdoor.com/job-listing/j?jl=1010333308947) — Google
-- 📍 **Location:** Kirkland, WA, USA
-- 💰 **Salary:** $174k–$252k/yr
+- 💰 **Salary:** $142k–$263k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Staff Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723825) — Unity Technologies SF
+### [Principal Applied AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334102210) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $143k–$304k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Solutions Architect, AWSI - 2027](https://www.glassdoor.com/job-listing/j?jl=1010333955809) — Amazon Web Services, Inc.
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $122k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [T-Ads Senior Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333890075) — T-Mobile USA, Inc.
 - 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $172k–$284k/yr
+- 💰 **Salary:** $132k–$303k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr. Applied Scientist, SITE](https://www.glassdoor.com/job-listing/j?jl=1010333621133) — Amazon.com Services LLC
+### [SDEII, AWS Applied AI Solutions](https://www.glassdoor.com/job-listing/j?jl=1010334774170) — Amazon Web Services, Inc.
 - 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $167k–$226k/yr
+- 💰 **Salary:** $144k–$194k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr. Solutions Architect, NonProfit Social Good Technology](https://www.glassdoor.com/job-listing/j?jl=1010333621032) — Amazon Web Services, Inc.
+### [Principal Engineer , AWS Applied AI Solution – Core Services](https://www.glassdoor.com/job-listing/j?jl=1010334773655) — Amazon.com Services LLC
 - 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $154k–$208k/yr
+- 💰 **Salary:** $200k–$271k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr. Solutions Architect, EdTech, WWPS EdTech Strategic](https://www.glassdoor.com/job-listing/j?jl=1010333464944) — Amazon Web Services, Inc.
+### [Principal Software Engineer, Developer Acceleration - AI Experiences, Microsoft Edge](https://www.glassdoor.com/job-listing/j?jl=1010334102160) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $143k–$331k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Software Engineer, Browser Engineering - AI Experiences, Microsoft Edge](https://www.glassdoor.com/job-listing/j?jl=1010334102157) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $143k–$331k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Principal Software Engineer, AI Infrastructure - Performance](https://www.glassdoor.com/job-listing/j?jl=1010334102154) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $166k–$331k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Software Engineer, Services & Backend Infrastructure - AI Experiences, Microsoft Edge](https://www.glassdoor.com/job-listing/j?jl=1010334102134) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $143k–$331k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Software Engineer, Developer Productivity - AI Experiences, Microsoft Edge](https://www.glassdoor.com/job-listing/j?jl=1010334102124) — Microsoft
+- 📍 **Location:** Redmond, WA, USA
+- 💰 **Salary:** $143k–$331k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [TikTok Shop - Data Scientist - User Growth](https://www.glassdoor.com/job-listing/j?jl=1009654772715) — TikTok
 - 📍 **Location:** Seattle, WA, USA
-- 💰 **Salary:** $154k–$208k/yr
+- 💰 **Salary:** $141k–$203k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist II, Selection Growth Science](https://www.glassdoor.com/job-listing/j?jl=1010334773247) — Amazon.com Services LLC
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $136k–$184k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [AI/ML Architect](https://www.glassdoor.com/job-listing/j?jl=1010333530246) — Robotics Technologies
+### [Principal Applied Scientist, Alexa Shopping](https://www.glassdoor.com/job-listing/j?jl=1010334773236) — Amazon.com Services LLC
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $199k–$269k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Business Data Scientist, Legal and Global Affairs](https://www.glassdoor.com/job-listing/j?jl=1010334210474) — Google
+- 📍 **Location:** Kirkland, WA, USA
+- 💰 **Salary:** $138k–$197k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Applied Scientist, Foundation Models for Life Sciences, Grand Challenge](https://www.glassdoor.com/job-listing/j?jl=1010334773145) — Amazon.com Services LLC
+- 📍 **Location:** Seattle, WA, USA
+- 💰 **Salary:** $199k–$269k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Applied AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334430867) — Hyliion
 - 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $113k–$153k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Embedded Software Engineer, Annapurna Ml Software](https://www.glassdoor.com/job-listing/j?jl=1010334402775) — Annapurna Labs (U.S.) Inc.
+- 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $144k–$224k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Customer Engineer III, AI/ML, Mid-Market Enterprise, Google Cloud](https://www.glassdoor.com/job-listing/j?jl=1010334210364) — Google
+- 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $152k–$221k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Business Data Scientist, Legal and Global Affairs](https://www.glassdoor.com/job-listing/j?jl=1010334210469) — Google
+- 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $138k–$197k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM](https://www.glassdoor.com/job-listing/j?jl=1010334402874) — Amazon Web Services, Inc.
+- 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $144k–$204k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334056904) — Optimizely
+- 📍 **Location:** Austin, TX, USA
+- 💰 **Salary:** $194k–$330k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist - Career](https://www.glassdoor.com/job-listing/j?jl=1010334363719) — Equifax
+- 📍 **Location:** Alpharetta, GA, USA
+- 💰 **Salary:** $128k–$162k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Research Engineer II](https://www.glassdoor.com/job-listing/j?jl=1010334286878) — Georgia Tech
+- 📍 **Location:** Atlanta, GA, USA
+- 💰 **Salary:** $94k–$119k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist - Intermediate](https://www.glassdoor.com/job-listing/j?jl=1010334363696) — Equifax
+- 📍 **Location:** Alpharetta, GA, USA
+- 💰 **Salary:** $114k–$147k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Software Engineer, Agentic Commerce](https://www.glassdoor.com/job-listing/j?jl=1010334870773) — Global Payment Holding Company
+- 📍 **Location:** Atlanta, GA, USA
+- 💰 **Salary:** $116k–$165k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Solutions Architect, Healthcare & Life Sciences AI/ML & Data Strategy Specialists](https://www.glassdoor.com/job-listing/j?jl=1010334773357) — Amazon Web Services, Inc.
+- 📍 **Location:** Atlanta, GA, USA
+- 💰 **Salary:** $183k–$272k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [OneStream Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334424990) — Highspring
+- 📍 **Location:** Atlanta, GA, USA
+- 💰 **Salary:** $130k–$240k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334889270) — Guidehouse Inc.
+- 📍 **Location:** San Diego, CA, USA
+- 💰 **Salary:** $98k–$163k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist or Principal Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334864126) — Northrop Grumman
+- 📍 **Location:** San Diego, CA, USA
+- 💰 **Salary:** $82k–$176k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist II](https://www.glassdoor.com/job-listing/j?jl=1010334809460) — Knowesis, Inc.
+- 📍 **Location:** Fort Bragg, NC, USA
+- 💰 **Salary:** $85k–$98k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [STAR Program AI Engineer AWS](https://www.glassdoor.com/job-listing/j?jl=1010334500520) — University of North Carolina at Chapel Hill
+- 📍 **Location:** Chapel Hill, NC, USA
+- 💰 **Salary:** $73.73/hr
+- **Work mode:** On-site
+- **Job type:** parttime, temporary
+- 🕒 **Posted:** 2026-11-25
+
+### [Technical Specialist - ML, Python](https://www.glassdoor.com/job-listing/j?jl=1010334321216) — HCLTech
+- 📍 **Location:** Cary, NC, USA
+- 💰 **Salary:** $109k–$161k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [[Agentic AI] Senior Data Scientist – Edge AI Platforms & Systems Analytics](https://www.glassdoor.com/job-listing/j?jl=1010334904536) — Information Technology Senior Management Forum
+- 📍 **Location:** Spring, TX, USA
+- 💰 **Salary:** $105k–$155k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Applied AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334208467) — Eurofins USA Environment Testing
+- 📍 **Location:** Stafford, TX, USA
+- 💰 **Salary:** $69k–$107k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Data Scientist - Landmark](https://www.glassdoor.com/job-listing/j?jl=1010334617243) — Halliburton
+- 📍 **Location:** Houston, TX, USA
+- 💰 **Salary:** $95k–$147k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010334880825) — TransGrid Energy
+- 📍 **Location:** Houston, TX, USA
+- 💰 **Salary:** $185k–$200k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM](https://www.glassdoor.com/job-listing/j?jl=1010334402872) — Amazon Web Services, Inc.
+- 📍 **Location:** Portland, OR, USA
+- 💰 **Salary:** $144k–$204k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [AI/ML Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334931082) — Robotics Technologies
+- 📍 **Location:** Charlotte, NC, USA
 - 💰 **Salary:** $71/hr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Solutions Architect, Automotive & Manufacturing , AGS Automotive & Manufacturing](https://www.glassdoor.com/job-listing/j?jl=1010333621111) — Amazon Web Services, Inc.
-- 📍 **Location:** Austin, TX, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Solutions Architect, NonProfit Social Good Technology](https://www.glassdoor.com/job-listing/j?jl=1010333621049) — Amazon Web Services, Inc.
-- 📍 **Location:** Austin, TX, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Solutions Architect, EdTech, WWPS EdTech Strategic](https://www.glassdoor.com/job-listing/j?jl=1010333464953) — Amazon Web Services, Inc.
-- 📍 **Location:** Austin, TX, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Azure AI / Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333530267) — Robotics Technologies
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $80/hr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior AI Automation Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333528072) — Hearst
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $94k–$127k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Full Stack AI Engineer - May 2027 Grads](https://www.glassdoor.com/job-listing/j?jl=1010333792415) — Ryan, LLC
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $66k–$102k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior AI Development Platform Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333605475) — Morgan Stanley
-- 📍 **Location:** Alpharetta, GA, USA
-- 💰 **Salary:** $120k–$161k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Solutions Architect, Automotive & Manufacturing , AGS Automotive & Manufacturing](https://www.glassdoor.com/job-listing/j?jl=1010333621114) — Amazon Web Services, Inc.
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior React Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010333332574) — Cognizant
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $70k–$142k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Go-to-Market Applied AI Architect, Google Cloud](https://www.glassdoor.com/job-listing/j?jl=1010333308912) — Google
-- 📍 **Location:** Atlanta, GA, USA
-- 💰 **Salary:** $183k–$265k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Applied Data Scientist, Context Intelligence & Autonomous Systems](https://www.glassdoor.com/job-listing/j?jl=1010333777806) — Teradata
-- 📍 **Location:** San Diego, CA, USA
-- 💰 **Salary:** $108k–$150k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Forward Deployed Engineer III, Generative AI, Google Cloud, Healthcare](https://www.glassdoor.com/job-listing/j?jl=1010333308710) — Google
-- 📍 **Location:** Raleigh, NC, USA
-- 💰 **Salary:** $174k–$252k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Data Scientist - ML, Python](https://www.glassdoor.com/job-listing/j?jl=1010333553192) — HCLTech
-- 📍 **Location:** Cary, NC, USA
-- 💰 **Salary:** $82k–$128k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Generative AI Developer](https://www.glassdoor.com/job-listing/j?jl=1010333340792) — EGROVE SYSTEMS CORPORATION
-- 📍 **Location:** Raleigh, NC, USA
-- 💰 **Salary:** $45–$65/hr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Solution Architect (Warehouse Automation)](https://www.glassdoor.com/job-listing/j?jl=1010333494804) — Lenovo
-- 📍 **Location:** Morrisville, NC, USA
-- 💰 **Salary:** $110k–$158k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Full Stack AI Engineer - May 2027 Grads](https://www.glassdoor.com/job-listing/j?jl=1010333792414) — Ryan, LLC
-- 📍 **Location:** Houston, TX, USA
-- 💰 **Salary:** $61k–$91k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Machine Learning Researcher - Seismic Foundation Models](https://www.glassdoor.com/job-listing/j?jl=1010333258640) — Viridien
-- 📍 **Location:** Houston, TX, USA
-- 💰 **Salary:** $83k–$149k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [IBM Maximo Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010333623614) — MaxAccelerate
-- 📍 **Location:** Houston, TX, USA
-- 💰 **Salary:** $70k–$150k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Solutions Architect – Database Migration & Modernization Specialist, ASPI Energy & Utilities](https://www.glassdoor.com/job-listing/j?jl=1010333621145) — Amazon Web Services, Inc.
-- 📍 **Location:** Houston, TX, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Solutions Architect, Automotive & Manufacturing , AGS Automotive & Manufacturing](https://www.glassdoor.com/job-listing/j?jl=1010333621128) — Amazon Web Services, Inc.
-- 📍 **Location:** Houston, TX, USA
-- 💰 **Salary:** $154k–$208k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Applied Scientist, AWS Elemental](https://www.glassdoor.com/job-listing/j?jl=1010333621061) — Elemental Technologies LLC
-- 📍 **Location:** Portland, OR, USA
-- 💰 **Salary:** $167k–$260k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Forward Deployed Engineer Agentic AI](https://www.glassdoor.com/job-listing/j?jl=1010333670110) — Intel
-- 📍 **Location:** Hillsboro, OR, USA
-- 💰 **Salary:** $195k–$276k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Full Stack AI/ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333627723) — UST
-- 📍 **Location:** Hillsboro, OR, USA
-- 💰 **Salary:** $72k–$108k/yr
-- **Work mode:** On-site
-- **Job type:** parttime
-- 🕒 **Posted:** 2026-11-24
-
-### [Data Scientist I](https://www.glassdoor.com/job-listing/j?jl=1010333692487) — Driveway Finance Corporation
-- 📍 **Location:** Tigard, OR, USA
-- 💰 **Salary:** $73k–$117k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Sr. Applied Scientist, Agentic Automated Reasoning Group](https://www.glassdoor.com/job-listing/j?jl=1010333621360) — Amazon Development Center U.S., Inc.
-- 📍 **Location:** Portland, OR, USA
-- 💰 **Salary:** $167k–$260k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior AI Fabric Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333530240) — Robotics Technologies
+### [Data Scientist I](https://www.glassdoor.com/job-listing/j?jl=1010334923673) — Truist Bank
 - 📍 **Location:** Charlotte, NC, USA
-- 💰 **Salary:** $68/hr
+- 💰 **Salary:** $87k–$118k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Architect – Microsoft AI Foundry | Copilot Studio | Power Platform](https://www.glassdoor.com/job-listing/j?jl=1010334505024) — EXA Technologies
+- 📍 **Location:** Charlotte, NC, USA
+- 💰 **Salary:** $130k/yr
 - **Work mode:** On-site
 - **Job type:** contract
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Agentic AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333530214) — Robotics Technologies
+### [OneStream Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334424986) — Highspring
 - 📍 **Location:** Charlotte, NC, USA
-- 💰 **Salary:** $85/hr
+- 💰 **Salary:** $130k–$240k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [AI Platform Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333605889) — INFOSYS NOVA HOLDINGS LLC
-- 📍 **Location:** Charlotte, NC, USA
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Principal Engineer - AI Engineering Productivity Lead](https://www.glassdoor.com/job-listing/j?jl=1010333505478) — Wells Fargo
-- 📍 **Location:** Charlotte, NC, USA
-- 💰 **Salary:** $159k–$305k/yr
+### [AI/ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334012721) — CSL Behring
+- 📍 **Location:** Boca Raton, FL, USA
+- 💰 **Salary:** $64k–$112k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Lead Artificial Intelligence Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333521677) — MANTECH
+### [Machine Learning Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334882822) — Nubank
+- 📍 **Location:** Miami, FL, USA
+- 💰 **Salary:** $216k–$324k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Machine Learning Engineer II](https://www.glassdoor.com/job-listing/j?jl=1010334116202) — Chewy
+- 📍 **Location:** Plantation, FL, USA
+- 💰 **Salary:** $120k–$190k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333854703) — Strategic Innovation and Technology Enterprise (SITE) Inc.
 - 📍 **Location:** Doral, FL, USA
-- 💰 **Salary:** $97k–$147k/yr
+- 💰 **Salary:** $120k–$165k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333669550) — Sedgwick Claims Management Services Inc.
+### [SOUTHCOM J23 Data Scientist/Data Integrator](https://www.glassdoor.com/job-listing/j?jl=1010334799994) — CACI
+- 📍 **Location:** Doral, FL, USA
+- 💰 **Salary:** $82k–$172k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Applied AI Engineers (Job ID - 3550)](https://www.glassdoor.com/job-listing/j?jl=1010334117965) — Kanini Software Solutions
 - 📍 **Location:** Nashville, TN, USA
+- 💰 **Salary:** $52k–$89k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Sr Software Engineer - ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333801673) — Uber
+### [Research Computing and AI Infrastructure Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334467224) — Vanderbilt University
+- 📍 **Location:** Nashville, TN, USA
+- 💰 **Salary:** $80k–$114k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Application Architect - AI & .NET](https://www.glassdoor.com/job-listing/j?jl=1010334836838) — Alchemy
+- 📍 **Location:** Nashville, TN, USA
+- 💰 **Salary:** $75–$80/hr
+- **Work mode:** On-site
+- **Job type:** contract
+- 🕒 **Posted:** 2026-11-25
+
+### [OneStream Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334424985) — Highspring
+- 📍 **Location:** Nashville, TN, USA
+- 💰 **Salary:** $130k–$240k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal AI Platform Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334886120) — National Football League
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $202k–$224k/yr
+- 💰 **Salary:** $170k–$230k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Principal Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723822) — Unity Technologies SF
+### [Principal Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334486521) — Novo
+- 📍 **Location:** Plainsboro, NJ, USA
+- 💰 **Salary:** $160k–$260k/yr
+- **Work mode:** On-site
+- 🕒 **Posted:** 2026-11-25
+
+### [T-Ads Senior Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333890076) — T-Mobile USA, Inc.
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $197k–$325k/yr
+- 💰 **Salary:** $132k–$303k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333592335) — Citi
-- 📍 **Location:** Jersey City, NJ, USA
-- 💰 **Salary:** $142k–$213k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Principal Machine Learning Architect (E6213)](https://www.glassdoor.com/job-listing/j?jl=1010333548796) — IEEE Corporate
-- 📍 **Location:** Piscataway, NJ, USA
-- 💰 **Salary:** $106k–$166k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [National - Tech Consulting - Finance - EY.AI Finance - AI Forward Deployed Engineer - Staff II](https://www.glassdoor.com/job-listing/j?jl=1010333467591) — EY
+### [Senior Forward Deployed AI Engineer (Claude, AWS), NYC / SF Bay Area](https://www.glassdoor.com/job-listing/j?jl=1010334869390) — Provectus
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $92k–$143k/yr
+- 💰 **Salary:** $180k–$250k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Staff Tech Lead, Ads Buying Agentic Optimization](https://www.glassdoor.com/job-listing/j?jl=1010333308962) — Google
+### [Senior Site Reliability Engineer, AI](https://www.glassdoor.com/job-listing/j?jl=1010334783209) — NBA
+- 📍 **Location:** Secaucus, NJ, USA
+- 💰 **Salary:** $145k–$165k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Customer Engineer III, AI/ML, Mid-Market Enterprise, Google Cloud](https://www.glassdoor.com/job-listing/j?jl=1010334210369) — Google
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $152k–$221k/yr
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Staff Security Engineer, AI Security Standards, DeepMind](https://www.glassdoor.com/job-listing/j?jl=1010334210162) — DeepMind
 - 📍 **Location:** New York, NY, USA
 - 💰 **Salary:** $262k–$364k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Staff Machine Learning Engineer, Ads Modeling](https://www.glassdoor.com/job-listing/j?jl=1010333723826) — Unity Technologies SF
+### [SOLUTION ARCHITECT L1](https://www.glassdoor.com/job-listing/j?jl=1010334876101) — Wipro Limited
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $172k–$284k/yr
+- 💰 **Salary:** $80k–$158k/yr
 - **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [AI Agent Development Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333753906) — Robotics Technologies
-- 📍 **Location:** Township of Hamilton, USA
-- 💰 **Salary:** $73/hr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Post Doctoral Associate: Flood Hazard & AI/ML](https://www.glassdoor.com/job-listing/j?jl=1010333666874) — Rutgers University
-- 📍 **Location:** Piscataway, NJ, USA
-- 💰 **Salary:** $64k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333612965) — French & Parrello
-- 📍 **Location:** Wall Township, NJ, USA
-- 💰 **Salary:** $88k–$117k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Applied Data Scientist – Gensler Research Institute](https://www.glassdoor.com/job-listing/j?jl=1010333596721) — Gensler
+### [Principal Solutions Architect, Healthcare & Life Sciences AI/ML & Data Strategy Specialists](https://www.glassdoor.com/job-listing/j?jl=1010334773341) — Amazon Web Services, Inc.
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $90k–$100k/yr
+- 💰 **Salary:** $183k–$272k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior AI Engineer Agentic AI, Python](https://www.glassdoor.com/job-listing/j?jl=1010333530258) — Robotics Technologies
+### [OneStream Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334424974) — Highspring
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $78/hr
+- 💰 **Salary:** $130k–$240k/yr
 - **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [GenAI Specilist, Software Engineering](https://www.glassdoor.com/job-listing/j?jl=1010333669304) — Merck
-- 📍 **Location:** Rahway, NJ, USA
-- 💰 **Salary:** $87k–$137k/yr
-- **Work mode:** On-site
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Forward Deployed Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333562338) — Clark
+### [Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM](https://www.glassdoor.com/job-listing/j?jl=1010334402873) — Amazon Web Services, Inc.
 - 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $155k–$195k/yr
+- 💰 **Salary:** $144k–$204k/yr
 - **Work mode:** On-site
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### ["Principal Architect - Agentic AI & AI-Native Software Engineering"](https://www.glassdoor.com/job-listing/j?jl=1010333671278) — NTT Ltd
-- 📍 **Location:** Mahwah, NJ, USA
-- 💰 **Salary:** $143k–$186k/yr
-- **Work mode:** On-site
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Machine Learning Engineer, FeedForward 3D/4D Reconstruction](https://www.glassdoor.com/job-listing/j?jl=1010333765355) — Parallel Domain
-- 📍 **Location:** Union, NJ, USA
-- 💰 **Salary:** $120k–$170k/yr
+### [Machine Learning Operations Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334791533) — Gifthealth Inc
+- 📍 **Location:** Columbus, OH, USA
+- 💰 **Salary:** $123k–$155k/yr
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Agentic AI Engineer - Mobility Engineering](https://www.glassdoor.com/job-listing/j?jl=1010333754678) — WEX Inc.
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $122k–$146k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Staff Engineer, AI Engineering Products](https://www.glassdoor.com/job-listing/j?jl=1010333630978) — NBA
-- 📍 **Location:** Secaucus, NJ, USA
-- 💰 **Salary:** $240k–$260k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333608910) — All Star Recruiting Locums LLC
-- 📍 **Location:** Boca Raton, FL, USA
-- 💰 **Salary:** $93k–$159k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Software Engineer II, AI Experience (Remote Eligible)](https://www.glassdoor.com/job-listing/j?jl=1010333561089) — Smartsheet
-- 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $125k–$175k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [AI/ML Engineer – Generative AI & LLM Applications](https://www.glassdoor.com/job-listing/j?jl=1010333811431) — Peraton
-- 📍 **Location:** Camp Hill, PA, USA
-- 💰 **Salary:** $86k–$138k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Staff Agentic AI Engineer - Mobility Engineering](https://www.glassdoor.com/job-listing/j?jl=1010333754054) — WEX Inc.
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $141k–$173k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Distinguished Engineer, Applied AI & Advanced Concepts](https://www.glassdoor.com/job-listing/j?jl=1010333657523) — Trellix
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $200k–$240k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Distinguished Engineer, AI Safety & Security](https://www.glassdoor.com/job-listing/j?jl=1010333657521) — Trellix
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $200k–$250k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Forward Deployed AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333559915) — MeridianLink
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $115k–$230k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333499809) — US Acute Care Solutions
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $79k–$145k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior AI/ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333390419) — Optum
-- 📍 **Location:** Schaumburg, IL, USA
-- 💰 **Salary:** $120k–$214k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [AI\ML Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333322487) — Essence Global
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $80k–$120k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333658798) — Petauri Evidence, LLC
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $130k–$165k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Data ScientistÂ - Remote](https://www.glassdoor.com/job-listing/j?jl=1010333621445) — Creative Information Technology India
-- 📍 **Location:** Cary, NC, USA
-- 💰 **Salary:** $72k–$113k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** contract
-- 🕒 **Posted:** 2026-11-24
-
-### [AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333470794) — All Star Healthcare Solutions - Internal
-- 📍 **Location:** Boca Raton, FL, USA
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Lead, Applied Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333403807) — Civis Analytics
-- 📍 **Location:** New York, NY, USA
-- 💰 **Salary:** $120k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [AI/ML Engineer-1](https://www.glassdoor.com/job-listing/j?jl=1010333334963) — Huntridge Labs, LLC
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $75k–$85k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior AI/LLM Engineer](https://www.glassdoor.com/job-listing/j?jl=1010333488798) — Censys
-- 📍 **Location:** Ann Arbor, MI, USA
-- 💰 **Salary:** $148k–$201k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Senior Research Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333722972) — CodePath.org
-- 📍 **Location:** Not specified
-- 💰 **Salary:** $130k–$160k/yr
-- **Work mode:** Remote in-state eligible
-- **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
-
-### [Lead, Applied Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010333403809) — Civis Analytics
-- 📍 **Location:** Washington, DC, USA
-- 💰 **Salary:** $120k/yr
-- **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
-
-### [Partner Solution Architect, Partner Center of Excellence](https://www.glassdoor.com/job-listing/j?jl=1010333699053) — Agiloft
+### [Forward Deployed Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334844482) — Nitka Technologies
 - 📍 **Location:** Not specified
 - **Work mode:** Remote in-state eligible
 - **Job type:** fulltime
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Software Engineer – Agentic Computational Engineering](https://www.glassdoor.com/job-listing/j?jl=1010333584994) — Voyager Technologies, Inc.
-- 📍 **Location:** Washington, DC, USA
-- 💰 **Salary:** $140k–$180k/yr
+### [GVP, AI Applications & Technology](https://www.glassdoor.com/job-listing/j?jl=1010333825073) — New Relic
+- 📍 **Location:** Atlanta, GA, USA
+- 💰 **Salary:** $338k–$420k/yr
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Staff Software Engineer – Agentic Platform Core](https://www.glassdoor.com/job-listing/j?jl=1010333584991) — Voyager Technologies, Inc.
-- 📍 **Location:** Washington, DC, USA
+### [Staff Security Engineer, Agentic Security](https://www.glassdoor.com/job-listing/j?jl=1010334852702) — Helix
+- 📍 **Location:** Mexico, MO, USA
+- 💰 **Salary:** $126k–$171k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Computational Mechanics Research Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334789196) — DCS Corp
+- 📍 **Location:** Beavercreek, OH, USA
+- 💰 **Salary:** $72k–$108k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Lead Applied AI Engineer w/Top Secret Clearance](https://www.glassdoor.com/job-listing/j?jl=1010334421465) — A3 Consulting, LLC
+- 📍 **Location:** Not specified
 - 💰 **Salary:** $180k–$230k/yr
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
 
-### [Senior Software Engineer I, Agent Engineering (Remote Eligible)](https://www.glassdoor.com/job-listing/j?jl=1010333561088) — Smartsheet
-- 📍 **Location:** Bellevue, WA, USA
-- 💰 **Salary:** $145k–$210k/yr
+### [Staff Agentic Engineer – Assured Software & Formal Methods (Lead)](https://www.glassdoor.com/job-listing/j?jl=1010334369793) — Voyager Technologies, Inc.
+- 📍 **Location:** Denver, CO, USA
+- 💰 **Salary:** $100k–$220k/yr
 - **Work mode:** Remote in-state eligible
-- 🕒 **Posted:** 2026-11-24
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Agentic AI/LLM Engineer, Coverage Intelligence](https://www.glassdoor.com/job-listing/j?jl=1010334350269) — Bold Penguin, Inc.
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $138k–$157k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal AI Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334744428) — Sedgwick Claims Management Services Inc.
+- 📍 **Location:** Tallahassee, FL, USA
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist I](https://www.glassdoor.com/job-listing/j?jl=1010334518880) — LeafHome
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $100k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334206893) — SECURE RPO LLC
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $117k–$142k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime, contract
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Engineer — Federal Health IT](https://www.glassdoor.com/job-listing/j?jl=1010334361890) — Rackner
+- 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Staff / Principal Data Scientist](https://www.glassdoor.com/job-listing/j?jl=1010334102715) — Adela, Inc.
+- 📍 **Location:** New Haven, CT, USA
+- 💰 **Salary:** $160k–$230k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Scientific ML Engineer – Neural Operators, PINNs & Uncertainty Quantification](https://www.glassdoor.com/job-listing/j?jl=1010334724668) — Voyager Technologies, Inc.
+- 📍 **Location:** Washington, DC, USA
+- 💰 **Salary:** $170k–$225k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010334905534) — Cisco Systems
+- 📍 **Location:** New York, NY, USA
+- 💰 **Salary:** $151k–$251k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Solutions Architect, Scale](https://www.glassdoor.com/job-listing/j?jl=1010334879072) — Temporal Technologies
+- 📍 **Location:** Dallas, TX, USA
+- 💰 **Salary:** $140k–$184k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [AI Software Engineer](https://www.glassdoor.com/job-listing/j?jl=1010334799947) — CACI
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $82k–$172k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** parttime
+- 🕒 **Posted:** 2026-11-25
+
+### [Forward Deployed Engineer - AI/Data](https://www.glassdoor.com/job-listing/j?jl=1010334467313) — Highbrow Technology Inc
+- 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- **Job type:** contract
+- 🕒 **Posted:** 2026-11-25
+
+### [Staff Engineer, Fullstack and Applied AI](https://www.glassdoor.com/job-listing/j?jl=1010334448155) — Awayday
+- 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Consulting Solution Architect - IBM Software Solutions](https://www.glassdoor.com/job-listing/j?jl=1010334536495) — CDW
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $108k–$170k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal Enterprise and AI Architect](https://www.glassdoor.com/job-listing/j?jl=1010333846072) — ESA Management, LLC
+- 📍 **Location:** Charlotte, NC, USA
+- 💰 **Salary:** $143k–$190k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Cleared Senior/Principal Solutions Architect -Enterprise Project Management, Remote](https://www.glassdoor.com/job-listing/j?jl=1010333807169) — Sandia National Laboratories
+- 📍 **Location:** Albuquerque, NM, USA
+- 💰 **Salary:** $118k–$236k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime, temporary
+- 🕒 **Posted:** 2026-11-25
+
+### [Principal AI Architect](https://www.glassdoor.com/job-listing/j?jl=1010333911672) — Brewer Science, Inc.
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $115k–$138k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
+
+### [Data Solutions Architect](https://www.glassdoor.com/job-listing/j?jl=1010333778507) — Lithia Home Office
+- 📍 **Location:** Medford, OR, USA
+- 💰 **Salary:** $135k–$185k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Solutions Architect (US Government) [623]](https://www.glassdoor.com/job-listing/j?jl=1010334933178) — D-Wave Quantum Inc.
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $165k–$205k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Enterprise Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334883300) — Velosio
+- 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Senior Solutions Architect, Scale](https://www.glassdoor.com/job-listing/j?jl=1010334879069) — Temporal Technologies
+- 📍 **Location:** Chicago, IL, USA
+- 💰 **Salary:** $140k–$184k/yr
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Solution Architect](https://www.glassdoor.com/job-listing/j?jl=1010334477710) — MANTECH
+- 📍 **Location:** Not specified
+- **Work mode:** Remote in-state eligible
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-11-25
+
+### [Lead Solution Architect, Application Modernization](https://www.glassdoor.com/job-listing/j?jl=1010334408791) — Centurion Consulting Group
+- 📍 **Location:** Not specified
+- 💰 **Salary:** $100k–$150k/yr
+- **Work mode:** Remote in-state eligible
+- 🕒 **Posted:** 2026-11-25
